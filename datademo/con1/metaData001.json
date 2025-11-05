@@ -1,0 +1,43 @@
+{
+  "meeting_id": "data001",
+  "title": "Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure",
+  "datetime": "2025-11-04T20:21:00+08:00",
+  "duration_sec": 400,
+  "language": "en",
+  "source_url": "https://www.youtube.com/watch?v=xqXa-i-Fr-M",
+  "meeting_type": "Fireside Chat",
+  "participants": [
+    {
+      "name": "Satya Nadella",
+      "role": "CEO, Microsoft"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO, xAI / Tesla / SpaceX"
+    }
+  ],
+  "organizations": ["Microsoft", "xAI", "Tesla", "SpaceX"],
+  "topics": [
+    "Grok 3.5 on Azure",
+    "Physics-grounded AI reasoning",
+    "First-principles intelligence",
+    "AI safety and honesty",
+    "Developer feedback loops",
+    "Integration of language, vision, and action"
+  ],
+  "keywords": [
+    "Grok",
+    "Azure",
+    "AI Safety",
+    "Physics Reasoning",
+    "Developer Feedback",
+    "Build 2025"
+  ],
+  "related_files": {
+    "transcript": "data001.md",
+    "meeting_summary": "meetLevel001.md",
+    "summary_embedding": "summary001.md"
+  },
+  "embedding_text_pointer": "summary001.md", 
+  "summary_brief": "At Microsoft Build 2025, Satya Nadella and Elon Musk discussed Grok 3.5’s Azure launch, focusing on physics-based reasoning, AI safety through honesty and minimal error, and the importance of developer feedback to evolve language, vision, and action models."
+}

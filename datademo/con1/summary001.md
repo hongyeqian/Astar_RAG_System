@@ -1,0 +1,3 @@
+# Summary
+
+At Microsoft Build 2025, Satya Nadella and Elon Musk announced the launch of Grok 3.5 on Azure. Musk described Grok’s first-principles reasoning approach, which applies the laws of physics to thinking and defines honesty and acknowledged error minimization as the core of AI safety. They discussed grounding AI in real-world physical constraints through projects like Tesla FSD and the Optimus robot, highlighting Grok’s deployment in customer service and the importance of developer feedback to drive continuous improvement and the integration of language, vision, and action models.

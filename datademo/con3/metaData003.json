@@ -1,0 +1,44 @@
+{
+  "meeting_id": "data003",
+  "title": "Jackie Chan's Body: No Part Left UNBROKEN! | Steve Harvey",
+  "datetime": "2025-09-11T00:00:00Z",
+  "duration_sec": 325,
+  "language": "en",
+  "source_url": "https://www.youtube.com/watch?v=Gc02dXu5RbE",
+  "meeting_type": "Interview",
+  "participants": [
+    {
+      "name": "Steve Harvey",
+      "role": "Host"
+    },
+    {
+      "name": "Jackie Chan",
+      "role": "Guest / Actor"
+    }
+  ],
+  "organizations": ["The Official Steve Harvey"],
+  "topics": [
+    "Jackie Chan's Honorary Oscar",
+    "Physical toll of action movie career",
+    "Career injuries and broken bones",
+    "Hollywood typecasting",
+    "Desire for dramatic/romantic roles",
+    "Promotion of 'The Foreigner'"
+  ],
+  "keywords": [
+    "Jackie Chan",
+    "Steve Harvey",
+    "Oscar",
+    "Injuries",
+    "Stunts",
+    "Typecasting",
+    "The Foreigner"
+  ],
+  "related_files": {
+    "transcript": "data003.md",
+    "meeting_summary": "meetLevel003.md",
+    "summary_embedding": "summary003.md"
+  },
+  "embedding_text_pointer": "summary003.md",
+  "summary_brief": "Jackie Chan discusses his Honorary Oscar, the extreme physical toll of his stunt career, and his frustration with being typecast in Hollywood. He promotes his new, more serious film 'The Foreigner' and expresses a desire to be cast in dramatic or romantic roles."
+}
