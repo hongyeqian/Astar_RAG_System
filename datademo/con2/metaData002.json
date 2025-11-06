@@ -1,53 +1,227 @@
 {
-  "meeting_id": "data002",
-  "title": "The Future Mark Zuckerberg Is Trying To Build",
-  "datetime": "2024-09-25T00:00:00Z",
-  "duration_sec": 2830,
-  "language": "en",
-  "source_url": "https://www.youtube.com/watch?v=oX7OduG1YmI",
-  "meeting_type": "Interview",
-  "participants": [
+  "meta": {
+    "title": "Meta's Vision for AI and AR Integration",
+    "date": null,
+    "tz": null,
+    "attendees": [
+      {
+        "name": "Cleo Abram",
+        "role": "Interviewer",
+        "org": null
+      },
+      {
+        "name": "Mark Zuckerberg",
+        "role": "CEO",
+        "org": "META"
+      }
+    ],
+    "duration_min": 47
+  },
+  "acronyms": [
     {
-      "name": "Cleo Abram",
-      "role": "Host / Interviewer"
+      "short": "META",
+      "full": "Meta Platforms, Inc."
     },
     {
-      "name": "Mark Zuckerberg",
-      "role": "Guest / CEO, Meta"
+      "short": "Llama",
+      "full": "Meta's open-source large language model family"
+    },
+    {
+      "short": "AR",
+      "full": "Augmented Reality"
+    },
+    {
+      "short": "AI",
+      "full": "Artificial Intelligence"
+    },
+    {
+      "short": "HUD",
+      "full": "Heads-Up Display"
     }
   ],
-  "organizations": ["Meta", "Cleo Abram"],
-  "topics": [
-    "Holographic AR Glasses",
-    "Next Computing Platform",
-    "Sense of Presence",
-    "Personalized AI",
-    "Haptics and Physical Touch",
-    "Social Connection and Loneliness",
-    "AI and Human Skills",
-    "Generative AI on Social Media",
-    "Open Source AI (Llama)",
-    "AI Safety",
-    "Scaling Limits of AI"
+  "purpose": [
+    "Explore the future Meta is building, specifically the integration of AI and AR.",
+    "Understand the 10-year R&D effort culminating in full holographic AR glasses.",
+    "Discuss Meta's perspective on 'presence' as a core value.",
+    "Examine the challenges of social connection in the modern era.",
+    "Contrast Meta's open-source AI strategy (Llama) with closed models."
   ],
-  "keywords": [
-    "Mark Zuckerberg",
-    "Cleo Abram",
-    "Meta",
-    "AR Glasses",
-    "Holograms",
-    "Presence",
-    "Personalized AI",
-"Haptics",
-    "Open Source",
-    "Llama",
-    "AI Scaling"
+  "capabilities": [
+    {
+      "org": "META",
+      "items": [
+        "Completed 10 years of R&D on the 'first full holographic augmented reality glasses'.",
+        "Miniaturized components: micro projectors, wave guides with nano etchings, eye tracking, spatial sensors, onboard compute, batteries, and speakers.",
+        "Complex integration includes synchronizing dual-eye holograms, handling physical movement, and a wrist-based neural interface.",
+        "Core values pursued are 1) Presence (physical co-location feeling) and 2) Personalized AI (with real-world context).",
+        "Ray-Ban Meta glasses (display-less) will enable real-time translation.",
+        "AI strategy focuses on accelerating user content creation, enabling system-generated (personalized) content, and allowing creators to build AI 'artifacts'.",
+        "Advocates for an open-source AI (Llama) approach, arguing it is safer and more secure due to widespread scrutiny."
+      ]
+    }
   ],
-  "related_files": {
-    "transcript": "Data002.md",
-    "meeting_summary": "meetLevel002.md",
-    "summary_embedding": "summary002.md"
+  "workstreams": [
+    {
+      "name": "Full Holographic AR Glasses",
+      "phase": "R&D / Prototype",
+      "timeline": "Long-term",
+      "notes": "The 'ultimate product' and 'science fiction future'. Aims to be the next major computing platform."
+    },
+    {
+      "name": "Display-less Glasses (Ray-Ban Meta)",
+      "phase": "Commercial",
+      "timeline": "Current",
+      "notes": "Affordable tier focused on AI interaction (voice) and real-time translation."
+    },
+    {
+      "name": "Heads-Up Display (HUD) Glasses",
+      "phase": "Concept / R&D",
+      "timeline": "Mid-term",
+      "notes": "Middle-tier product with a smaller field of view (20-30°) optimized for reading AI outputs and notifications."
+    },
+    {
+      "name": "Mixed Reality Headsets (Quest)",
+      "phase": "Commercial",
+      "timeline": "Current / Ongoing",
+      "notes": "Will remain important as they can hold more compute and deliver high-resolution MR affordably."
+    },
+    {
+      "name": "Haptics & Force Feedback",
+      "phase": "R&D",
+      "timeline": "Long-term",
+      "notes": "Considered the 'hardest thing.' Research is progressing, focusing on hands first."
+    },
+    {
+      "name": "Llama AI Scaling",
+      "phase": "R&D / Scaling",
+      "timeline": "Ongoing",
+      "notes": "Scaling architectures from Llama 3 up to Llama 5, betting on continued advancement of Transformers."
+    }
+  ],
+  "overlaps_unique": {
+    "overlaps": [
+      "Shared industry interest (e.g., Apple Vision Pro, Meta Quest) in mixed reality and immersive computing.",
+      "Goal of achieving 'presence' is shared, though definitions may vary."
+    ],
+    "unique": [
+      {
+        "org": "META",
+        "items": [
+          "Commitment to an 'open-source-first' AI philosophy (Llama) in contrast to closed models.",
+          "Vision of AR glasses as the next 'social platform,' not just a productivity tool.",
+          "Structured three-tier product strategy (Display-less, HUD, Full Holographic) to cover different price points and use cases.",
+          "Belief that open source AI is fundamentally safer and more secure."
+        ]
+      }
+    ]
   },
-  "embedding_text_pointer": "summary002.md",
-  "summary_brief": "Mark Zuckerberg discusses Meta's 10-year development of holographic AR glasses as the next computing platform, focusing on delivering 'presence' and personalized, context-aware AI, while also advocating for open-source AI as the safer path and betting on the continued scaling of AI models."
+  "collab_path": {
+    "fast_track": [
+      "Integrate Llama AI with AR devices to provide real-time, context-aware multimodal intelligence (vision, audio).",
+      "Enable practical AI features like real-time translation on wearable devices."
+    ],
+    "research_track": [
+      "Continue R&D on haptics and force feedback to simulate realistic touch and presence.",
+      "Explore the scaling limits of current Transformer AI architectures (e.g., Llama 5).",
+      "Investigate how AI 'raises the bar' for human skills, strengthening cognitive 'muscles' rather than replacing them."
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Position full holographic AR glasses as the next major computing platform after phones.",
+      "owner": null,
+      "evidence_ts": [
+        "02:22"
+      ]
+    },
+    {
+      "decision": "Commit to an open-source AI strategy (Llama) to foster diversity, innovation, and security.",
+      "owner": null,
+      "evidence_ts": [
+        "39:40"
+      ]
+    },
+    {
+      "decision": "Approve large-scale investment ('hundreds of billions of dollars') based on the bet that current AI (Transformer) architectures will continue to scale.",
+      "owner": null,
+      "evidence_ts": [
+        "44:15"
+      ]
+    }
+  ],
+  "risks_open": [
+    {
+      "risk": "Achieving realistic physical touch (haptics/force feedback) remains the 'hardest thing' and a major technical challenge.",
+      "mitigation": "Focusing R&D on hands first, which are the most important sensory area.",
+      "evidence_ts": [
+        "14:45"
+      ]
+    },
+    {
+      "risk": "Unknown upper bounds (potential plateau) for scaling current Transformer AI architectures.",
+      "mitigation": "Investing heavily to test the scaling limits (e.g., Llama 3 to Llama 5).",
+      "evidence_ts": [
+        "44:15"
+      ]
+    },
+    {
+      "risk": "Broad societal anxiety and uncertainty due to the rapid pace of AI-driven change and job relevance.",
+      "mitigation": "Encouraging curiosity and embracing technology to improve work, rather than fighting change.",
+      "evidence_ts": [
+        "35:32"
+      ]
+    },
+    {
+      "risk": "Persistent decline in in-person socialization and social capital.",
+      "mitigation": "Belief that AR/presence tools will unlock *more* connection, arguing the decline has deeper roots than technology.",
+      "evidence_ts": [
+        "20:16"
+      ]
+    },
+    {
+      "risk": "AI development may weaken human cognitive 'muscles' by removing beneficial struggles.",
+      "mitigation": "Belief that AI will 'raise the bar,' shifting human struggle to higher-level creative and editorial challenges.",
+      "evidence_ts": [
+        "24:08"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "task": "Deliver mid-tier affordable AR HUD glasses for mainstream consumers.",
+      "owner": null,
+      "due": null,
+      "priority": null,
+      "evidence_ts": [
+        "07:33"
+      ]
+    },
+    {
+      "task": "Advance research into force-feedback haptics for immersive realism.",
+      "owner": null,
+      "due": null,
+      "priority": null,
+      "evidence_ts": [
+        "14:45"
+      ]
+    },
+    {
+      "task": "Expand Llama AI open-source community and models.",
+      "owner": null,
+      "due": null,
+      "priority": null,
+      "evidence_ts": [
+        "39:40"
+      ]
+    },
+    {
+      "task": "Continue AI scaling and efficiency investigations on Transformer-based architectures (up to Llama 5).",
+      "owner": null,
+      "due": null,
+      "priority": null,
+      "evidence_ts": [
+        "44:15"
+      ]
+    }
+  ]
 }

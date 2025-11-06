@@ -1,44 +1,295 @@
 {
-  "meeting_id": "data003",
-  "title": "Jackie Chan's Body: No Part Left UNBROKEN! | Steve Harvey",
-  "datetime": "2025-09-11T00:00:00Z",
-  "duration_sec": 325,
-  "language": "en",
-  "source_url": "https://www.youtube.com/watch?v=Gc02dXu5RbE",
-  "meeting_type": "Interview",
-  "participants": [
+  "meta": {
+    "title": "TBD",
+    "date": "TBD",
+    "tz": "TBD",
+    "attendees": [
+      {
+        "name": "William",
+        "role": "TBD",
+        "org": "TBD"
+      },
+      {
+        "name": "Cindy",
+        "role": "TBD",
+        "org": "TBD"
+      },
+      {
+        "name": "Samia",
+        "role": "TBD",
+        "org": "TBD"
+      },
+      {
+        "name": "Brian",
+        "role": "TBD",
+        "org": "TBD"
+      },
+      {
+        "name": "Cormac",
+        "role": "TBD",
+        "org": "TBD"
+      }
+    ],
+    "duration_min": 42
+  },
+  "acronyms": [
     {
-      "name": "Steve Harvey",
-      "role": "Host"
+      "short": "GTM",
+      "full": "Go-to-Market"
     },
     {
-      "name": "Jackie Chan",
-      "role": "Guest / Actor"
+      "short": "PMM",
+      "full": "Product Marketing Manager"
+    },
+    {
+      "short": "PR",
+      "full": "Public Relations"
+    },
+    {
+      "short": "SCM",
+      "full": "Source Code Management"
+    },
+    {
+      "short": "MVC",
+      "full": "Minimum Viable Change"
+    },
+    {
+      "short": "MAU",
+      "full": "Monthly Active Users"
+    },
+    {
+      "short": "ADO",
+      "full": "Azure DevOps"
+    },
+    {
+      "short": "DAST",
+      "full": "Dynamic Application Security Testing"
     }
   ],
-  "organizations": ["The Official Steve Harvey"],
-  "topics": [
-    "Jackie Chan's Honorary Oscar",
-    "Physical toll of action movie career",
-    "Career injuries and broken bones",
-    "Hollywood typecasting",
-    "Desire for dramatic/romantic roles",
-    "Promotion of 'The Foreigner'"
+  "purpose": [
+    "Discuss corporate event support structure and commitment from GTM teams and campaign managers.",
+    "Consolidate, prioritize, and select key Product Announcements (3 per stage) for PR and keynote input (Commit/Sid's keynote).",
+    "Review scope and refine the Tier 1 competitive analysis spreadsheet regarding applicable competitors per stage.",
+    "Provide feedback and finalize a draft of a new high-level company Messaging Framework."
   ],
-  "keywords": [
-    "Jackie Chan",
-    "Steve Harvey",
-    "Oscar",
-    "Injuries",
-    "Stunts",
-    "Typecasting",
-    "The Foreigner"
+  "capabilities": [],
+  "workstreams": [
+    {
+      "name": "Corporate Event Support/Sponsorships",
+      "phase": "Assignment/Commitment",
+      "timeline": "Upcoming events (ReInvent, Google Next, KubeCon)",
+      "notes": "GTM teams are assigned to sponsor events (Platform on ReInvent, CI/CD on Google Next, GitOps on KubeCon); commitment from campaign managers is the current hurdle."
+    },
+    {
+      "name": "Product Announcements for PR/Keynotes",
+      "phase": "Prioritization/Selection",
+      "timeline": "Past 12 months (since 14.0 launch is eligible)",
+      "notes": "Goal is 3 items per stage (including Manage and Integrations); compiling Top Five Overall list for PR/keynote focus."
+    },
+    {
+      "name": "Tier 1 Competitive Analysis",
+      "phase": "Feature Comparison",
+      "timeline": "Current",
+      "notes": "Limited to Tier 1 competitors (ADO, Atlassian, GitHub, Jenkins, J-Frog, CloudBees); checking applicability per stage."
+    },
+    {
+      "name": "High-Level Messaging Framework",
+      "phase": "Drafting/Finalizing",
+      "timeline": "TBD",
+      "notes": "Replacing previous messaging like 'Scale up, speed up, test up' with new planks like 'More speed, less risk'."
+    }
   ],
-  "related_files": {
-    "transcript": "data003.md",
-    "meeting_summary": "meetLevel003.md",
-    "summary_embedding": "summary003.md"
+  "overlaps_unique": {
+    "overlaps": [
+      "TBD"
+    ],
+    "unique": []
   },
-  "embedding_text_pointer": "summary003.md",
-  "summary_brief": "Jackie Chan discusses his Honorary Oscar, the extreme physical toll of his stunt career, and his frustration with being typecast in Hollywood. He promotes his new, more serious film 'The Foreigner' and expresses a desire to be cast in dramatic or romantic roles."
+  "collab_path": {
+    "fast_track": [],
+    "research_track": []
+  },
+  "decisions": [
+    {
+      "decision": "The current tactic for corporate event support is for the GTM team (PMM and campaign manager) to sign up and sponsor an event.",
+      "owner": null,
+      "evidence_ts": [
+        "00:00:00"
+      ]
+    },
+    {
+      "decision": "Event assignments are confirmed as Platform on ReInvent, CI/CD on Google Next, and GitOps on KubeCon.",
+      "owner": null,
+      "evidence_ts": [
+        "02:42:00"
+      ]
+    },
+    {
+      "decision": "Content from 14.0 launch can be reused, plus a few additions, aiming for three product announcement items per stage, to provide fodder for the PR team.",
+      "owner": null,
+      "evidence_ts": [
+        "05:47:00",
+        "06:17:00",
+        "06:46:00"
+      ]
+    },
+    {
+      "decision": "The product announcement list will include the Manage stage and notable Integrations (like Jira and VS Code).",
+      "owner": null,
+      "evidence_ts": [
+        "06:46:00",
+        "07:23:00"
+      ]
+    },
+    {
+      "decision": "A 'Top Five Overall' list of product announcements will be compiled from the aggregated stage features for keynote use.",
+      "owner": null,
+      "evidence_ts": [
+        "14:04:00"
+      ]
+    },
+    {
+      "decision": "Vulnerability Management will be prioritized over proprietary scanning (Semgrep/Browser DAST) as the top security-related announcement.",
+      "owner": null,
+      "evidence_ts": [
+        "19:07:00",
+        "19:14:00"
+      ]
+    },
+    {
+      "decision": "The selection of features for the Top Five Overall will include UX Improvement (across stages), Vulnerability Management, and a GitOps bucket (KS Agent plus HashiCorp integrations).",
+      "owner": null,
+      "evidence_ts": [
+        "16:26:00",
+        "17:15:00",
+        "19:48:00"
+      ]
+    },
+    {
+      "decision": "The competitive analysis spreadsheet must only include Tier 1 competitors that apply to the specific product stage being compared.",
+      "owner": null,
+      "evidence_ts": [
+        "24:43:00",
+        "25:07:00"
+      ]
+    },
+    {
+      "decision": "GitLab will be included as a line item in the competitive comparison spreadsheet for an 'honest and trustworthy' assessment of the market.",
+      "owner": null,
+      "evidence_ts": [
+        "25:28:00",
+        "25:48:00"
+      ]
+    },
+    {
+      "decision": "The new competitive infographic will use a green-only color scale to position it as a 'comparison' rather than an aggressive 'competitive' piece.",
+      "owner": null,
+      "evidence_ts": [
+        "32:05:00",
+        "32:37:00"
+      ]
+    },
+    {
+      "decision": "The key phrase 'More speed, less risk' will be used in the new Messaging Framework.",
+      "owner": null,
+      "evidence_ts": [
+        "41:28:00",
+        "42:08:00"
+      ]
+    }
+  ],
+  "risks_open": [
+    {
+      "risk": "The formal event support process 'isn't as nailed down as it needs to be,' making it challenging to get commitment from GTM teams/campaign managers.",
+      "mitigation": "Current tactic is GTM team sponsorship/commitment to the issue (Platform/CI/CD/GitOps assigned to events).",
+      "evidence_ts": [
+        "00:00:00",
+        "01:56:00",
+        "03:09:00"
+      ]
+    },
+    {
+      "risk": "Getting press attention for features that have been around for a while (e.g., fuzzing acquisition integration) is difficult, which impacts product announcements.",
+      "mitigation": "Positioning features based on new maturity level or aggregation (e.g., Vulnerability Management MVCs).",
+      "evidence_ts": [
+        "14:48:00",
+        "17:52:00",
+        "18:14:00"
+      ]
+    },
+    {
+      "risk": "External audiences do not understand internal product stage names (Monitor, Configure, etc.) in the competitive sheet, which is a known issue for the next iteration.",
+      "mitigation": "TBD (Deferred to future iteration; acknowledged need for value-based descriptions).",
+      "evidence_ts": [
+        "28:01:00",
+        "31:07:00"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "task": "Work with GTM teams to get explicit commitment (e.g., comment on the issue) from campaign managers for their assigned corporate event support.",
+      "owner": "PMMs (William to ask PMMs)",
+      "due": null,
+      "priority": "high",
+      "evidence_ts": [
+        "03:09:00"
+      ]
+    },
+    {
+      "task": "Add VS Code integrations to the list of notable product announcements/integrations.",
+      "owner": "William",
+      "due": null,
+      "priority": "medium",
+      "evidence_ts": [
+        "10:16:00",
+        "10:25:00"
+      ]
+    },
+    {
+      "task": "Go through the shipped list for the last 12 months and re-bucket/aggregate items to help reserve a spot for Plan in the Top Five list.",
+      "owner": "Samia",
+      "due": null,
+      "priority": "medium",
+      "evidence_ts": [
+        "15:48:00"
+      ]
+    },
+    {
+      "task": "Review and finalize the Top Five product announcements list.",
+      "owner": "All",
+      "due": "TBD",
+      "priority": "high",
+      "evidence_ts": [
+        "20:18:00"
+      ]
+    },
+    {
+      "task": "Add the selected items (UX, Vulnerability Management, GitOps bucket) to the Top Five list.",
+      "owner": "Cormac",
+      "due": null,
+      "priority": "medium",
+      "evidence_ts": [
+        "21:06:00"
+      ]
+    },
+    {
+      "task": "Review the Competitive Analysis Spreadsheet to ensure Tier 1 competitors that do not apply to a stage are not on that stage's tab.",
+      "owner": "William",
+      "due": null,
+      "priority": "medium",
+      "evidence_ts": [
+        "24:08:00"
+      ]
+    },
+    {
+      "task": "Finalize and submit the new Messaging Framework statements using 'More speed, less risk'.",
+      "owner": "William",
+      "due": "TBD",
+      "priority": "high",
+      "evidence_ts": [
+        "42:08:00"
+      ]
+    }
+  ]
 }
