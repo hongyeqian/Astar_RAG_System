@@ -1,140 +1,43 @@
 {
-  "meta": {
-    "title": "Build Conference Fireside Chat: Grok on Azure",
-    "date": "2025-05-XX",
-    "tz": "UTC",
-    "attendees": [
-      {
-        "name": "Satya Nadella",
-        "role": "CEO",
-        "org": "Microsoft"
-      },
-      {
-        "name": "Elon Musk",
-        "role": "CEO",
-        "org": "xAI / Tesla / SpaceX"
-      }
-    ],
-    "duration_min": 7
+  "meeting_id": "data001",
+  "title": "Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure",
+  "datetime": "2025-11-04T20:21:00+08:00",
+  "duration_sec": 400,
+  "language": "en",
+  "source_url": "https://www.youtube.com/watch?v=xqXa-i-Fr-M",
+  "meeting_type": "Fireside Chat",
+  "participants": [
+    {
+      "name": "Satya Nadella",
+      "role": "CEO, Microsoft"
+    },
+    {
+      "name": "Elon Musk",
+      "role": "CEO, xAI / Tesla / SpaceX"
+    }
+  ],
+  "organizations": ["Microsoft", "xAI", "Tesla", "SpaceX"],
+  "topics": [
+    "Grok 3.5 on Azure",
+    "Physics-grounded AI reasoning",
+    "First-principles intelligence",
+    "AI safety and honesty",
+    "Developer feedback loops",
+    "Integration of language, vision, and action"
+  ],
+  "keywords": [
+    "Grok",
+    "Azure",
+    "AI Safety",
+    "Physics Reasoning",
+    "Developer Feedback",
+    "Build 2025"
+  ],
+  "related_files": {
+    "transcript": "data001.md",
+    "meeting_summary": "meetLevel001.md",
+    "summary_embedding": "summary001.md"
   },
-  "acronyms": [
-    {
-      "short": "MS",
-      "full": "Microsoft"
-    },
-    {
-      "short": "xAI",
-      "full": "Musk’s AI company developing Grok"
-    },
-    {
-      "short": "FSD",
-      "full": "Full Self-Driving"
-    }
-  ],
-  "purpose": [
-    "Discuss partnership and deployment of Grok models on Azure.",
-    "Explore AI reasoning grounded in physics and real-world applications.",
-    "Invite developer community feedback on Grok integration."
-  ],
-  "capabilities": [
-    {
-      "org": "Microsoft",
-      "items": [
-        "Azure cloud infrastructure for hosting AI models.",
-        "Developer platform integration for multi-agent orchestration."
-      ]
-    },
-    {
-      "org": "xAI",
-      "items": [
-        "Grok 3.5 model focused on reasoning from first principles.",
-        "Physics-based AI reasoning and safety through truth minimization of error.",
-        "Deployed AI applications across Tesla, SpaceX, and X."
-      ]
-    }
-  ],
-  "workstreams": [
-    {
-      "name": "Grok on Azure",
-      "phase": "Initial Developer Launch",
-      "timeline": "Announced at Build 2025",
-      "notes": "Grok 3.5 to be deployed with developer feedback loop."
-    }
-  ],
-  "overlaps_unique": {
-    "overlaps": [
-      "AI safety through grounded reasoning.",
-      "Multi-modal model orchestration combining language, vision, and action."
-    ],
-    "unique": [
-      {
-        "org": "Microsoft",
-        "items": [
-          "Platform for scalable deployment and developer ecosystem."
-        ]
-      },
-      {
-        "org": "xAI",
-        "items": [
-          "Physics-based truth grounding; real-world applications via robotics and FSD."
-        ]
-      }
-    ]
-  },
-  "collab_path": {
-    "fast_track": [
-      "Immediate integration of Grok with Azure AI services.",
-      "Open feedback channel for developers to improve model safety and performance."
-    ],
-    "research_track": [
-      "Exploration of physics-grounded intelligence frameworks.",
-      "Combining multi-modal AI (language, vision, action) under unified real-world constraints."
-    ]
-  },
-  "decisions": [
-    {
-      "decision": "Launch Grok on Azure with developer feedback initiative.",
-      "owner": "Microsoft and xAI",
-      "evidence_ts": [
-        "00:43",
-        "06:00"
-      ]
-    }
-  ],
-  "risks_open": [
-    {
-      "risk": "Potential AI reasoning errors despite first-principles grounding.",
-      "mitigation": "Rapid correction loop through developer feedback.",
-      "evidence_ts": [
-        "01:17"
-      ]
-    },
-    {
-      "risk": "Insufficient real-world grounding could impact reliability.",
-      "mitigation": "Emphasize physics-based truth alignment and robotic validation.",
-      "evidence_ts": [
-        "04:18"
-      ]
-    }
-  ],
-  "actions": [
-    {
-      "task": "Collect and process developer feedback on Grok’s performance.",
-      "owner": "xAI Developer Relations",
-      "due": "2025-06-30",
-      "priority": "high",
-      "evidence_ts": [
-        "06:28"
-      ]
-    },
-    {
-      "task": "Enable Azure integration for Grok 3.5 beta rollout.",
-      "owner": "Microsoft Azure AI Team",
-      "due": "2025-06-15",
-      "priority": "high",
-      "evidence_ts": [
-        "06:00"
-      ]
-    }
-  ]
+  "embedding_text_pointer": "summary001.md", 
+  "summary_brief": "At Microsoft Build 2025, Satya Nadella and Elon Musk discussed Grok 3.5’s Azure launch, focusing on physics-based reasoning, AI safety through honesty and minimal error, and the importance of developer feedback to evolve language, vision, and action models."
 }

@@ -1,132 +1,64 @@
-### Meeting Purpose
+# **Interview: TikTok CEO at TED2023**
 
+**Date:** 2023-04-19
+**Participants:** Shou Chew, Chris Anderson
+**Source:** [YouTube - Shou Chew: TikTok's CEO on AI, data, and the future | TED2023](https://www.youtube.com/watch?v=7zC8-06198g)
+**Duration:** ~39 min 10 s
 
+---
 
-- To understand Shou Chew's story and how he came to lead TikTok.
-- To explore the core concepts of TikTok's recommendation algorithm (interest graph vs. social graph).
-- To discuss the platform's benefits, such as creator discovery (e.g., Khaby Lame) and the rise of STEM content.
-- To address risks, including user addiction, content moderation, and challenges to teenage mental health.
-- To address U.S. political concerns over data privacy, Chinese ownership (ByteDance), and Project Texas.
-- To discuss TikTok's 5-year vision for discovery, AI-powered creation, and commerce.
+## **Transcript Summary**
 
+At TED2023, **Chris Anderson** (Head of TED) interviewed **Shou Chew** (CEO of TikTok) about the platform's explosive growth, its underlying mechanics, and the significant controversies surrounding it.
 
+Chew described TikTok's mission as inspiring creativity and bringing joy [00:02:56], attributing its success to its **interest-based recommendation algorithm** rather than a traditional social graph [00:01:45]. He emphasized how this "discovery engine" gives anyone, like creator Khaby Lame, a chance to be seen [00:04:19].
 
-### Acronyms & Orgs (Normalized)
+Anderson challenged Chew on critical issues, including **user addiction and screen time** [00:20:07], the platform's responsibility for **content moderation** (e.g., dangerous challenges, teen mental health) [00:25:22], [00:28:20], and the paramount U.S. national security concern regarding **data privacy, ByteDance (its Chinese parent company), and potential Chinese government influence** [00:29:28].
 
+Chew detailed **"Project Texas"** as the comprehensive solution to U.S. data concerns, involving localizing U.S. data on Oracle servers [00:31:01], and affirmed his commitment to transparency and keeping the platform free from any government manipulation [00:33:35], [00:33:52].
 
+---
 
-- **TikTok** – TikTok
-- **ByteDance** – ByteDance (TikTok's parent company)
-- **Oracle** – Oracle (Project Texas partner)
-- **Douyin** – Douyin (Separate app in China)
-- **AI** – Artificial Intelligence
+## **Key Topics**
 
+### **1. The Recommendation "Discovery Engine"**
 
+- TikTok's algorithm is built to "inspire creativity and bring joy" by functioning as a "window to discover" [00:02:56], [00:03:14].
+- It is based on an **interest graph** (content you like) rather than a social graph (people you know) [00:01:45].
+- Chew describes the algorithm as "just math"—a pattern-recognition system that uses user signals (likes, watch time, shares) to find similar content preferences among users [00:05:54], [00:07:27].
+- This model allows everyday users with talent, like **Khaby Lame**, to be discovered without needing existing followers [00:04:19].
 
-### Capability Highlights (by org)
+### **2. Addiction and Screen Time Management**
 
+- Chew stated the company's goal is *not* to maximize time spent, arguing a "healthy relationship" with the app is better for long-term business [00:20:37], [00:23:26].
+- The platform proactively sends videos telling users to "get off the platform" after extended use [00:21:00].
+- By default, users **under 18 have a 60-minute time limit**, a figure recommended by Boston Children's Hospital [00:21:18], [00:22:01].
+- A "Family Pairing" feature allows parents to set time limits for their teenagers [00:21:28].
 
+### **3. Content Moderation and Safety**
 
-**TikTok**
+- The company employs "tens of thousands" of people plus machines to enforce its **Community Guidelines** [00:15:15], [00:27:30].
+- Clear rules prohibit content like pornography, violence, and dangerous challenges [00:15:48], [00:26:34].
+- A differentiated, more restrictive experience is provided for users under 18, including blocking DMs for under-16s and live streaming for under-18s [00:16:02], [00:16:17].
+- When asked about teen mental health and sexualized content, Chew stated that mature themes are proactively removed from teenagers' experiences [00:25:31], [00:28:42].
 
-- Core premise (10 years ago) was to recommend content based on what users *like*, not who they *know* (social graph).
-- Mission: "Inspire creativity and to bring joy".
-- Vision: Provide 1) a window to discover, 2) a canvas to create (using new AI), and 3) bridges to connect.
-- Recommendation algorithm is "just math" (collaborative filtering); if User A and B like the same 3 videos, they will be shown each other's other liked videos.
-- Users "vote with their thumbs" by watching, swiping, liking, or sharing, which provides interest signals to the algorithm.
-- Format is optimized for smartphones (full-screen portrait video) as a "window to discover".
-- Gives everyday people (e.g., Khaby Lame, small businesses) a platform to be discovered based on talent, not prior fame.
-- STEM content has over 116 billion views; "BookTok" has 120 billion views.
-- Employs tens of thousands of people (based in Ireland) plus machines for content moderation.
-- Offers "Family Pairing" tools for parents to link to their teen's account and set time limits.
+### **4. Data, China, and "Project Texas"**
 
+- Anderson directly addressed U.S. concerns about data access by ByteDance and potential Chinese government manipulation [00:29:28].
+- Chew's solution is **Project Texas**, an "unprecedented project" to localize American data [00:30:55].
+- All new U.S. data is stored on **Oracle Cloud Infrastructure** on U.S. soil, "overseen by American personnel" [00:31:01], [00:32:11].
+- Legacy U.S. data was in the process of being deleted from servers in Virginia and Singapore, with a target completion of "this year" (2023) [00:32:19], [00:32:39].
 
+### **5. Election Integrity and Transparency**
 
-### Current Projects / Workstreams
+- When pressed on hypothetical Chinese government interference in a U.S. election, Chew committed to keeping TikTok "free from any government manipulation" [00:33:35], [00:33:40].
+- He stressed that the solution is "an unprecedented amount of transparency," including **allowing third-party reviewers to audit TikTok's source code** [00:33:52], [00:33:58].
 
+---
 
+## **Action Items**
 
-- **Project Texas:** Localizing U.S. data to be stored on U.S. soil (Oracle Cloud) and overseen by U.S. personnel.
-- **Legacy Data Deletion:** Deleting legacy U.S. data from servers in Virginia and Singapore; expected to be done "this year".
-- **Screen Time Management:** Proactively sends videos telling users to "get off the platform" if they spend too much time.
-- **Teen Safety Defaults:** A 60-minute default time limit is set for users under 18.
-- **STEM Feed:** Actively testing a dedicated feed in the U.S. just for STEM content.
-- **Source Code Transparency:** Allowing third-party reviewers to come in and review TikTok's source code.
-- **Research Tools:** Releasing more tools for researchers to study the platform's content (the "output").
-
-
-
-### Overlaps vs. Unique Contributions
-
-
-
-- **Overlaps:**
-  - The industry faces common issues with bad actors and the need for content moderation.
-  - The industry shares the challenge of balancing user privacy with the need for accurate age verification.
-  - TikTok is not the only company to rely on a global talent pool, including engineers in China.
-- **Unique to TikTok:**
-  - Built from the start on an "interest algorithm" (recommendation) as the main use case, unlike others built for search or social graphs.
-  - Project Texas is an "unprecedented project" for localizing data beyond what other companies have done.
-  - Allowing third-party reviewers to inspect the source code to ensure no manipulation.
-
-
-
-### Proposed Collaboration Path
-
-
-
-- **Discovery (Future Vision):** Continue expanding discovery beyond entertainment into areas like STEM (116B views) and "BookTok" (120B views).
-- **Creation (Future Vision):** Utilize generative AI to help people (e.g., those bad at drawing) unleash creativity in new ways.
-- **Connection (Future Vision):** Expand bridges for commerce and support for small businesses (currently 5 million in the U.S.).
-
-
-
-### Decisions
-
-
-
-- **15:15** – Decided that executives cannot make ad hoc moderation calls; all follow Community Guidelines.
-
-- **15:40** – Decided to enforce strict bans on pornography, CSAM, and violence.
-
-- **16:02** – Decided to provide a differentiated experience for users under 18.
-
-- **16:09** – Users below 16 are restricted from going viral or using instant messaging.
-
-- **21:00** – Decided to proactively remind users to take breaks if spending too much time on the platform.
-
-- **21:11** – Decided to set a 60-minute default limit for users under 18.
-
-- **22:01** – Adopted the 60-minute policy based on advice from Boston Children’s Hospital Digital Wellness Lab.
-
-- **26:34** – Banned dangerous challenges and unsafe content trends.
-
-- **28:42** – Proactively removes mature themes from teenage experience to reduce insecurity.
-
-- **30:55** – Committed to Project Texas: localizing U.S. data on Oracle Cloud under U.S. oversight.
-
-- **33:35** – Reaffirmed TikTok’s commitment to freedom of expression and independence from government influence.
-
-- **33:52** – Committed to transparency and third-party monitoring.
-
-- **33:58** – Allowed third-party reviewers to inspect TikTok’s source code for manipulation or backdoors.
-
-
-
-### Risks / Open Issues
-
-
-
-- **00:21** – A bipartisan consensus exists in U.S. politics to ban TikTok.
-- **02:20** – The platform is perceived as having a "different level of addiction" compared to other media.
-- **16:56** – Industry-wide challenge of balancing the need for accurate age verification with user privacy (e.g., face scans).
-- **20:16** – Public perception that TikTok maximizes ad-time engagement (Chew clarified this is *not* the company’s goal).
-- **24:07** – A misconception exists that the Chinese version (Douyin) has stricter child safety rules than the U.S. version (which Chew claims is more restrictive).
-- **25:02** – Concern that the "race for attention" pushes creators, especially teenage girls, toward sexualized content.
-- **26:14** – Risk of harmful trends, like the "devious licks" vandalism challenge, going viral.
-- **28:10** – Concern that the platform amplifies insecurities, inadequacy, depression, and body image issues, especially for teenagers.
-- **29:28** – U.S. Congress concern: Data of U.S. users (owned by Chinese company ByteDance) could be requested by the Chinese government.
-- **29:48** – Confirmed instances of U.S. journalist data being made available to ByteDance engineers.
-- **31:29** – The push for "digital sovereignty" (like Project Texas) risks the "balkanization of the internet" if interoperability is lost.
-- **32:25** – Ongoing engineering challenge: deleting legacy U.S. data from Virginia and Singapore servers (“a very big engineering effort”) — operational risk until completion.
-- **32:50** – Hypothetical scenario raised that the Chinese government could try to influence a U.S. election or "cause civil war" by manipulating the algorithm.
+- Continue to prioritize platform safety, especially for teenage users [00:25:49].
+- Complete the deletion of legacy U.S. data from Virginia and Singapore servers as part of Project Texas [00:32:19], [00:32:39].
+- Uphold commitment to freedom of expression and prevent any government manipulation [00:33:35], [00:33:40].
+- Implement third-party source code review and monitoring to ensure transparency and platform integrity [00:33:52], [00:33:58].

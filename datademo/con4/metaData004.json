@@ -1,236 +1,49 @@
 {
-  "meta": {
-    "title": "Nimi Mehta: Career Journey and Finding Your Voice",
-    "date": null,
-    "tz": null,
-    "attendees": [
-      {
-        "name": "Host",
-        "role": "Interviewer",
-        "org": null
-      },
+    "meeting_id": "data004",
+    "title": "Confidence isn't loud, here's how to find your voice | Nimi Mehta",
+    "datetime": "2024-04-14T00:00:00Z",
+    "duration_sec": 3047,
+    "language": "en",
+    "source_url": "https://www.youtube.com/watch?v=rKpltaOMFdc",
+    "meeting_type": "Podcast Interview",
+    "participants": [
       {
         "name": "Nimi Mehta",
-        "role": "CEO of Speaker, Presenter, Mentor",
-        "org": null
+        "role": "CEO, Speaker by Nimi Mehta"
+      },
+      {
+        "name": "Host",
+        "role": "Host, The Balance Theory Podcast"
       }
     ],
-    "duration_min": 51
-  },
-  "acronyms": [
-    {
-      "short": "MTV",
-      "full": "MTV"
+    "organizations": ["Speaker by Nimi Mehta", "The Balance Theory Podcast"],
+    "topics": [
+      "Career Transition and Persistence",
+      "Goals as Markers",
+      "Power of Visualization",
+      "Choosing Fear over Stagnation",
+      "The Voice Layer Theory",
+      "Finding Your Authentic Voice",
+      "Assertiveness vs. Niceness",
+      "Responding vs. Reacting",
+      "Loud vs. Soft Confidence"
+    ],
+    "keywords": [
+      "Nimi Mehta",
+      "Persistence",
+      "Visualization",
+      "Goal Setting",
+      "5-Second Rule",
+      "Voice Layer Theory",
+      "Confidence",
+      "Assertiveness",
+      "Personal Alignment"
+    ],
+    "related_files": {
+      "transcript": "data004.md",
+      "meeting_summary": "meetLevel004.md",
+      "summary_embedding": "summary004.md"
     },
-    {
-      "short": "VIACOM",
-      "full": "Viacom"
-    },
-    {
-      "short": "NICKELODEON",
-      "full": "Nickelodeon"
-    },
-    {
-      "short": "ITV",
-      "full": "ITV"
-    },
-    {
-      "short": "RADIO1_AD",
-      "full": "Radio 1 Abu Dhabi"
-    },
-    {
-      "short": "CHANNEL4_DUBAI",
-      "full": "Channel 4 (Dubai)"
-    }
-  ],
-  "purpose": [
-    "To explore Nimi Mehta's career journey, starting from her first 'dream job' at MTV and the lessons learned after.",
-    "To discuss the transition from traditional media (radio) to entrepreneurship.",
-    "To understand the concepts of 'finding your voice' and The Voice Layer Theory.",
-    "To examine the challenge of balancing being 'nice' versus 'assertive'."
-  ],
-  "capabilities": [],
-  "workstreams": [
-    {
-      "name": "MTV Presenter",
-      "phase": "Completed",
-      "timeline": null,
-      "notes": "First job out of university at 21. Contract ended after one year."
-    },
-    {
-      "name": "Career Hustle / Internships",
-      "phase": "Completed",
-      "timeline": null,
-      "notes": "Period of unemployment. Used 'power of proximity' strategy at VIACOM (NICKELODEON). Pursued 'process of elimination' via internships (e.g., ITV)."
-    },
-    {
-      "name": "Radio (UK)",
-      "phase": "Completed",
-      "timeline": null,
-      "notes": "Pivoted to radio at a local station for 5 months due to lack of TV opportunities."
-    },
-    {
-      "name": "RADIO1_AD",
-      "phase": "Completed",
-      "timeline": null,
-      "notes": "Hosted the national breakfast show."
-    },
-    {
-      "name": "CHANNEL4_DUBAI",
-      "phase": "Completed",
-      "timeline": null,
-      "notes": "Poached from RADIO1_AD; hosted the #1 breakfast show for 5 years."
-    },
-    {
-      "name": "Entrepreneurship (Speaker)",
-      "phase": "Current",
-      "timeline": null,
-      "notes": "Current role as CEO of Speaker and public speaking mentor, transitioning into 'legacy mode'."
-    },
-    {
-      "name": "Framework Development (The Voice Layer Theory)",
-      "phase": "Current",
-      "timeline": null,
-      "notes": "A framework created by Nimi Mehta to teach others how to find their voice."
-    }
-  ],
-  "overlaps_unique": {
-    "overlaps": [],
-    "unique": []
-  },
-  "collab_path": {
-    "fast_track": [],
-    "research_track": []
-  },
-  "decisions": [
-    {
-      "decision": "Nimi Mehta decided to pursue journalism at university.",
-      "owner": null,
-      "evidence_ts": [
-        "01:17"
-      ]
-    },
-    {
-      "decision": "Decided to use the 'power of proximity' to get a job within VIACOM (NICKELODEON) to stay in the building.",
-      "owner": null,
-      "evidence_ts": [
-        "05:49"
-      ]
-    },
-    {
-      "decision": "Decided to use a 'process of elimination' to learn every role (producer, director) in the media industry.",
-      "owner": null,
-      "evidence_ts": [
-        "05:49"
-      ]
-    },
-    {
-      "decision": "Decided to pivot to radio due to a lack of TV opportunities in the UK.",
-      "owner": null,
-      "evidence_ts": [
-        "05:49"
-      ]
-    },
-    {
-      "decision": "Decided to move to RADIO1_AD to host the breakfast show.",
-      "owner": null,
-      "evidence_ts": [
-        "05:49"
-      ]
-    },
-    {
-      "decision": "Decided to leave CHANNEL4_DUBAI after 5 years, choosing the fear of stagnation over the fear of leaving a stable salary.",
-      "owner": null,
-      "evidence_ts": [
-        "11:06"
-      ]
-    },
-    {
-      "decision": "Decided to 'isolate' her voice by taking a social media detox and questioning all her decisions and opinions.",
-      "owner": null,
-      "evidence_ts": [
-        "21:30"
-      ]
-    },
-    {
-      "decision": "Decided to evaluate the five closest people to her and 'cutthroat' remove those who were not a positive influence.",
-      "owner": null,
-      "evidence_ts": [
-        "21:30"
-      ]
-    }
-  ],
-  "risks_open": [
-    {
-      "risk": "Career volatility: The 'dream job' at MTV ended after one year when the contract was not renewed, leading to a 'hit to the ego' and unemployment.",
-      "mitigation": null,
-      "evidence_ts": [
-        "01:17"
-      ]
-    },
-    {
-      "risk": "Evolving goals: Realization that goals are just 'markers' and dreams are 'ever evolving,' rather than a single endpoint.",
-      "mitigation": null,
-      "evidence_ts": [
-        "01:17"
-      ]
-    },
-    {
-      "risk": "Humans are 'never ever the finished product' and were not taught this lesson.",
-      "mitigation": null,
-      "evidence_ts": [
-        "04:53"
-      ]
-    },
-    {
-      "risk": "Fear of stagnation: The fear of 'feeling undervalued and miserable' in 5 years at a stable job (CHANNEL4_DUBAI) outweighed the fear of leaving comfort and salary.",
-      "mitigation": null,
-      "evidence_ts": [
-        "11:06"
-      ]
-    },
-    {
-      "risk": "Dilution of voice: External influences (parents, media, social media) build 'layers' that dilute a person's authentic voice.",
-      "mitigation": "Isolate the voice (detox, questioning) and evaluate the five closest people.",
-      "evidence_ts": [
-        "21:30"
-      ]
-    },
-    {
-      "risk": "Environmental regression: Risk of regressing to an 'insecure, timid' version of oneself when surrounded by people who know the 'old me'.",
-      "mitigation": null,
-      "evidence_ts": [
-        "32:00"
-      ]
-    },
-    {
-      "risk": "Assertiveness vs. 'Nice': Struggled with the false binary of being 'nice' (and walked over) or 'mean'.",
-      "mitigation": "Realizing one can be 'kind, but still be very clear and concise'.",
-      "evidence_ts": [
-        "33:57"
-      ]
-    },
-    {
-      "risk": "In media, women are easily labeled a 'Diva' or 'difficult' for being clear.",
-      "mitigation": null,
-      "evidence_ts": [
-        "35:04"
-      ]
-    },
-    {
-      "risk": "People pleasing is defined as saying 'yes' to someone else and 'no' to yourself.",
-      "mitigation": null,
-      "evidence_ts": [
-        "39:42"
-      ]
-    },
-    {
-      "risk": "Confidence Perception: The loudest person in the room is often not the most confident; 'soft confidence' is equally valid.",
-      "mitigation": null,
-      "evidence_ts": [
-        "45:22"
-      ]
-    }
-  ],
-  "actions": []
-}
+    "embedding_text_pointer": "summary004.md",
+    "summary_brief": "Nimi Mehta discusses her career transition from MTV to a top radio host, emphasizing persistence, visualization, and choosing fear over stagnation. She introduces the Voice Layer Theory for finding one's authentic voice, and the discipline of being kind yet assertive."
+  }

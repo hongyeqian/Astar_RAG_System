@@ -1,82 +1,101 @@
-### Meeting Purpose
+# **Meeting: The Future Mark Zuckerberg Is Trying To Build**
 
-- Explore Meta’s long-term vision for **AI and AR integration**, centered on the development of holographic smart glasses.
-- Understand Mark Zuckerberg’s perspective on **presence**, **open-source AI**, and **social connectivity** in the next computing era.
-- Examine how combining **hardware (AR glasses)** and **AI models (Llama)** could redefine communication, work, and entertainment. 
 
-------
 
-### Acronyms & Orgs (Normalized)
+Date: 2024-09-25
 
-- **META** – Meta Platforms, Inc.
-- **Llama** – Meta’s open-source large language model family.
-- **AR** – Augmented Reality
-- **AI** – Artificial Intelligence
+Participants: Cleo Abram, Mark Zuckerberg
+
+Source: YouTube — The Future Mark Zuckerberg Is Trying To Build
+
+Duration: ~47 min 10 s
 
 ------
 
-### Capability Highlights (by org)
 
-**META**
 
-- Completed 10 years of R&D for the **first full holographic AR glasses**.
-- Key innovations: micro projectors, nano-etched waveguides, dual-eye hologram synchronization, neural wrist interface, spatial sensors, and onboard compute miniaturization.
-- Structured three product tiers:
-  - **Display-less Ray-Ban Meta Glasses:** AI voice interface, affordable everyday use.
-  - **Heads-Up Display Glasses:** Smaller field of view, optimized for reading AI outputs and notifications.
-  - **Full Holographic AR Glasses:** Premium device enabling immersive holographic experiences.
-- Integration of **Llama AI** to provide context-aware, multimodal intelligence.
-- Core design philosophy focused on **presence** (human-like co-location) and **personalized AI** (contextual understanding). 
+## **Transcript Summary**
+
+
+
+In this conversation, **Mark Zuckerberg** outlined Meta’s long-term vision based on two pillars: **Presence** and **Personalized AI**. He introduced the **Orion prototype AR glasses** as the culmination of a decade of work, positioning them as the next major computing platform after the smartphone. He detailed how these holographic glasses are essential for delivering the "sense of presence" and for enabling AI to gain real-world context by seeing and hearing what the user does.
+
+Zuckerberg addressed the social dilemma of declining human connection, arguing that digital presence will unlock **more** socializing, not replace existing physical connection. He also discussed the philosophical line for AI, suggesting it should remove barriers (like language translation) while preserving necessary human struggles that build cognitive "muscle" (like coding). Finally, he advocated for **Open Source AI** as a model for safety and diversity, and cited the scalability of current AI architectures as his biggest, most high-stakes question.
 
 ------
 
-### Current Projects / Workstreams
 
-- **Full Holographic AR Glasses:** Advanced prototype stage; culmination of a decade-long R&D effort to miniaturize full computing systems.
-- **Ray-Ban Meta Glasses:** Commercial rollout in progress, bringing AI-assisted wearables to mass market.
-- **Neural Wrist Interface:** Research focused on interaction and input, such as enabling texting via the interface. (Haptics are a separate, difficult challenge Meta is also researching, focusing first on hands).
-- **Llama AI Integration:** Expanding multimodal understanding for real-time translation and personal context. 
+
+## **Key Topics**
+
+
+
+
+
+### **1. The Next Computing Platform: Full Holographic AR**
+
+
+
+- The **Orion Prototype Glasses** are the first full holographic augmented reality glasses, resulting from 10 years of miniaturization efforts.
+- These glasses are predicted to be the next major platform, replacing the "unnatural" interaction of phones.
+- The future landscape will include three permanent product lines: display-less AI glasses, heads-up display glasses, and the premium, full holographic AR glasses.
+
+
+
+### **2. Presence and Personalized Intelligence**
+
+
+
+- **Presence** is the "holy grail" of social technology, delivering a visceral feeling of being physically there with another person (even as a hologram).
+- **Personalized AI** requires context, which the glasses provide by being positioned to see what the user sees and hear what the user hears.
+
+
+
+### **3. The Reality of Connection and Haptics**
+
+
+
+- **Haptics** (physical touch) is acknowledged as the hardest technology challenge, though progress is being made on basic force feedback for hands.
+- The sense of presence is an "illusion" that is easily broken; success relies on consistency across all elements (field of view, latency, physics) and authentic movement in avatars.
+- Digital connection is viewed as **additive**—helping people connect with distant loved ones—rather than replacing close physical relationships.
+
+
+
+### **4. AI and the Value of Human Struggle**
+
+
+
+- AI should be used to remove struggles that act as **barriers** (e.g., universal, real-time translation).
+- Struggles that build essential "muscles" (e.g., learning to code, basic math) should be preserved, as the struggle will simply shift to higher-order problems like creative expression and editing.
+
+
+
+### **5. Open Source AI as a Path to Safety and Diversity**
+
+
+
+- Zuckerberg advocates for **Open Source (Llama)** to encourage a diverse ecosystem, contrasting it with a centralized "one AI" vision.
+- He argues that historically, open source software is **safer and more secure** because widespread public scrutiny identifies and fixes security issues quicker.
+
+
+
+### **6. The Ultimate Scaling Question**
+
+
+
+- Zuckerberg's biggest high-stakes question is whether the current AI architectures (Transformers) will eventually hit a **scaling limit (asymptote)** or continue to advance for decades.
+- Meta is making a "hundreds of billions of dollars" bet on the continued scaling of the fundamental AI.
 
 ------
 
-### Overlaps vs. Unique Contributions
 
-- **Overlaps:** Shared goals with other companies (e.g., Apple Vision Pro, Meta Quest) around immersive computing and presence.
-- **Unique to META:**
-  - Open-source-first AI philosophy through Llama.
-  - **Focus on the illusion of presence**, emphasizing that "authentic mannerisms" are key to this feeling, while **also** valuing high-compute and high-resolution experiences (like on Quest) as an important, affordable product line.
-  - Vision of AR glasses as the next **social platform**, not just a productivity tool. 
 
-------
+## **Action Items**
 
-### Proposed Collaboration Path
 
-- **Fast Track:** Integrate Llama AI with AR devices to enable real-time multimodal understanding (speech, vision, spatial context).
-- **Research Track:** Continue haptic feedback and neural interface experiments to simulate realistic presence and touch.
-- Explore co-learning models between humans and AI where automation strengthens, rather than replaces, cognitive “muscles.” 
 
-------
-
-### Decisions
-
-- **00:02:22** – Meta will continue to position **full holographic AR glasses** as the next major computing platform after smartphones.
-- **00:39:40** – Commit to **open-source AI strategy** with Llama; oppose monopolistic single-AI approaches.
-- **00:44:15** – Approve large-scale investment (hundreds of billions of dollars) in AI scaling, accepting potential architectural plateaus. 
-
-------
-
-### Risks / Open Issues
-
-- **Haptic realism:** Achieving convincing physical feedback remains a major technical challenge.
-- **AI scalability:** Unknown upper bounds for current Transformer architectures may cap future performance.
-- **Social disconnection:** Persistent decline in in-person socialization despite more digital tools.
-- **User anxiety:** Broad societal unease about job relevance and adaptation to accelerating AI change. 
-
-------
-
-### Action Items
-
--  Advance research into **force-feedback haptics** for immersive realism (Due: TBD)
--  Expand **Llama AI open-source community** to support global developer participation (Due: TBD)
--  Deliver **mid-tier affordable AR HUD glasses** for mainstream consumers (Due: TBD)
--  Continue **AI scaling and efficiency investigations** on Transformer-based architectures (Due: TBD)
+- Continue aggressive miniaturization and development of the Orion prototype towards a consumer-ready, smaller, and more stylish AR product.
+- Fully integrate and roll out real-time, universal translation capabilities across the glasses product line.
+- Advance research in haptics and force feedback to improve the sense of physical interaction in virtual and mixed reality.
+- Continue multi-billion dollar investment in compute infrastructure, based on the belief that current AI scaling methods will not yet plateau.
+- Explore and develop the utility of "AI artifacts" and AI versions of creators to better serve community demand on social media platforms.
