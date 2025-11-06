@@ -1,0 +1,118 @@
+====================================================================================================
+HIERARCHICAL CHUNKING RESULTS - METADATA LEVEL
+Generated: 2025-11-06 23:03:35
+Total Chunks: 4
+====================================================================================================
+
+>>> MEETING: data001 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #1]
+Chunk ID: data001_metadata
+Meeting ID: data001
+Level: metadata
+Text Length: 866 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+Meeting ID: data001
+Title: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date and Time: 2025-11-04T20:21:00+08:00
+Duration: 400 seconds
+Language: en
+Meeting Type: Fireside Chat
+Participants: Satya Nadella (CEO, Microsoft), Elon Musk (CEO, xAI / Tesla / SpaceX)
+Organizations: Microsoft, xAI, Tesla, SpaceX
+Topics: Grok 3.5 on Azure, Physics-grounded AI reasoning, First-principles intelligence, AI safety and honesty, Developer feedback loops, Integration of language, vision, and action
+Keywords: Grok, Azure, AI Safety, Physics Reasoning, Developer Feedback, Build 2025
+Brief Summary: At Microsoft Build 2025, Satya Nadella and Elon Musk discussed Grok 3.5’s Azure launch, focusing on physics-based reasoning, AI safety through honesty and minimal error, and the importance of developer feedback to evolve language, vision, and action models.
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data004 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #2]
+Chunk ID: data004_metadata
+Meeting ID: data004
+Level: metadata
+Text Length: 1033 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+Meeting ID: data004
+Title: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date and Time: 2024-04-14T00:00:00Z
+Duration: 3047 seconds
+Language: en
+Meeting Type: Podcast Interview
+Participants: Nimi Mehta (CEO, Speaker by Nimi Mehta), Host (Host, The Balance Theory Podcast)
+Organizations: Speaker by Nimi Mehta, The Balance Theory Podcast
+Topics: Career Transition and Persistence, Goals as Markers, Power of Visualization, Choosing Fear over Stagnation, The Voice Layer Theory, Finding Your Authentic Voice, Assertiveness vs. Niceness, Responding vs. Reacting, Loud vs. Soft Confidence
+Keywords: Nimi Mehta, Persistence, Visualization, Goal Setting, 5-Second Rule, Voice Layer Theory, Confidence, Assertiveness, Personal Alignment
+Brief Summary: Nimi Mehta discusses her career transition from MTV to a top radio host, emphasizing persistence, visualization, and choosing fear over stagnation. She introduces the Voice Layer Theory for finding one's authentic voice, and the discipline of being kind yet assertive.
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data006 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #3]
+Chunk ID: data006_metadata
+Meeting ID: data006
+Level: metadata
+Text Length: 1028 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+Meeting ID: data006
+Title: NVIDIA CEO Jensen Huang's Vision for the Future
+Date and Time: 2025-01-07T00:00:00Z
+Duration: 3771 seconds
+Language: en
+Meeting Type: Interview
+Participants: Jensen Huang (CEO, Nvidia), Cleo Abram (Host, Huge If True)
+Organizations: Nvidia, Huge If True
+Topics: Nvidia's vision for the future, Parallel processing (GPU) vs. Sequential processing (CPU), History of the GPU and video games, CUDA platform, AI Revolution (AlexNet), Physical AI and Robotics, Digital Twins (Omniverse, Cosmos), AI Safety, Energy efficiency in computing, Hardware design (general vs. specific), AI as a "personal tutor"
+Keywords: Jensen Huang, Nvidia, AI, GPU, CUDA, Parallel Processing, Robotics, Omniverse, Cosmos, AI Safety
+Brief Summary: Nvidia CEO Jensen Huang discusses the evolution of computing from parallel processing (GPUs) to the AI revolution (CUDA, AlexNet), and outlines his future vision for physical AI (robotics) trained in digital twins (Omniverse, Cosmos), urging everyone to use AI as a personal tutor.
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data007 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #4]
+Chunk ID: data007_metadata
+Meeting ID: data007
+Level: metadata
+Text Length: 822 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+Meeting ID: data007
+Title: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date and Time: 2023-04-19T12:00:00+00:00
+Duration: 2350 seconds
+Language: en
+Meeting Type: Interview
+Participants: Shou Chew (CEO, TikTok), Chris Anderson (Head of TED)
+Organizations: TikTok, TED, ByteDance
+Topics: TikTok recommendation algorithm, Content moderation and safety, Teen safety and screen time, Data privacy and China, Project Texas, AI and creativity, Election integrity and transparency
+Keywords: TikTok, Shou Chew, TED2023, Algorithm, Data Privacy, Project Texas, Content Moderation, ByteDance
+Brief Summary: At TED2023, TikTok CEO Shou Chew discussed the platform's interest-based algorithm, content moderation policies, and addressed U.S. national security concerns over data and China by detailing 'Project Texas'.
+----------------------------------------------------------------------------------------------------
+
+

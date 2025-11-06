@@ -1,0 +1,83 @@
+====================================================================================================
+HIERARCHICAL CHUNKING SUMMARY REPORT
+Generated: 2025-11-06 23:03:35
+====================================================================================================
+
+OVERALL STATISTICS
+----------------------------------------------------------------------------------------------------
+Total Chunks (All Levels): 549
+
+PER-LEVEL STATISTICS
+----------------------------------------------------------------------------------------------------
+METADATA       :     4 chunks ( 0.73%)
+SUMMARY        :     4 chunks ( 0.73%)
+MEETING        :    92 chunks (16.76%)
+CONVERSATION   :   185 chunks (33.70%)
+CHUNK          :   264 chunks (48.09%)
+
+
+PER-MEETING STATISTICS
+----------------------------------------------------------------------------------------------------
+
+data001:
+  Metadata     :    1 chunks
+  Summary      :    1 chunks
+  Meeting      :   21 chunks
+  Conversation :    8 chunks
+  Chunk        :   12 chunks
+  Total        :   43 chunks
+
+data004:
+  Metadata     :    1 chunks
+  Summary      :    1 chunks
+  Meeting      :   22 chunks
+  Conversation :   35 chunks
+  Chunk        :   30 chunks
+  Total        :   89 chunks
+
+data006:
+  Metadata     :    1 chunks
+  Summary      :    1 chunks
+  Meeting      :   26 chunks
+  Conversation :   79 chunks
+  Chunk        :  105 chunks
+  Total        :  212 chunks
+
+data007:
+  Metadata     :    1 chunks
+  Summary      :    1 chunks
+  Meeting      :   23 chunks
+  Conversation :   63 chunks
+  Chunk        :  117 chunks
+  Total        :  205 chunks
+
+
+TEXT LENGTH STATISTICS
+----------------------------------------------------------------------------------------------------
+
+METADATA Level:
+  Average Length:   937.25 characters
+  Min Length    :      822 characters
+  Max Length    :     1033 characters
+
+SUMMARY Level:
+  Average Length:   964.75 characters
+  Min Length    :      595 characters
+  Max Length    :     1157 characters
+
+MEETING Level:
+  Average Length:   186.95 characters
+  Min Length    :        3 characters
+  Max Length    :      793 characters
+
+CONVERSATION Level:
+  Average Length:   806.03 characters
+  Min Length    :       39 characters
+  Max Length    :     3927 characters
+
+CHUNK Level:
+  Average Length:   615.84 characters
+  Min Length    :        9 characters
+  Max Length    :      799 characters
+
+====================================================================================================

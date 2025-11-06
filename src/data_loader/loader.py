@@ -136,7 +136,7 @@ if __name__ == "__main__":
     
     # print first meeting information
     if meetings:
-        m = meetings[0]
+        m = meetings[7]
         print(f"1.  meeting_id: {m.meeting_id}")
         print(f"2.  title: {m.title}")
         print(f"3.  datetime: {m.datetime}")

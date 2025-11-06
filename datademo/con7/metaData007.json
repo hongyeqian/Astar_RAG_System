@@ -1,0 +1,46 @@
+{
+  "meeting_id": "data007",
+  "title": "Shou Chew: TikTok's CEO on AI, data, and the future | TED2023",
+  "datetime": "2023-04-19T12:00:00+00:00",
+  "duration_sec": 2350,
+  "language": "en",
+  "source_url": "https://www.youtube.com/watch?v=7zC8-06198g",
+  "meeting_type": "Interview",
+  "participants": [
+    {
+      "name": "Shou Chew",
+      "role": "CEO, TikTok"
+    },
+    {
+      "name": "Chris Anderson",
+      "role": "Head of TED"
+    }
+  ],
+  "organizations": ["TikTok", "TED", "ByteDance"],
+  "topics": [
+    "TikTok recommendation algorithm",
+    "Content moderation and safety",
+    "Teen safety and screen time",
+    "Data privacy and China",
+    "Project Texas",
+    "AI and creativity",
+    "Election integrity and transparency"
+  ],
+  "keywords": [
+    "TikTok",
+    "Shou Chew",
+    "TED2023",
+    "Algorithm",
+    "Data Privacy",
+    "Project Texas",
+    "Content Moderation",
+    "ByteDance"
+  ],
+  "related_files": {
+    "transcript": "data007.md",
+    "meeting_summary": "meetLevel007.md",
+    "summary_embedding": "summary007.md"
+  },
+  "embedding_text_pointer": "summary007.md",
+  "summary_brief": "At TED2023, TikTok CEO Shou Chew discussed the platform's interest-based algorithm, content moderation policies, and addressed U.S. national security concerns over data and China by detailing 'Project Texas'."
+}

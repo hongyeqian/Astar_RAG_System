@@ -1,0 +1,86 @@
+====================================================================================================
+HIERARCHICAL CHUNKING RESULTS - SUMMARY LEVEL
+Generated: 2025-11-06 23:03:35
+Total Chunks: 4
+====================================================================================================
+
+>>> MEETING: data001 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #1]
+Chunk ID: data001_summary
+Meeting ID: data001
+Level: summary
+Text Length: 595 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Summary
+
+At Microsoft Build 2025, Satya Nadella and Elon Musk announced the launch of Grok 3.5 on Azure. Musk described Grok’s first-principles reasoning approach, which applies the laws of physics to thinking and defines honesty and acknowledged error minimization as the core of AI safety. They discussed grounding AI in real-world physical constraints through projects like Tesla FSD and the Optimus robot, highlighting Grok’s deployment in customer service and the importance of developer feedback to drive continuous improvement and the integration of language, vision, and action models.
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data004 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #2]
+Chunk ID: data004_summary
+Meeting ID: data004
+Level: summary
+Text Length: 984 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Summary
+
+Nimi Mehta, CEO of Speaker by Nimi Mehta, detailed her career journey from an early **MTV presenter** role that ended unexpectedly, forcing a realization that goals are merely **markers along the journey**. She successfully rebuilt her career in Abu Dhabi and Dubai by employing **persistence** (e.g., showing up with physical CVs), the **power of visualization**, and the conscious choice of leaving a comfortable job to avoid feeling **stagnant and undervalued**. She introduced several core concepts for self-alignment: the **5-second rule** for prioritizing gut instinct over rational fear; the **Voice Layer Theory** for identifying and shedding external influences that **dilute** one's authentic voice; and the belief that **assertiveness** is achieved by being **kind yet clear and concise** about boundaries and responding rather than reacting to conflict. She advised listeners to track achievements using a **"My Wins"** list or photo album to manage self-doubt.
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data006 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #3]
+Chunk ID: data006_summary
+Meeting ID: data006
+Level: summary
+Text Length: 1157 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Summary
+
+In an interview with Cleo Abram, Nvidia CEO Jensen Huang details the fundamental computing shift his company led, starting with the insight into parallel processing (GPU) for video games, which evolved with the creation of the CUDA platform. This platform unlocked GPUs for general-purpose computing, directly enabling the 2012 AlexNet deep learning breakthrough and prompting Huang's decade-long bet to "reinvent computing" for the AI era. Huang outlines his vision for the future, where "everything that moves will be robotic"; he explains that these physical AI systems will be trained in digital twin simulators like Omniverse (for physics) and Cosmos (a "world foundation model") to gain physical common sense. He discusses AI safety concerns (bias, hallucination, redundancy), identifies energy efficiency as the primary physical limit to computing, and explains why Nvidia favors general-purpose architectures over specialized chips to enable future innovation. Huang concludes by advising everyone to get an "AI tutor" and learn to prompt AI, persistently asking, "How can I use AI to do my job better?" to ultimately become "superhuman".
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data007 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #4]
+Chunk ID: data007_summary
+Meeting ID: data007
+Level: summary
+Text Length: 1123 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Summary
+
+In an interview at TED2023, TikTok CEO Shou Chew joined Chris Anderson to discuss the platform's core technology, safety policies, and the major national security concerns surrounding it. Chew defined TikTok's mission as inspiring creativity and bringing joy, attributing its success to a "discovery engine" based on an interest graph and pattern recognition ("math"), rather than a traditional social graph. He addressed user addiction by highlighting proactive "get off" videos and a 60-minute default time limit for users under 18. On content moderation, he noted that "tens of thousands" of people enforce Community Guidelines, which include restrictions for teens. In response to U.S. concerns about data and Chinese influence, Chew detailed "Project Texas" as an "unprecedented project" to localize American data on U.S. soil, managed by Oracle, stating that new U.S. data is already stored there and legacy data would be deleted "this year". He further committed to keeping the platform free from "any government manipulation" and ensuring transparency by allowing third parties to review the source code.
+----------------------------------------------------------------------------------------------------
+
+
