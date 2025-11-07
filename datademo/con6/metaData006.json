@@ -21,17 +21,11 @@
     "Huge If True"
   ],
   "topics": [
-    "Nvidia's vision for the future",
-    "Parallel processing (GPU) vs. Sequential processing (CPU)",
-    "History of the GPU and video games",
-    "CUDA platform",
-    "AI Revolution (AlexNet)",
-    "Physical AI and Robotics",
-    "Digital Twins (Omniverse, Cosmos)",
-    "AI Safety",
-    "Energy efficiency in computing",
-    "Hardware design (general vs. specific)",
-    "AI as a \"personal tutor\""
+    "Parallel vs. Sequential Processing (GPU vs. CPU)",
+    "CUDA and the AI Revolution",
+    "Physical AI and Digital Twins (Omniverse & Cosmos)",
+    "AI Safety and Physical Limits",
+    "Becoming \"Superhuman\" with AI"
   ],
   "keywords": [
     "Jensen Huang",

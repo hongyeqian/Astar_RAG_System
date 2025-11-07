@@ -18,12 +18,11 @@
   ],
   "organizations": ["Microsoft", "xAI", "Tesla", "SpaceX"],
   "topics": [
-    "Grok 3.5 on Azure",
-    "Physics-grounded AI reasoning",
-    "First-principles intelligence",
-    "AI safety and honesty",
-    "Developer feedback loops",
-    "Integration of language, vision, and action"
+    "Grok Philosophy & First Principles",
+    "AI Safety as Honesty and Error Minimization",
+    "Grounding in Reality",
+    "Real-World Deployment",
+    "Developer Feedback and Collaboration"
   ],
   "keywords": [
     "Grok",

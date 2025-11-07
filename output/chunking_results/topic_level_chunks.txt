@@ -1,0 +1,430 @@
+====================================================================================================
+HIERARCHICAL CHUNKING RESULTS - TOPIC LEVEL
+Generated: 2025-11-07 11:53:47
+Total Chunks: 19
+====================================================================================================
+
+>>> MEETING: data001 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #1]
+Chunk ID: data001_topic_0
+Meeting ID: data001
+Level: topic
+Text Length: 521 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Grok Philosophy & First Principles
+
+- Grok 3.5 uses reasoning modeled after physics: reduce to basic axioms and reason upward.
+- Aims to find fundamental truths and test conclusions against physical laws.
+- Seeks to reach truth with minimal error through continual correction.
+- Musk: reasoning “from first principles” helps minimize bias and drift.
+- Nadella calls it “cracking the physics of intelligence.” 
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #2]
+Chunk ID: data001_topic_1
+Meeting ID: data001
+Level: topic
+Text Length: 504 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# AI Safety as Honesty and Error Minimization
+
+- Musk links AI safety to honesty and transparent self-correction.
+- “Honesty is the best policy” ensures predictable and explainable outcomes.
+- Grok is designed to acknowledge its mistakes and fix them rapidly.
+- Safety equals truth-seeking plus minimization of acknowledged error.
+- Musk stresses openness to feedback as part of safety design. 
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #3]
+Chunk ID: data001_topic_2
+Meeting ID: data001
+Level: topic
+Text Length: 478 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Grounding in Reality
+
+- Musk: “Physics is the law; everything else is a recommendation.”
+- AI must be anchored to real-world physical constraints for reliability.
+- Grounding through physical systems like FSD cars and Optimus robots.
+- Real-world testing enforces truthful and accurate model behavior.
+- Physical grounding prevents abstract errors from propagating. 
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #4]
+Chunk ID: data001_topic_3
+Meeting ID: data001
+Level: topic
+Text Length: 476 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Real-World Deployment
+
+- Grok deployed in customer-service systems at Tesla and SpaceX.
+- Demonstrated consistent, friendly, and patient behavior in use.
+- Musk reports success improving issue resolution and response quality.
+- Launching Grok 3.5 on Azure expands developer access globally.
+- Integration aims to measure performance and reliability in production. 
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #5]
+Chunk ID: data001_topic_4
+Meeting ID: data001
+Level: topic
+Text Length: 468 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Developer Feedback and Collaboration
+
+- Musk emphasizes community feedback as key to Grok’s evolution.
+- “Tell us what you want, and we’ll make it happen.”
+- Developer input guides model tuning and safety improvements.
+- Nadella envisions open collaboration between developers and Grok’s team.
+- Azure platform enables scalable, feedback-driven refinement.
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data004 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #6]
+Chunk ID: data004_topic_0
+Meeting ID: data004
+Level: topic
+Text Length: 636 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Career Trajectory and Persistence
+
+- Nimi’s first “dream job” as an MTV presenter ended after one year, challenging her ego.
+- She learned that dreams evolve and goals are markers, not destinations.
+- Used persistence and the “power of proximity” to re-enter media through Viacom.
+- Contacted producers monthly for six to eight months until securing an internship.
+- Advanced to host the number-one breakfast show at Channel 4 Dubai for five years.
+- Left her successful show voluntarily to avoid becoming stagnant or undervalued. 
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #7]
+Chunk ID: data004_topic_1
+Meeting ID: data004
+Level: topic
+Text Length: 532 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Decision Making and Fear
+
+- Believes in visualization and manifestation—she imagined her Channel 4 role while unemployed.
+- Decision framework: choose between two fears—leaving comfort or staying stagnant.
+- Applies the “5-second rule” to act on gut instinct before logic overrides it.
+- Trusts the body’s signals to reveal true intuition and alignment.
+- Fear can be a compass pointing toward growth when handled consciously. 
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #8]
+Chunk ID: data004_topic_2
+Meeting ID: data004
+Level: topic
+Text Length: 562 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Voice Layer Theory and Self-Alignment
+
+- Introduced her “Voice Layer Theory” to explain how external influences dilute self-identity.
+- Outer voices (family, media, social media) can overshadow one’s authentic voice.
+- Step 1: isolate your voice through solitude or social media detox.
+- Step 2: evaluate your five closest people—ensure they amplify, not drain, your energy.
+- Being around those who know the “old you” can trigger regression or insecurity. 
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #9]
+Chunk ID: data004_topic_3
+Meeting ID: data004
+Level: topic
+Text Length: 560 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Assertiveness, Kindness, and Confidence
+
+- Reframed assertiveness as “kind, but clear and concise,” rejecting the nice/mean binary.
+- Confidence comes from responding, not reacting—take a pause before replying.
+- Words should be “treated like gold,” showing control and clarity.
+- Uses a “My Wins” photo album to remind herself of past successes during doubt.
+- Differentiates between “loud” and “soft” confidence—the quiet kind stems from inner security.
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data006 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #10]
+Chunk ID: data006_topic_0
+Meeting ID: data006
+Level: topic
+Text Length: 634 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Parallel vs. Sequential Processing (GPU vs. CPU)
+
+- Huang explains that most code is sequential, but 99% of computation can often be parallelized.
+- Nvidia built GPUs to handle this parallel workload, starting with video games as the initial use case.
+- GPUs enabled breakthroughs across scientific fields like weather forecasting and molecular simulation.
+- Huang describes the GPU as a “time machine,” allowing researchers to “see the future faster.”
+- The GPU’s evolution transformed computing from sequential to massively parallel processing. 
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #11]
+Chunk ID: data006_topic_1
+Meeting ID: data006
+Level: topic
+Text Length: 558 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# CUDA and the AI Revolution
+
+- Researchers began adapting GPUs for scientific computing before Nvidia officially supported it.
+- Nvidia responded by creating CUDA, a universal platform for parallel computing.
+- The 2012 AlexNet success on CUDA proved deep learning’s scalability and revolutionized AI.
+- Huang then bet Nvidia’s future on rebuilding the computing stack for AI workloads.
+- CUDA made GPU acceleration accessible to every scientist, engineer, and developer. 
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #12]
+Chunk ID: data006_topic_2
+Meeting ID: data006
+Level: topic
+Text Length: 556 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Physical AI and Digital Twins (Omniverse & Cosmos)
+
+- Huang predicts that “everything that moves will be robotic someday.”
+- Physical AI requires learning physics and cause-and-effect, not just data patterns.
+- Nvidia’s Omniverse simulates the real world for robot training under physical laws.
+- Cosmos acts as a foundation model for world simulation, enabling physics-grounded AI.
+- Robots can safely learn in these digital twins before deployment in the real world. 
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #13]
+Chunk ID: data006_topic_3
+Meeting ID: data006
+Level: topic
+Text Length: 541 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# AI Safety and Physical Limits
+
+- Huang outlines four safety concerns: bias, misuse, engineering error, and system failure.
+- Bias and hallucination represent “malperformance” risks that must be engineered out.
+- Physical systems need redundancy to prevent catastrophic failure in real-world robotics.
+- Energy efficiency is now the ultimate limit of computing progress.
+- Nvidia improved energy efficiency by 10,000x from the DGX-1 to new architectures. 
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #14]
+Chunk ID: data006_topic_4
+Meeting ID: data006
+Level: topic
+Text Length: 514 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Becoming "Superhuman" with AI
+
+- Huang argues that AI will enhance, not replace, human capabilities.
+- Everyone should adopt AI as a personal tutor to expand their skill set.
+- Learning how to prompt and collaborate with AI is the “new literacy” of this era.
+- AI should be viewed as a tool for amplification, similar to how computers changed work.
+- Huang encourages individuals to ask, “How can I use AI to do my job better?”
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+>>> MEETING: data007 <<<
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[CHUNK #15]
+Chunk ID: data007_topic_0
+Meeting ID: data007
+Level: topic
+Text Length: 658 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# The Recommendation "Discovery Engine"
+
+- TikTok’s algorithm functions as a “discovery engine” built on user interests, not social connections.
+- The system learns through user actions (likes, watch time, shares) to predict what content each person will enjoy.
+- Chew emphasized that the algorithm is “just math,” optimizing for engagement signals.
+- The design enables creators like Khaby Lame to gain visibility without prior followers.
+- The platform’s goal is to “inspire creativity and bring joy” by giving everyone a fair chance to be discovered. 
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #16]
+Chunk ID: data007_topic_1
+Meeting ID: data007
+Level: topic
+Text Length: 620 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Addiction and Screen Time Management
+
+- Chew said TikTok aims for a healthy long-term relationship with users rather than maximizing screen time.
+- The app shows reminders encouraging users to take breaks after extended viewing.
+- Teens under 18 have a default 60-minute daily limit, following recommendations from Boston Children’s Hospital.
+- Parents can use the “Family Pairing” feature to set limits and monitor activity.
+- These controls reflect a shift toward well-being and digital balance for young users. 
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #17]
+Chunk ID: data007_topic_2
+Meeting ID: data007
+Level: topic
+Text Length: 622 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Content Moderation and Safety
+
+- TikTok enforces clear Community Guidelines against violence, pornography, and harmful challenges.
+- A mix of human moderators and AI systems—numbering in the tens of thousands—reviews content continuously.
+- Younger users experience stricter protections: no DMs under 16 and no livestreaming under 18.
+- Chew highlighted efforts to filter out sexualized or mature themes from teenage feeds.
+- The approach combines rule enforcement, technology, and differentiated youth experiences. 
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #18]
+Chunk ID: data007_topic_3
+Meeting ID: data007
+Level: topic
+Text Length: 607 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Data, China, and "Project Texas"
+
+- U.S. data concerns were addressed through “Project Texas,” a plan to localize data on U.S. soil.
+- All new American user data is stored on Oracle Cloud servers, managed by U.S. personnel.
+- Older data from Virginia and Singapore servers is being deleted as part of the transition.
+- Chew called Project Texas “an unprecedented project” for transparency and compliance.
+- The initiative aims to isolate U.S. data from ByteDance and eliminate government access risk. 
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #19]
+Chunk ID: data007_topic_4
+Meeting ID: data007
+Level: topic
+Text Length: 608 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+# Election Integrity and Transparency
+
+- Chew pledged that TikTok would remain free from government manipulation or propaganda.
+- TikTok offers third-party auditing of its source code for external verification.
+- Anderson questioned the potential for election interference; Chew responded with commitments to openness.
+- Transparency is the core defense mechanism for building public and governmental trust.
+- Chew reaffirmed that no government, including China’s, can influence TikTok’s U.S. operations.
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+

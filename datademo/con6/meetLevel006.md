@@ -79,7 +79,7 @@ He concludes by advising everyone to learn how to interact with AI, treating it 
 
 
 
-### **5. Becoming "Superhuman" with AI**
+### **5. Becoming “Superhuman” with AI**
 
 
 

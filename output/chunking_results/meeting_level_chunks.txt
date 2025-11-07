@@ -1,7 +1,7 @@
 ====================================================================================================
 HIERARCHICAL CHUNKING RESULTS - MEETING LEVEL
-Generated: 2025-11-06 23:03:35
-Total Chunks: 92
+Generated: 2025-11-07 11:53:47
+Total Chunks: 29
 ====================================================================================================
 
 >>> MEETING: data001 <<<
@@ -11,11 +11,22 @@ Total Chunks: 92
 Chunk ID: data001_meeting_0
 Meeting ID: data001
 Level: meeting
-Text Length: 41 characters
+Text Length: 944 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# **Meeting: Build 2025 — Grok on Azure**
+# Transcript Summary
+
+At Microsoft Build 2025, **Satya Nadella** invited **Elon Musk** to discuss the launch of **Grok 3.5 on Azure**.
+ Musk described *Grok’s* reasoning philosophy: using **first principles** and **physics-based thinking** to reach truth with **minimal, acknowledged error**. He argued that *honesty* and *rapid self-correction* are the foundation of AI safety.
+
+Nadella commended the approach as “cracking the physics of intelligence,” highlighting how Grok operates across Musk’s companies — **SpaceX, Tesla, X** — and its deployment in **FSD**, **Optimus**, and **customer-service systems**.
+ Both emphasized **developer feedback** as critical for improving Grok’s capability and efficiency, aiming for a future where AI unites **language, vision, and action**, grounded in real-world physical constraints.
+
+------
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -23,14 +34,17 @@ Text Content:
 Chunk ID: data001_meeting_1
 Meeting ID: data001
 Level: meeting
-Text Length: 186 characters
+Text Length: 431 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-**Date:** 2025-11-04
- **Participants:** Satya Nadella, Elon Musk
- **Source:** [YouTube — Build 2025 Fireside Chat](https://www.youtube.com/watch?v=xqXa-i-Fr-M)
- **Duration:** ~6 min 40 s
+# Key Topics — 1. Grok Philosophy & First Principles
+
+- Grok 3.5 applies physics-style reasoning: reduce problems to axioms, reason upward, and test conclusions against physical fundamentals.
+- “Honesty is the best policy” is re-defined as a safety principle: acknowledge and minimize error through continuous correction.
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -38,11 +52,17 @@ Text Content:
 Chunk ID: data001_meeting_2
 Meeting ID: data001
 Level: meeting
-Text Length: 6 characters
+Text Length: 306 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-------
+# Key Topics — 2. AI Safety as Honesty and Error Minimization
+
+- AI should not hide uncertainty; transparent self-correction builds trust.
+- Safety equals truth-seeking plus explicit error bounds.
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -50,11 +70,18 @@ Text Content:
 Chunk ID: data001_meeting_3
 Meeting ID: data001
 Level: meeting
-Text Length: 25 characters
+Text Length: 381 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-## **Transcript Summary**
+# Key Topics — 3. Grounding in Reality
+
+- True intelligence requires grounding in **physics**, not abstraction.
+- Examples: **FSD cars** must obey physical limits; **Optimus robot** must execute feasible tasks.
+- “Physics is the law; everything else is a recommendation.”
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -62,12 +89,17 @@ Text Content:
 Chunk ID: data001_meeting_4
 Meeting ID: data001
 Level: meeting
-Text Length: 356 characters
+Text Length: 352 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-At Microsoft Build 2025, **Satya Nadella** invited **Elon Musk** to discuss the launch of **Grok 3.5 on Azure**.
- Musk described *Grok’s* reasoning philosophy: using **first principles** and **physics-based thinking** to reach truth with **minimal, acknowledged error**. He argued that *honesty* and *rapid self-correction* are the foundation of AI safety.
+# Key Topics — 4. Real-World Deployment
+
+- Grok 3.5 is already used in **customer-service systems** at **SpaceX** and **Tesla** — praised for patience and friendliness.
+- Azure launch extends these capabilities to a wider developer community.
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -75,12 +107,20 @@ At Microsoft Build 2025, **Satya Nadella** invited **Elon Musk** to discuss the 
 Chunk ID: data001_meeting_5
 Meeting ID: data001
 Level: meeting
-Text Length: 446 characters
+Text Length: 383 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-Nadella commended the approach as “cracking the physics of intelligence,” highlighting how Grok operates across Musk’s companies — **SpaceX, Tesla, X** — and its deployment in **FSD**, **Optimus**, and **customer-service systems**.
- Both emphasized **developer feedback** as critical for improving Grok’s capability and efficiency, aiming for a future where AI unites **language, vision, and action**, grounded in real-world physical constraints.
+# Key Topics — 5. Developer Feedback and Collaboration
+
+- Continuous improvement depends on developer feedback loops.
+- Musk: *“Tell us what you want, and we’ll make it happen.”*
+- Nadella envisions a developer-driven ecosystem combining multiple models and agents.
+
+------
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -88,189 +128,19 @@ Nadella commended the approach as “cracking the physics of intelligence,” hi
 Chunk ID: data001_meeting_6
 Meeting ID: data001
 Level: meeting
-Text Length: 6 characters
+Text Length: 453 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-------
-----------------------------------------------------------------------------------------------------
+# Action Items
 
-
-[CHUNK #8]
-Chunk ID: data001_meeting_7
-Meeting ID: data001
-Level: meeting
-Text Length: 17 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Key Topics**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #9]
-Chunk ID: data001_meeting_8
-Meeting ID: data001
-Level: meeting
-Text Length: 45 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **1. Grok Philosophy & First Principles**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #10]
-Chunk ID: data001_meeting_9
-Meeting ID: data001
-Level: meeting
-Text Length: 267 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-- Grok 3.5 applies physics-style reasoning: reduce problems to axioms, reason upward, and test conclusions against physical fundamentals.
-- “Honesty is the best policy” is re-defined as a safety principle: acknowledge and minimize error through continuous correction.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #11]
-Chunk ID: data001_meeting_10
-Meeting ID: data001
-Level: meeting
-Text Length: 54 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **2. AI Safety as Honesty and Error Minimization**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #12]
-Chunk ID: data001_meeting_11
-Meeting ID: data001
-Level: meeting
-Text Length: 133 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-- AI should not hide uncertainty; transparent self-correction builds trust.
-- Safety equals truth-seeking plus explicit error bounds.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #13]
-Chunk ID: data001_meeting_12
-Meeting ID: data001
-Level: meeting
-Text Length: 31 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **3. Grounding in Reality**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #14]
-Chunk ID: data001_meeting_13
-Meeting ID: data001
-Level: meeting
-Text Length: 231 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-- True intelligence requires grounding in **physics**, not abstraction.
-- Examples: **FSD cars** must obey physical limits; **Optimus robot** must execute feasible tasks.
-- “Physics is the law; everything else is a recommendation.”
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #15]
-Chunk ID: data001_meeting_14
-Meeting ID: data001
-Level: meeting
-Text Length: 32 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **4. Real-World Deployment**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #16]
-Chunk ID: data001_meeting_15
-Meeting ID: data001
-Level: meeting
-Text Length: 201 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-- Grok 3.5 is already used in **customer-service systems** at **SpaceX** and **Tesla** — praised for patience and friendliness.
-- Azure launch extends these capabilities to a wider developer community.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #17]
-Chunk ID: data001_meeting_16
-Meeting ID: data001
-Level: meeting
-Text Length: 47 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **5. Developer Feedback and Collaboration**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #18]
-Chunk ID: data001_meeting_17
-Meeting ID: data001
-Level: meeting
-Text Length: 209 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-- Continuous improvement depends on developer feedback loops.
-- Musk: *“Tell us what you want, and we’ll make it happen.”*
-- Nadella envisions a developer-driven ecosystem combining multiple models and agents.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #19]
-Chunk ID: data001_meeting_18
-Meeting ID: data001
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-------
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #20]
-Chunk ID: data001_meeting_19
-Meeting ID: data001
-Level: meeting
-Text Length: 19 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Action Items**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #21]
-Chunk ID: data001_meeting_20
-Meeting ID: data001
-Level: meeting
-Text Length: 327 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 -  Gather and integrate developer feedback on Grok 3.5’s reasoning quality and efficiency.
 -  Evaluate Grok’s **Azure integration** performance in real-world workloads.
 -  Benchmark **grounding accuracy** using FSD / Optimus use-cases.
 -  Continue exploring **language + vision + action** fusion for physics-aligned AI systems.
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
 ----------------------------------------------------------------------------------------------------
 
 
@@ -281,285 +151,129 @@ Text Content:
 >>> MEETING: data004 <<<
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[CHUNK #22]
+[CHUNK #8]
 Chunk ID: data004_meeting_0
 Meeting ID: data004
 Level: meeting
-Text Length: 76 characters
+Text Length: 1092 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# **Meeting: Nimi Mehta on Finding Your Voice and the Power of Persistence**
+# Transcript Summary
+
+Nimi Mehta shared her unconventional career journey, starting with her **MTV presenter** "dream job" that ended after one year, leading to years of unemployment and persistence. She detailed her subsequent transition through various media roles, including being "shockingly bad" at local radio before moving to Dubai to host a number one national breakfast show for five years. She voluntarily left this comfortable position, guided by the fear of staying **"stagnant, undervalued, and miserable"**.
+
+Mehta outlined several core life philosophies: the power of **visualization/manifestation**; the **5-second rule** for trusting gut instinct in decision-making; and her **Voice Layer Theory**. This theory posits that external voices (media, family) dilute one's core voice, requiring isolation and critical evaluation of one's closest influences. Finally, she redefined assertiveness as being **"kind, but still very clear and concise"** and not reactionary.
+
+------
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #23]
+[CHUNK #9]
 Chunk ID: data004_meeting_1
 Meeting ID: data004
 Level: meeting
-Text Length: 9 characters
+Text Length: 834 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-Date: N/A
-----------------------------------------------------------------------------------------------------
+# Key Topics — 1. Career Trajectory and Persistence
 
-
-[CHUNK #24]
-Chunk ID: data004_meeting_2
-Meeting ID: data004
-Level: meeting
-Text Length: 61 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Participants: Host, Nimi Mehta (CEO of Speaker by Nimi Mehta)
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #25]
-Chunk ID: data004_meeting_3
-Meeting ID: data004
-Level: meeting
-Text Length: 33 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Source: YouTube - Balance Podcast
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #26]
-Chunk ID: data004_meeting_4
-Meeting ID: data004
-Level: meeting
-Text Length: 22 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Duration: ~50 min 47 s
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #27]
-Chunk ID: data004_meeting_5
-Meeting ID: data004
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-------
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #28]
-Chunk ID: data004_meeting_6
-Meeting ID: data004
-Level: meeting
-Text Length: 25 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Transcript Summary**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #29]
-Chunk ID: data004_meeting_7
-Meeting ID: data004
-Level: meeting
-Text Length: 499 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Nimi Mehta shared her unconventional career journey, starting with her **MTV presenter** "dream job" that ended after one year, leading to years of unemployment and persistence. She detailed her subsequent transition through various media roles, including being "shockingly bad" at local radio before moving to Dubai to host a number one national breakfast show for five years. She voluntarily left this comfortable position, guided by the fear of staying **"stagnant, undervalued, and miserable"**.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #30]
-Chunk ID: data004_meeting_8
-Meeting ID: data004
-Level: meeting
-Text Length: 458 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Mehta outlined several core life philosophies: the power of **visualization/manifestation**; the **5-second rule** for trusting gut instinct in decision-making; and her **Voice Layer Theory**. This theory posits that external voices (media, family) dilute one's core voice, requiring isolation and critical evaluation of one's closest influences. Finally, she redefined assertiveness as being **"kind, but still very clear and concise"** and not reactionary.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #31]
-Chunk ID: data004_meeting_9
-Meeting ID: data004
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-------
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #32]
-Chunk ID: data004_meeting_10
-Meeting ID: data004
-Level: meeting
-Text Length: 17 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Key Topics**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #33]
-Chunk ID: data004_meeting_11
-Meeting ID: data004
-Level: meeting
-Text Length: 44 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **1. Career Trajectory and Persistence**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #34]
-Chunk ID: data004_meeting_12
-Meeting ID: data004
-Level: meeting
-Text Length: 678 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Mehta's first dream job as an MTV presenter contract ended after one year, which was a "hit to the ego".
 - She realized that dreams are **ever-evolving** and goals are simply **markers along the journey**.
 - She employed the **power of proximity** (trying to get a job under the same parent company, Viacom) and **process of elimination** to learn every media role.
 - Her persistence included showing up with physical CVs and continuing to contact a producer once a month for six to eight months for an internship.
 - She hosted a national breakfast show on **Radio 1 Abu Dhabi** and was later poached by **Channel 4 Dubai**, where her show was named number one for five years.
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #35]
-Chunk ID: data004_meeting_13
+[CHUNK #10]
+Chunk ID: data004_meeting_2
 Meeting ID: data004
 Level: meeting
-Text Length: 35 characters
+Text Length: 739 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **2. Decision Making and Fear**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 2. Decision Making and Fear
 
-
-[CHUNK #36]
-Chunk ID: data004_meeting_14
-Meeting ID: data004
-Level: meeting
-Text Length: 592 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Mehta strongly believes in the power of **visualization and manifestation** (she visualized herself in the Channel 4 lineup while unemployed, and it later happened).
 - She made the decision to leave her stable, dream job based on asking: **"Which fear do I choose?"**—the fear of leaving stability, or the fear of staying **stagnant**.
 - She uses the **5-second rule**: As soon as a gut feeling hits, hold onto it for five seconds before the mind (money, stability) convinces you otherwise.
 - The **body tells you exactly what you want** (e.g., instantly knowing if someone is your "vibe").
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #37]
-Chunk ID: data004_meeting_15
+[CHUNK #11]
+Chunk ID: data004_meeting_3
 Meeting ID: data004
 Level: meeting
-Text Length: 48 characters
+Text Length: 702 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **3. Voice Layer Theory and Self-Alignment**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 3. Voice Layer Theory and Self-Alignment
 
-
-[CHUNK #38]
-Chunk ID: data004_meeting_16
-Meeting ID: data004
-Level: meeting
-Text Length: 542 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Mehta developed the **Voice Layer Theory** when she shifted into "legacy mode".
 - The theory suggests that layers of external voices (parents, media, social media) **dilute** the nucleus of one's own voice.
 - Finding the voice requires two steps: 1) **Isolate** the voice (social media detox, questioning every decision/opinion) and 2) **Evaluate** the five closest people to ensure they are **enhancing** the voice.
 - She noted that being surrounded by people who know the **"old me"** can cause a **regression** back to an insecure state.
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #39]
-Chunk ID: data004_meeting_17
+[CHUNK #12]
+Chunk ID: data004_meeting_4
 Meeting ID: data004
 Level: meeting
-Text Length: 50 characters
+Text Length: 840 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **4. Assertiveness, Kindness, and Confidence**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 4. Assertiveness, Kindness, and Confidence
 
-
-[CHUNK #40]
-Chunk ID: data004_meeting_18
-Meeting ID: data004
-Level: meeting
-Text Length: 670 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - She dismissed the binary of being "nice" or "mean," learning instead to be **kind, but very clear and concise** about what she wants.
 - A key to confidence is the ability to **respond and not react**; this involves taking time, not waffling, and treating your **words like gold**.
 - **Being assertive** is communicating boundaries; **people pleasing** is saying "yes" to someone else and "no" to yourself.
 - For confidence, she uses a photo album called **"My Wins"** to remind herself of past achievements during moments of doubt.
 - She differentiates between **loud confidence versus soft confidence**, noting that the loudest person is often not the most confident.
-----------------------------------------------------------------------------------------------------
 
-
-[CHUNK #41]
-Chunk ID: data004_meeting_19
-Meeting ID: data004
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 ------
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #42]
-Chunk ID: data004_meeting_20
+[CHUNK #13]
+Chunk ID: data004_meeting_5
 Meeting ID: data004
 Level: meeting
-Text Length: 19 characters
+Text Length: 779 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-## **Action Items**
-----------------------------------------------------------------------------------------------------
+# Action Items
 
-
-[CHUNK #43]
-Chunk ID: data004_meeting_21
-Meeting ID: data004
-Level: meeting
-Text Length: 660 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Practice the **5-second rule** to connect with and trust gut instinct during decision-making.
 - Conduct a **social media detox** and consciously **question every belief** or decision to identify the source of one's core voice.
 - **Evaluate and curate** the "five closest people" and consumed content to ensure they enhance personal growth and do not cause a regression.
 - Create a **"My Wins"** photo album or list (cookie jar) of achievements and review it when facing self-doubt to build confidence.
 - Practice taking a **"beat and a breath"** to ensure one **responds** thoughtfully instead of **reacting** emotionally, valuing the clarity of one's words.
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
@@ -570,333 +284,165 @@ Text Content:
 >>> MEETING: data006 <<<
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[CHUNK #44]
+[CHUNK #14]
 Chunk ID: data006_meeting_0
 Meeting ID: data006
 Level: meeting
-Text Length: 62 characters
+Text Length: 788 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# **Meeting: NVIDIA CEO Jensen Huang's Vision for the Future**
+# Transcript Summary (Part 1/2)
+
+In this interview, **Cleo Abram** speaks with **Jensen Huang**, CEO of Nvidia, about the fundamental shifts in computing that led to the current AI revolution and his vision for the future. Huang recounts Nvidia's history, starting with the insight into **parallel processing** for video games, which contrasted with the **sequential processing** of CPUs.
+
+A key turning point was the creation of **CUDA**, a platform that unlocked the GPU for general-purpose scientific computing. This directly enabled the 2012 **AlexNet** breakthrough, proving the power of deep learning on GPUs and prompting Huang to "reinvent computing" and bet the company on an AI-centric future.
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #45]
+[CHUNK #15]
 Chunk ID: data006_meeting_1
 Meeting ID: data006
 Level: meeting
-Text Length: 16 characters
+Text Length: 775 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-Date: 2025-01-27
+# Transcript Summary (Part 2/2)
+
+Huang details his vision for "physical AI," where robots are trained in simulated "digital twin" worlds like **Omniverse** and **Cosmos** to understand physics before entering the real world. He addresses **AI safety** (bias, hallucination, redundancy), the physical limits of computing (energy efficiency), and Nvidia's design philosophy.
+
+He concludes by advising everyone to learn how to interact with AI, treating it as a **"personal tutor"** to amplify their own capabilities and become "superhuman." He also showcases new hardware, like the **RTX 50 Series** and a desktop **DGX AI supercomputer**, symbolizing the democratization of AI power.
+
+------
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #46]
+[CHUNK #16]
 Chunk ID: data006_meeting_2
 Meeting ID: data006
 Level: meeting
-Text Length: 73 characters
+Text Length: 663 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-Participants: Jensen Huang (CEO, Nvidia), Cleo Abram (Host, Huge If True)
-----------------------------------------------------------------------------------------------------
+# Key Topics — 1. Parallel vs. Sequential Processing (GPU vs. CPU)
 
-
-[CHUNK #47]
-Chunk ID: data006_meeting_3
-Meeting ID: data006
-Level: meeting
-Text Length: 36 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Source: YouTube — Huge Conversations
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #48]
-Chunk ID: data006_meeting_4
-Meeting ID: data006
-Level: meeting
-Text Length: 17 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Duration: ~63 min
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #49]
-Chunk ID: data006_meeting_5
-Meeting ID: data006
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-------
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #50]
-Chunk ID: data006_meeting_6
-Meeting ID: data006
-Level: meeting
-Text Length: 25 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Transcript Summary**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #51]
-Chunk ID: data006_meeting_7
-Meeting ID: data006
-Level: meeting
-Text Length: 355 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-In this interview, **Cleo Abram** speaks with **Jensen Huang**, CEO of Nvidia, about the fundamental shifts in computing that led to the current AI revolution and his vision for the future. Huang recounts Nvidia's history, starting with the insight into **parallel processing** for video games, which contrasted with the **sequential processing** of CPUs.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #52]
-Chunk ID: data006_meeting_8
-Meeting ID: data006
-Level: meeting
-Text Length: 313 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-A key turning point was the creation of **CUDA**, a platform that unlocked the GPU for general-purpose scientific computing. This directly enabled the 2012 **AlexNet** breakthrough, proving the power of deep learning on GPUs and prompting Huang to "reinvent computing" and bet the company on an AI-centric future.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #53]
-Chunk ID: data006_meeting_9
-Meeting ID: data006
-Level: meeting
-Text Length: 339 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Huang details his vision for "physical AI," where robots are trained in simulated "digital twin" worlds like **Omniverse** and **Cosmos** to understand physics before entering the real world. He addresses **AI safety** (bias, hallucination, redundancy), the physical limits of computing (energy efficiency), and Nvidia's design philosophy.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #54]
-Chunk ID: data006_meeting_10
-Meeting ID: data006
-Level: meeting
-Text Length: 308 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-He concludes by advising everyone to learn how to interact with AI, treating it as a **"personal tutor"** to amplify their own capabilities and become "superhuman." He also showcases new hardware, like the **RTX 50 Series** and a desktop **DGX AI supercomputer**, symbolizing the democratization of AI power.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #55]
-Chunk ID: data006_meeting_11
-Meeting ID: data006
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-------
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #56]
-Chunk ID: data006_meeting_12
-Meeting ID: data006
-Level: meeting
-Text Length: 17 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Key Topics**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #57]
-Chunk ID: data006_meeting_13
-Meeting ID: data006
-Level: meeting
-Text Length: 59 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **1. Parallel vs. Sequential Processing (GPU vs. CPU)**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #58]
-Chunk ID: data006_meeting_14
-Meeting ID: data006
-Level: meeting
-Text Length: 510 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - **Core Insight:** Most code is sequential, but a small part does 99% of the processing and can be done in parallel.
 - **GPU Origin:** The GPU was created to solve this parallel processing problem, with video games being the ideal first market due to their massive scale and R&D demands.
 - **Time Machine:** Huang describes the GPU as a "time machine" because it allows scientists and creators to see the future sooner by running simulations (e.g., quantum chemistry, weather prediction) at incredible speeds.
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #59]
-Chunk ID: data006_meeting_15
+[CHUNK #17]
+Chunk ID: data006_meeting_3
 Meeting ID: data006
 Level: meeting
-Text Length: 37 characters
+Text Length: 641 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **2. CUDA and the AI Revolution**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 2. CUDA and the AI Revolution
 
-
-[CHUNK #60]
-Chunk ID: data006_meeting_16
-Meeting ID: data006
-Level: meeting
-Text Length: 510 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - **Unlocking the GPU:** Researchers began "tricking" GPUs to run scientific models. This inspired Nvidia to create **CUDA**, a platform to make parallel processing accessible to all developers.
 - **AlexNet (2012):** The Cuda-powered breakthrough in image recognition that proved the scalability of deep neural networks.
 - **A 10-Year Bet:** This moment convinced Huang that AI could solve a vast range of problems, leading him to re-engineer Nvidia's entire computing stack, a massive, decade-long investment.
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #61]
-Chunk ID: data006_meeting_17
+[CHUNK #18]
+Chunk ID: data006_meeting_4
 Meeting ID: data006
 Level: meeting
-Text Length: 61 characters
+Text Length: 620 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **3. Physical AI and Digital Twins (Omniverse & Cosmos)**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 3. Physical AI and Digital Twins (Omniverse & Cosmos)
 
-
-[CHUNK #62]
-Chunk ID: data006_meeting_18
-Meeting ID: data006
-Level: meeting
-Text Length: 465 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - **The Next Frontier:** Huang states, "everything that moves will be robotic someday."
 - **Training Robots:** To make robots physically intelligent, they must be trained on physics.
 - **Omniverse & Cosmos:** Nvidia is building a "world foundation model" (**Cosmos**) that is grounded in the physical laws of a "digital twin" simulator (**Omniverse**). This allows robots to learn physical common sense and cause-and-effect in a virtual world before being deployed.
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #63]
-Chunk ID: data006_meeting_19
+[CHUNK #19]
+Chunk ID: data006_meeting_5
 Meeting ID: data006
 Level: meeting
-Text Length: 40 characters
+Text Length: 770 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **4. AI Safety and Physical Limits**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 4. AI Safety and Physical Limits
 
-
-[CHUNK #64]
-Chunk ID: data006_meeting_20
-Meeting ID: data006
-Level: meeting
-Text Length: 636 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - **Safety Spectrum:** Huang outlines key safety concerns:
   - **Malperformance:** Bias, toxicity, and hallucination (generating false info).
   - **Misuse:** Impersonation and generating fake news/images.
   - **Engineering Failure:** A self-driving car that *wants* to do the right thing but performs wrongly due to a sensor or logic error.
   - **System Failure:** The AI works, but the physical machine it controls breaks down (necessitating redundancy).
 - **Energy Efficiency:** The primary physical limit to computing is energy. Huang notes Nvidia has improved energy efficiency by 10,000x in 8 years (comparing DGX-1 to new models).
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #65]
-Chunk ID: data006_meeting_21
+[CHUNK #20]
+Chunk ID: data006_meeting_6
 Meeting ID: data006
 Level: meeting
-Text Length: 40 characters
+Text Length: 580 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **5. Becoming "Superhuman" with AI**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 5. Becoming “Superhuman” with AI
 
-
-[CHUNK #66]
-Chunk ID: data006_meeting_22
-Meeting ID: data006
-Level: meeting
-Text Length: 438 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - **AI as a Tool:** Huang believes AI will not replace humans but will empower them, similar to how he is empowered by the "superhuman" experts at his company.
 - **The AI Tutor:** He urges everyone to "go get yourself an AI tutor right away."
 - **The New Skill:** The most important skill for the next generation is learning how to prompt and interact with AI to do their jobs better, just as his generation had to learn to use computers.
-----------------------------------------------------------------------------------------------------
 
-
-[CHUNK #67]
-Chunk ID: data006_meeting_23
-Meeting ID: data006
-Level: meeting
-Text Length: 6 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 ------
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #68]
-Chunk ID: data006_meeting_24
+[CHUNK #21]
+Chunk ID: data006_meeting_7
 Meeting ID: data006
 Level: meeting
-Text Length: 19 characters
+Text Length: 894 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-## **Action Items**
-----------------------------------------------------------------------------------------------------
+# Action Items
 
-
-[CHUNK #69]
-Chunk ID: data006_meeting_25
-Meeting ID: data006
-Level: meeting
-Text Length: 793 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - **For Everyone:** Learn to interact with AI (e.g., Chat GPT, Gemini) to use it as a personal tool and "AI tutor."
 - **For Everyone:** Persistently ask the question, "How can I use AI to do my job better?"
 - **For Industry:** Continue to address and engineer solutions for the full spectrum of AI safety challenges (bias, hallucination, redundancy).
 - **For Industry:** Aggressively pursue improvements in energy efficiency to overcome the primary physical limit of computing.
 - **For Industry:** Develop and scale "generative world generation systems" (like Omniverse + Cosmos) to accelerate the development of physical AI and robotics.
 - **For Science/Industry:** Apply modern AI and accelerated computing to solve grand challenges in digital biology, climate science, and material science.
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
@@ -907,298 +453,163 @@ Text Content:
 >>> MEETING: data007 <<<
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[CHUNK #70]
+[CHUNK #22]
 Chunk ID: data007_meeting_0
 Meeting ID: data007
 Level: meeting
-Text Length: 38 characters
+Text Length: 1068 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# **Interview: TikTok CEO at TED2023**
+# Transcript Summary (Part 1/2)
+
+At TED2023, **Chris Anderson** (Head of TED) interviewed **Shou Chew** (CEO of TikTok) about the platform's explosive growth, its underlying mechanics, and the significant controversies surrounding it.
+
+Chew described TikTok's mission as inspiring creativity and bringing joy [00:02:56], attributing its success to its **interest-based recommendation algorithm** rather than a traditional social graph [00:01:45]. He emphasized how this "discovery engine" gives anyone, like creator Khaby Lame, a chance to be seen [00:04:19].
+
+Anderson challenged Chew on critical issues, including **user addiction and screen time** [00:20:07], the platform's responsibility for **content moderation** (e.g., dangerous challenges, teen mental health) [00:25:22], [00:28:20], and the paramount U.S. national security concern regarding **data privacy, ByteDance (its Chinese parent company), and potential Chinese government influence** [00:29:28].
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #71]
+[CHUNK #23]
 Chunk ID: data007_meeting_1
 Meeting ID: data007
 Level: meeting
-Text Length: 222 characters
+Text Length: 420 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-**Date:** 2023-04-19
-**Participants:** Shou Chew, Chris Anderson
-**Source:** [YouTube - Shou Chew: TikTok's CEO on AI, data, and the future | TED2023](https://www.youtube.com/watch?v=7zC8-06198g)
-**Duration:** ~39 min 10 s
+# Transcript Summary (Part 2/2)
+
+Chew detailed **"Project Texas"** as the comprehensive solution to U.S. data concerns, involving localizing U.S. data on Oracle servers [00:31:01], and affirmed his commitment to transparency and keeping the platform free from any government manipulation [00:33:35], [00:33:52].
+
+---
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #72]
+[CHUNK #24]
 Chunk ID: data007_meeting_2
 Meeting ID: data007
 Level: meeting
-Text Length: 3 characters
+Text Length: 739 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
----
-----------------------------------------------------------------------------------------------------
+# Key Topics — 1. The Recommendation "Discovery Engine"
 
-
-[CHUNK #73]
-Chunk ID: data007_meeting_3
-Meeting ID: data007
-Level: meeting
-Text Length: 25 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Transcript Summary**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #74]
-Chunk ID: data007_meeting_4
-Meeting ID: data007
-Level: meeting
-Text Length: 201 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-At TED2023, **Chris Anderson** (Head of TED) interviewed **Shou Chew** (CEO of TikTok) about the platform's explosive growth, its underlying mechanics, and the significant controversies surrounding it.
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #75]
-Chunk ID: data007_meeting_5
-Meeting ID: data007
-Level: meeting
-Text Length: 323 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Chew described TikTok's mission as inspiring creativity and bringing joy [00:02:56], attributing its success to its **interest-based recommendation algorithm** rather than a traditional social graph [00:01:45]. He emphasized how this "discovery engine" gives anyone, like creator Khaby Lame, a chance to be seen [00:04:19].
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #76]
-Chunk ID: data007_meeting_6
-Meeting ID: data007
-Level: meeting
-Text Length: 403 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Anderson challenged Chew on critical issues, including **user addiction and screen time** [00:20:07], the platform's responsibility for **content moderation** (e.g., dangerous challenges, teen mental health) [00:25:22], [00:28:20], and the paramount U.S. national security concern regarding **data privacy, ByteDance (its Chinese parent company), and potential Chinese government influence** [00:29:28].
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #77]
-Chunk ID: data007_meeting_7
-Meeting ID: data007
-Level: meeting
-Text Length: 278 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-Chew detailed **"Project Texas"** as the comprehensive solution to U.S. data concerns, involving localizing U.S. data on Oracle servers [00:31:01], and affirmed his commitment to transparency and keeping the platform free from any government manipulation [00:33:35], [00:33:52].
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #78]
-Chunk ID: data007_meeting_8
-Meeting ID: data007
-Level: meeting
-Text Length: 3 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
----
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #79]
-Chunk ID: data007_meeting_9
-Meeting ID: data007
-Level: meeting
-Text Length: 17 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-## **Key Topics**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #80]
-Chunk ID: data007_meeting_10
-Meeting ID: data007
-Level: meeting
-Text Length: 48 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-### **1. The Recommendation "Discovery Engine"**
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #81]
-Chunk ID: data007_meeting_11
-Meeting ID: data007
-Level: meeting
-Text Length: 578 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - TikTok's algorithm is built to "inspire creativity and bring joy" by functioning as a "window to discover" [00:02:56], [00:03:14].
 - It is based on an **interest graph** (content you like) rather than a social graph (people you know) [00:01:45].
 - Chew describes the algorithm as "just math"—a pattern-recognition system that uses user signals (likes, watch time, shares) to find similar content preferences among users [00:05:54], [00:07:27].
 - This model allows everyday users with talent, like **Khaby Lame**, to be discovered without needing existing followers [00:04:19].
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #82]
-Chunk ID: data007_meeting_12
+[CHUNK #25]
+Chunk ID: data007_meeting_3
 Meeting ID: data007
 Level: meeting
-Text Length: 47 characters
+Text Length: 671 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **2. Addiction and Screen Time Management**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 2. Addiction and Screen Time Management
 
-
-[CHUNK #83]
-Chunk ID: data007_meeting_13
-Meeting ID: data007
-Level: meeting
-Text Length: 511 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Chew stated the company's goal is *not* to maximize time spent, arguing a "healthy relationship" with the app is better for long-term business [00:20:37], [00:23:26].
 - The platform proactively sends videos telling users to "get off the platform" after extended use [00:21:00].
 - By default, users **under 18 have a 60-minute time limit**, a figure recommended by Boston Children's Hospital [00:21:18], [00:22:01].
 - A "Family Pairing" feature allows parents to set time limits for their teenagers [00:21:28].
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #84]
-Chunk ID: data007_meeting_14
+[CHUNK #26]
+Chunk ID: data007_meeting_4
 Meeting ID: data007
 Level: meeting
-Text Length: 40 characters
+Text Length: 733 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **3. Content Moderation and Safety**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 3. Content Moderation and Safety
 
-
-[CHUNK #85]
-Chunk ID: data007_meeting_15
-Meeting ID: data007
-Level: meeting
-Text Length: 580 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - The company employs "tens of thousands" of people plus machines to enforce its **Community Guidelines** [00:15:15], [00:27:30].
 - Clear rules prohibit content like pornography, violence, and dangerous challenges [00:15:48], [00:26:34].
 - A differentiated, more restrictive experience is provided for users under 18, including blocking DMs for under-16s and live streaming for under-18s [00:16:02], [00:16:17].
 - When asked about teen mental health and sexualized content, Chew stated that mature themes are proactively removed from teenagers' experiences [00:25:31], [00:28:42].
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #86]
-Chunk ID: data007_meeting_16
+[CHUNK #27]
+Chunk ID: data007_meeting_5
 Meeting ID: data007
 Level: meeting
-Text Length: 43 characters
+Text Length: 695 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **4. Data, China, and "Project Texas"**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 4. Data, China, and "Project Texas"
 
-
-[CHUNK #87]
-Chunk ID: data007_meeting_17
-Meeting ID: data007
-Level: meeting
-Text Length: 539 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Anderson directly addressed U.S. concerns about data access by ByteDance and potential Chinese government manipulation [00:29:28].
 - Chew's solution is **Project Texas**, an "unprecedented project" to localize American data [00:30:55].
 - All new U.S. data is stored on **Oracle Cloud Infrastructure** on U.S. soil, "overseen by American personnel" [00:31:01], [00:32:11].
 - Legacy U.S. data was in the process of being deleted from servers in Virginia and Singapore, with a target completion of "this year" (2023) [00:32:19], [00:32:39].
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #88]
-Chunk ID: data007_meeting_18
+[CHUNK #28]
+Chunk ID: data007_meeting_6
 Meeting ID: data007
 Level: meeting
-Text Length: 46 characters
+Text Length: 520 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-### **5. Election Integrity and Transparency**
-----------------------------------------------------------------------------------------------------
+# Key Topics — 5. Election Integrity and Transparency
 
-
-[CHUNK #89]
-Chunk ID: data007_meeting_19
-Meeting ID: data007
-Level: meeting
-Text Length: 356 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - When pressed on hypothetical Chinese government interference in a U.S. election, Chew committed to keeping TikTok "free from any government manipulation" [00:33:35], [00:33:40].
 - He stressed that the solution is "an unprecedented amount of transparency," including **allowing third-party reviewers to audit TikTok's source code** [00:33:52], [00:33:58].
-----------------------------------------------------------------------------------------------------
 
-
-[CHUNK #90]
-Chunk ID: data007_meeting_20
-Meeting ID: data007
-Level: meeting
-Text Length: 3 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 ---
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #91]
-Chunk ID: data007_meeting_21
+[CHUNK #29]
+Chunk ID: data007_meeting_7
 Meeting ID: data007
 Level: meeting
-Text Length: 19 characters
+Text Length: 568 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-## **Action Items**
-----------------------------------------------------------------------------------------------------
+# Action Items
 
-
-[CHUNK #92]
-Chunk ID: data007_meeting_22
-Meeting ID: data007
-Level: meeting
-Text Length: 448 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
 - Continue to prioritize platform safety, especially for teenage users [00:25:49].
 - Complete the deletion of legacy U.S. data from Virginia and Singapore servers as part of Project Texas [00:32:19], [00:32:39].
 - Uphold commitment to freedom of expression and prevent any government manipulation [00:33:35], [00:33:40].
 - Implement third-party source code review and monitoring to ensure transparency and platform integrity [00:33:52], [00:33:58].
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 

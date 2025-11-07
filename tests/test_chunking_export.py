@@ -27,8 +27,11 @@ def export_chunks_to_files(all_chunks, output_dir: Path):
     # Create output directory
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # Export each level to a separate file
-    for level in ['metadata', 'summary', 'meeting', 'conversation', 'chunk']:
+    # Export each level to a separate file (only if exists)
+    available_levels = [level for level in ['topic', 'metadata', 'summary', 'meeting', 'chunk'] 
+                       if level in all_chunks and all_chunks[level]]
+    
+    for level in available_levels:
         chunks = all_chunks[level]
         output_file = output_dir / f"{level}_level_chunks.txt"
         
@@ -91,10 +94,13 @@ def generate_summary_report(all_chunks, output_dir: Path):
         # Per-level statistics
         f.write("PER-LEVEL STATISTICS\n")
         f.write("-"*100 + "\n")
-        for level in ['metadata', 'summary', 'meeting', 'conversation', 'chunk']:
-            count = len(all_chunks[level])
-            percentage = (count / total_chunks * 100) if total_chunks > 0 else 0
-            f.write(f"{level.upper():15s}: {count:5d} chunks ({percentage:5.2f}%)\n")
+        for level in ['metadata', 'summary', 'meeting', 'topic', 'chunk']:
+            if level in all_chunks:
+                count = len(all_chunks[level])
+                percentage = (count / total_chunks * 100) if total_chunks > 0 else 0
+                f.write(f"{level.upper():15s}: {count:5d} chunks ({percentage:5.2f}%)\n")
+            else:
+                f.write(f"{level.upper():15s}: [DISABLED]\n")
         
         f.write("\n\n")
         
@@ -106,13 +112,17 @@ def generate_summary_report(all_chunks, output_dir: Path):
         for level, chunks in all_chunks.items():
             for chunk in chunks:
                 meeting_id = chunk.meeting_id
+                # Skip global topic nodes
+                if meeting_id == "GLOBAL":
+                    continue
                 if meeting_id not in meeting_stats:
                     meeting_stats[meeting_id] = {
-                        'metadata': 0, 'summary': 0, 'meeting': 0, 
-                        'conversation': 0, 'chunk': 0, 'total': 0
+                        'metadata': 0, 'summary': 0, 'meeting': 0, 'topic': 0,
+                        'chunk': 0, 'total': 0
                     }
-                meeting_stats[meeting_id][level] += 1
-                meeting_stats[meeting_id]['total'] += 1
+                if level in meeting_stats[meeting_id]:
+                    meeting_stats[meeting_id][level] += 1
+                    meeting_stats[meeting_id]['total'] += 1
         
         for meeting_id in sorted(meeting_stats.keys()):
             stats = meeting_stats[meeting_id]
@@ -120,7 +130,7 @@ def generate_summary_report(all_chunks, output_dir: Path):
             f.write(f"  Metadata     : {stats['metadata']:4d} chunks\n")
             f.write(f"  Summary      : {stats['summary']:4d} chunks\n")
             f.write(f"  Meeting      : {stats['meeting']:4d} chunks\n")
-            f.write(f"  Conversation : {stats['conversation']:4d} chunks\n")
+            f.write(f"  Topic        : {stats['topic']:4d} chunks\n")
             f.write(f"  Chunk        : {stats['chunk']:4d} chunks\n")
             f.write(f"  Total        : {stats['total']:4d} chunks\n")
         
@@ -129,7 +139,9 @@ def generate_summary_report(all_chunks, output_dir: Path):
         # Text length statistics
         f.write("TEXT LENGTH STATISTICS\n")
         f.write("-"*100 + "\n")
-        for level in ['metadata', 'summary', 'meeting', 'conversation', 'chunk']:
+        for level in ['metadata', 'summary', 'meeting', 'topic', 'chunk']:
+            if level not in all_chunks:
+                continue
             chunks = all_chunks[level]
             if chunks:
                 lengths = [len(chunk.text) for chunk in chunks]
@@ -158,9 +170,15 @@ def main():
     meetings = loader.load_all_meetings()
     
     # Step 2: Perform chunking
-    print("\n[Step 2] Performing hierarchical chunking...")
+    print("\n[Step 2] Performing hierarchical chunking with topic level...")
     chunker = HierarchicalChunker()
-    all_chunks = chunker.chunk_all_levels(meetings)
+    
+    # Include topic level for intermediate granularity
+    all_chunks = chunker.chunk_all_levels(
+        meetings, 
+        include_chunk_level=False,
+        include_topic_level=True  # Include topic-level chunks
+    )
     
     # Step 3: Export to files
     print("\n[Step 3] Exporting chunks to text files...")
@@ -177,14 +195,12 @@ def main():
     print("="*100)
     print(f"\nOutput directory: {output_dir.absolute()}")
     print("\nGenerated files:")
-    print("  1. metadata_level_chunks.txt")
-    print("  2. summary_level_chunks.txt")
-    print("  3. meeting_level_chunks.txt")
-    print("  4. conversation_level_chunks.txt")
-    print("  5. chunk_level_chunks.txt")
-    print("  6. chunking_summary_report.txt")
-    print("\nYou can now review these files to verify the chunking logic.")
-    print("="*100 + "\n")
+    file_num = 1
+    for level in ['metadata', 'summary', 'meeting', 'topic', 'chunk']:
+        if level in all_chunks and all_chunks[level]:
+            print(f"  {file_num}. {level}_level_chunks.txt")
+            file_num += 1
+    print(f"  {file_num}. chunking_summary_report.txt")
 
 
 if __name__ == "__main__":

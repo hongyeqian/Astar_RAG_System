@@ -30,7 +30,8 @@ class Meeting:
     meeting_level_text: str
     # from summary*.md
     summary_text: str
-
+    # from topic*.md
+    topic_text: str
 
     # from metaData.json
     metadata: Dict[str, Any]
@@ -73,10 +74,12 @@ class DataLoader:
         conversation_file = self._find_file(con_dir, metadata['related_files']['transcript'])
         meeting_level_file = self._find_file(con_dir, metadata['related_files']['meeting_summary'])
         summary_file = self._find_file(con_dir, metadata['related_files']['summary_embedding'])
+        topic_file = self._find_file(con_dir, f"topic{metadata['meeting_id'][-3:]}.md")
         
         conversation_text = self._read_text_file(conversation_file)
         meeting_level_text = self._read_text_file(meeting_level_file)
         summary_text = self._read_text_file(summary_file)
+        topic_text = self._read_text_file(topic_file)
         
         # 3. construct Meeting object
         return Meeting(
@@ -95,6 +98,7 @@ class DataLoader:
             conversation_text=conversation_text,
             meeting_level_text=meeting_level_text,
             summary_text=summary_text,
+            topic_text=topic_text,
             metadata=metadata
         )
     

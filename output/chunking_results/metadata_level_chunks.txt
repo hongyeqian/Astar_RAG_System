@@ -1,6 +1,6 @@
 ====================================================================================================
 HIERARCHICAL CHUNKING RESULTS - METADATA LEVEL
-Generated: 2025-11-06 23:03:35
+Generated: 2025-11-07 11:53:47
 Total Chunks: 4
 ====================================================================================================
 
@@ -11,7 +11,7 @@ Total Chunks: 4
 Chunk ID: data001_metadata
 Meeting ID: data001
 Level: metadata
-Text Length: 866 characters
+Text Length: 855 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ Language: en
 Meeting Type: Fireside Chat
 Participants: Satya Nadella (CEO, Microsoft), Elon Musk (CEO, xAI / Tesla / SpaceX)
 Organizations: Microsoft, xAI, Tesla, SpaceX
-Topics: Grok 3.5 on Azure, Physics-grounded AI reasoning, First-principles intelligence, AI safety and honesty, Developer feedback loops, Integration of language, vision, and action
+Topics: Grok Philosophy & First Principles, AI Safety as Honesty and Error Minimization, Grounding in Reality, Real-World Deployment, Developer Feedback and Collaboration
 Keywords: Grok, Azure, AI Safety, Physics Reasoning, Developer Feedback, Build 2025
 Brief Summary: At Microsoft Build 2025, Satya Nadella and Elon Musk discussed Grok 3.5’s Azure launch, focusing on physics-based reasoning, AI safety through honesty and minimal error, and the importance of developer feedback to evolve language, vision, and action models.
 ----------------------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ Brief Summary: At Microsoft Build 2025, Satya Nadella and Elon Musk discussed Gr
 Chunk ID: data004_metadata
 Meeting ID: data004
 Level: metadata
-Text Length: 1033 characters
+Text Length: 933 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ Language: en
 Meeting Type: Podcast Interview
 Participants: Nimi Mehta (CEO, Speaker by Nimi Mehta), Host (Host, The Balance Theory Podcast)
 Organizations: Speaker by Nimi Mehta, The Balance Theory Podcast
-Topics: Career Transition and Persistence, Goals as Markers, Power of Visualization, Choosing Fear over Stagnation, The Voice Layer Theory, Finding Your Authentic Voice, Assertiveness vs. Niceness, Responding vs. Reacting, Loud vs. Soft Confidence
+Topics: Career Trajectory and Persistence, Decision Making and Fear, Voice Layer Theory and Self-Alignment, Assertiveness, Kindness, and Confidence
 Keywords: Nimi Mehta, Persistence, Visualization, Goal Setting, 5-Second Rule, Voice Layer Theory, Confidence, Assertiveness, Personal Alignment
 Brief Summary: Nimi Mehta discusses her career transition from MTV to a top radio host, emphasizing persistence, visualization, and choosing fear over stagnation. She introduces the Voice Layer Theory for finding one's authentic voice, and the discipline of being kind yet assertive.
 ----------------------------------------------------------------------------------------------------
@@ -69,7 +69,7 @@ Brief Summary: Nimi Mehta discusses her career transition from MTV to a top radi
 Chunk ID: data006_metadata
 Meeting ID: data006
 Level: metadata
-Text Length: 1028 characters
+Text Length: 883 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
@@ -81,7 +81,7 @@ Language: en
 Meeting Type: Interview
 Participants: Jensen Huang (CEO, Nvidia), Cleo Abram (Host, Huge If True)
 Organizations: Nvidia, Huge If True
-Topics: Nvidia's vision for the future, Parallel processing (GPU) vs. Sequential processing (CPU), History of the GPU and video games, CUDA platform, AI Revolution (AlexNet), Physical AI and Robotics, Digital Twins (Omniverse, Cosmos), AI Safety, Energy efficiency in computing, Hardware design (general vs. specific), AI as a "personal tutor"
+Topics: Parallel vs. Sequential Processing (GPU vs. CPU), CUDA and the AI Revolution, Physical AI and Digital Twins (Omniverse & Cosmos), AI Safety and Physical Limits, Becoming "Superhuman" with AI
 Keywords: Jensen Huang, Nvidia, AI, GPU, CUDA, Parallel Processing, Robotics, Omniverse, Cosmos, AI Safety
 Brief Summary: Nvidia CEO Jensen Huang discusses the evolution of computing from parallel processing (GPUs) to the AI revolution (CUDA, AlexNet), and outlines his future vision for physical AI (robotics) trained in digital twins (Omniverse, Cosmos), urging everyone to use AI as a personal tutor.
 ----------------------------------------------------------------------------------------------------
@@ -98,7 +98,7 @@ Brief Summary: Nvidia CEO Jensen Huang discusses the evolution of computing from
 Chunk ID: data007_metadata
 Meeting ID: data007
 Level: metadata
-Text Length: 822 characters
+Text Length: 813 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
@@ -110,7 +110,7 @@ Language: en
 Meeting Type: Interview
 Participants: Shou Chew (CEO, TikTok), Chris Anderson (Head of TED)
 Organizations: TikTok, TED, ByteDance
-Topics: TikTok recommendation algorithm, Content moderation and safety, Teen safety and screen time, Data privacy and China, Project Texas, AI and creativity, Election integrity and transparency
+Topics: The Recommendation "Discovery Engine", Addiction and Screen Time Management, Content Moderation and Safety, Data, China, and "Project Texas", Election Integrity and Transparency
 Keywords: TikTok, Shou Chew, TED2023, Algorithm, Data Privacy, Project Texas, Content Moderation, ByteDance
 Brief Summary: At TED2023, TikTok CEO Shou Chew discussed the platform's interest-based algorithm, content moderation policies, and addressed U.S. national security concerns over data and China by detailing 'Project Texas'.
 ----------------------------------------------------------------------------------------------------
