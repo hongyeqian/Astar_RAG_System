@@ -15,7 +15,7 @@ DATA_DIR = PROJECT_ROOT / "datademo"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 #print(OPENAI_API_KEY)
 OPENAI_MODEL = os.getenv("OPENAI_MODEL")
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL")
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 #print(OPENAI_MODEL, EMBEDDING_MODEL)
 
 # Chunking settings

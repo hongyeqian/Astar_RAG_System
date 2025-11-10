@@ -1,18 +1,17 @@
 ====================================================================================================
 HIERARCHICAL CHUNKING SUMMARY REPORT
-Generated: 2025-11-07 11:53:47
+Generated: 2025-11-09 19:12:46
 ====================================================================================================
 
 OVERALL STATISTICS
 ----------------------------------------------------------------------------------------------------
-Total Chunks (All Levels): 56
+Total Chunks (All Levels): 62
 
 PER-LEVEL STATISTICS
 ----------------------------------------------------------------------------------------------------
-METADATA       :     4 chunks ( 7.14%)
-SUMMARY        :     4 chunks ( 7.14%)
-MEETING        :    29 chunks (51.79%)
-TOPIC          :    19 chunks (33.93%)
+METADATA       :     4 chunks ( 6.45%)
+SUMMARY        :    26 chunks (41.94%)
+MEETING        :    32 chunks (51.61%)
 CHUNK          : [DISABLED]
 
 
@@ -21,33 +20,29 @@ PER-MEETING STATISTICS
 
 data001:
   Metadata     :    1 chunks
-  Summary      :    1 chunks
-  Meeting      :    7 chunks
-  Topic        :    5 chunks
+  Summary      :    4 chunks
+  Meeting      :    4 chunks
   Chunk        :    0 chunks
-  Total        :   14 chunks
+  Total        :    9 chunks
 
 data004:
   Metadata     :    1 chunks
-  Summary      :    1 chunks
-  Meeting      :    6 chunks
-  Topic        :    4 chunks
+  Summary      :    5 chunks
+  Meeting      :    7 chunks
   Chunk        :    0 chunks
-  Total        :   12 chunks
+  Total        :   13 chunks
 
 data006:
   Metadata     :    1 chunks
-  Summary      :    1 chunks
-  Meeting      :    8 chunks
-  Topic        :    5 chunks
+  Summary      :   11 chunks
+  Meeting      :   13 chunks
   Chunk        :    0 chunks
-  Total        :   15 chunks
+  Total        :   25 chunks
 
 data007:
   Metadata     :    1 chunks
-  Summary      :    1 chunks
+  Summary      :    6 chunks
   Meeting      :    8 chunks
-  Topic        :    5 chunks
   Chunk        :    0 chunks
   Total        :   15 chunks
 
@@ -56,23 +51,18 @@ TEXT LENGTH STATISTICS
 ----------------------------------------------------------------------------------------------------
 
 METADATA Level:
-  Average Length:   871.00 characters
-  Min Length    :      813 characters
-  Max Length    :      933 characters
+  Average Length:   989.25 characters
+  Min Length    :      847 characters
+  Max Length    :     1097 characters
 
 SUMMARY Level:
-  Average Length:   964.75 characters
-  Min Length    :      595 characters
-  Max Length    :     1157 characters
+  Average Length:   895.46 characters
+  Min Length    :      114 characters
+  Max Length    :     1287 characters
 
 MEETING Level:
-  Average Length:   668.31 characters
-  Min Length    :      306 characters
-  Max Length    :     1092 characters
-
-TOPIC Level:
-  Average Length:   560.79 characters
-  Min Length    :      468 characters
-  Max Length    :      658 characters
+  Average Length:   836.38 characters
+  Min Length    :      543 characters
+  Max Length    :     1174 characters
 
 ====================================================================================================

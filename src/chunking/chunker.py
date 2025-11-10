@@ -3,9 +3,10 @@ This module is chunker for the project
 Supports both standard hierarchical chunking and topic-aware graph chunking
 """
 
-from typing import List, Dict, Any, Set, Tuple
+from typing import List, Dict, Any
 from dataclasses import dataclass
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
+import re
 
 import sys
 from pathlib import Path
@@ -37,15 +38,12 @@ class HierarchicalChunker:
     Architecture:
         Metadata Level       ← Meeting metadata (with topic filter)
           ↓ summarizes
-        Summary Level        ← Meeting summaries
+        Summary Level        ← Meeting summaries (split by individual summaries)
           ↓ details_in
-        Meeting Level        ← Structured meeting content (semantic sections with smart splitting)
-          ↓ contains
-        Topic Level (opt)    ← LLM-generated topic summaries (per meeting)
+        Meeting Level        ← Structured meeting content (split by topics with smart splitting)
     
-    The topic level provides intermediate granularity for focused retrieval on 
-    specific topics discussed within a meeting. Meeting level uses intelligent
-    splitting that balances semantic coherence with chunk size constraints.
+    Summary level splits by individual summary sections. Meeting level splits by topics,
+    ensuring each topic stays intact when possible, with overlap when splitting is needed.
     """
 
 
@@ -71,8 +69,7 @@ class HierarchicalChunker:
 
     def chunk_all_levels(self, 
                          meetings: List[Meeting], 
-                         include_chunk_level: bool = False,
-                         include_topic_level: bool = True) -> Dict[str, List[ChunkMetadata]]:
+                         include_chunk_level: bool = False) -> Dict[str, List[ChunkMetadata]]:
         """
         Chunk all levels for all meetings
         
@@ -80,8 +77,6 @@ class HierarchicalChunker:
             meetings: list of meetings
             include_chunk_level: whether to include fine-grained chunk level (default: False)
                                 Legacy parameter for compatibility, not recommended for use
-            include_topic_level: whether to include topic level chunks (default: True)
-                                Provides intermediate granularity between meeting and summary levels
             
         Returns:
             dictionary containing all level chunking results
@@ -93,9 +88,6 @@ class HierarchicalChunker:
             'meeting': [],
         }
         
-        if include_topic_level:
-            result['topic'] = []
-        
         if include_chunk_level:
             result['chunk'] = []
         
@@ -105,19 +97,16 @@ class HierarchicalChunker:
             result['summary'].extend(self.chunk_summary_level(meeting))
             result['meeting'].extend(self.chunk_meeting_level(meeting))
             
-            if include_topic_level:
-                result['topic'].extend(self.chunk_topic_level(meeting))
-            
             if include_chunk_level:
                 result['chunk'].extend(self.chunk_fine_grained_level(meeting))
         
         # Print statistics
-        self._print_statistics(result, include_topic_level)
+        self._print_statistics(result)
         
         return result
     
     
-    def _print_statistics(self, result: Dict[str, List[ChunkMetadata]], include_topic_level: bool):
+    def _print_statistics(self, result: Dict[str, List[ChunkMetadata]]):
         """Print chunking statistics"""
         print(f"\n{'='*80}")
         print("HIERARCHICAL CHUNKING STATISTICS")
@@ -126,11 +115,6 @@ class HierarchicalChunker:
         print(f"  Metadata level     : {len(result['metadata'])} chunks")
         print(f"  Summary level      : {len(result['summary'])} chunks")
         print(f"  Meeting level      : {len(result['meeting'])} chunks")
-        
-        if include_topic_level and 'topic' in result:
-            print(f"  Topic level        : {len(result['topic'])} chunks")
-        elif 'topic' not in result:
-            print(f"  Topic level        : [DISABLED] (use include_topic_level=True to enable)")
         
         if 'chunk' in result:
             if result['chunk']:
@@ -211,61 +195,47 @@ class HierarchicalChunker:
 
     def chunk_summary_level(self, meeting: Meeting) -> List[ChunkMetadata]:
         """
-        Summary level: the coarsest granularity, the entire summary as a chunk
-        """
-        return [ChunkMetadata(
-            meeting_id=meeting.meeting_id,
-            level='summary',
-            chunk_id=f"{meeting.meeting_id}_summary",
-            text=meeting.summary_text,
-            metadata={
-                'title': meeting.title,
-                'datetime': str(meeting.datetime),
-                'topics': meeting.topics,
-                'keywords': meeting.keywords,
-                'organizations': meeting.organizations
-            }
-        )]
-
-    def chunk_meeting_level(self, meeting: Meeting) -> List[ChunkMetadata]:
-        """
-        Meeting level: semantic sections with intelligent splitting
-        
-        Strategy:
-        1. Parse by H2/H3 headers to maintain semantic boundaries
-        2. For sections < 1200 chars: keep intact
-        3. For sections ≥ 1200 chars: apply overlapping split
-        
-        This balances semantic coherence with retrieval efficiency.
+        Summary level: split by individual summary sections using MarkdownHeaderTextSplitter,
+        then split long summaries at bullet point boundaries with bullet-level overlap
         """
         chunks = []
-        sections = self._parse_meeting_markdown(meeting.meeting_level_text)
         
-        # Initialize text splitter for long sections
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1000,      # Target size for long sections
-            chunk_overlap=150,     # Overlap to preserve context
-            length_function=len,
-            separators=["\n\n", "\n", ". ", " ", ""]
-        )
+        # Use MarkdownHeaderTextSplitter to split by "## Summary" headers
+        markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=[("##", "Summary")])
+        md_splits = markdown_splitter.split_text(meeting.summary_text)
         
         chunk_counter = 0
         
-        for section_idx, (section_title, section_content) in enumerate(sections):
-            # Check section length
-            section_length = len(section_content)
+        for summary_idx, md_doc in enumerate(md_splits):
+            summary_content = md_doc.page_content
             
-            if section_length < 1200:
-                # Keep short sections intact
-                chunk_id = f"{meeting.meeting_id}_meeting_{chunk_counter}"
+            # Extract metadata from summary content
+            duration = self._extract_duration_from_text(summary_content)
+            participants = self._extract_participants_from_text(summary_content)
+            
+            # Split summary at bullet point boundaries with bullet-level overlap
+            sub_chunks = self._split_with_bullet_overlap(summary_content, chunk_size=1200)
+            
+            for part_idx, sub_chunk in enumerate(sub_chunks):
+                chunk_id = f"{meeting.meeting_id}_summary_{chunk_counter}"
                 
-                full_text = f"# {section_title}\n\n{section_content}\n\n" \
-                        f"Meeting: {meeting.title}\n" \
-                        f"Date: {meeting.datetime}"
+                # Extract timestamps from sub_chunk text
+                sub_timestamps = self._extract_timestamps_from_sub_chunk(sub_chunk)
+                
+                # Build header
+                summary_num = summary_idx + 1
+                if len(sub_chunks) > 1:
+                    header = f"## Summary {summary_num} (Part {part_idx + 1}/{len(sub_chunks)})"
+                else:
+                    header = f"## Summary {summary_num}"
+                
+                full_text = f"{header}\n\n{sub_chunk}\n\n" \
+                          f"Meeting: {meeting.title}\n" \
+                          f"Date: {meeting.datetime}"
                 
                 chunks.append(ChunkMetadata(
                     meeting_id=meeting.meeting_id,
-                    level='meeting',
+                    level='summary',
                     chunk_id=chunk_id,
                     text=full_text,
                     metadata={
@@ -273,191 +243,374 @@ class HierarchicalChunker:
                         'datetime': str(meeting.datetime),
                         'topics': meeting.topics,
                         'keywords': meeting.keywords,
-                        'section_title': section_title,
-                        'section_index': section_idx,
-                        'is_split': False,
-                        'split_part': None
+                        'organizations': meeting.organizations,
+                        'summary_index': summary_idx + 1,
+                        'duration': duration,
+                        'participants': participants,
+                        'timestamps': sub_timestamps,
+                        'is_split': len(sub_chunks) > 1,
+                        'split_part': f"{part_idx + 1}/{len(sub_chunks)}" if len(sub_chunks) > 1 else None,
+                        'total_parts': len(sub_chunks) if len(sub_chunks) > 1 else None
                     }
                 ))
                 chunk_counter += 1
-                
-            else:
-                # Split long sections with overlap
-                sub_chunks = text_splitter.split_text(section_content)
-                
-                for part_idx, sub_chunk in enumerate(sub_chunks):
-                    chunk_id = f"{meeting.meeting_id}_meeting_{chunk_counter}"
-                    
-                    # Add section context to each sub-chunk
-                    full_text = f"# {section_title} (Part {part_idx + 1}/{len(sub_chunks)})\n\n" \
-                            f"{sub_chunk}\n\n" \
-                            f"Meeting: {meeting.title}\n" \
-                            f"Date: {meeting.datetime}"
-                    
-                    chunks.append(ChunkMetadata(
-                        meeting_id=meeting.meeting_id,
-                        level='meeting',
-                        chunk_id=chunk_id,
-                        text=full_text,
-                        metadata={
-                            'title': meeting.title,
-                            'datetime': str(meeting.datetime),
-                            'topics': meeting.topics,
-                            'keywords': meeting.keywords,
-                            'section_title': section_title,
-                            'section_index': section_idx,
-                            'is_split': True,
-                            'split_part': f"{part_idx + 1}/{len(sub_chunks)}",
-                            'total_parts': len(sub_chunks)
-                        }
-                    ))
-                    chunk_counter += 1
         
         return chunks
-
-
-    def _parse_meeting_markdown(self, text: str) -> List[Tuple[str, str]]:
+    
+    def _split_with_bullet_overlap(self, text: str, chunk_size: int) -> List[str]:
         """
-        Parse meetLevel*.md into sections based on H2 (##) and H3 (###) headers
+        Split text at bullet point boundaries with bullet-level overlap.
+        Each chunk (except the first) starts with the last bullet point from the previous chunk.
+        """
+        # Split text into segments (bullet points and non-bullet text)
+        segments = []
+        current_segment = []
+        is_bullet = False
+        
+        for line in text.split('\n'):
+            line_stripped = line.strip()
+            if line_stripped.startswith('- '):
+                # Save previous segment if exists
+                if current_segment:
+                    segments.append(('\n'.join(current_segment), is_bullet))
+                # Start new bullet segment
+                current_segment = [line]
+                is_bullet = True
+            else:
+                # Continue current segment
+                if current_segment:
+                    current_segment.append(line)
+                else:
+                    # Start new non-bullet segment
+                    current_segment = [line]
+                    is_bullet = False
+        
+        # Save last segment
+        if current_segment:
+            segments.append(('\n'.join(current_segment), is_bullet))
+        
+        # If no segments found, return original text
+        if not segments:
+            return [text] if text.strip() else []
+        
+        # If no bullet points found, return original text as single chunk
+        if not any(is_bullet for _, is_bullet in segments):
+            return [text] if text.strip() else []
+        
+        # Group segments into chunks with bullet-level overlap
+        chunks = []
+        current_chunk = []
+        current_size = 0
+        last_bullet_segment = None
+        
+        for segment, is_bullet_seg in segments:
+            segment_size = len(segment)
+            
+            # If adding this segment would exceed chunk_size, start a new chunk
+            if current_size + segment_size > chunk_size and current_chunk:
+                # Save current chunk
+                chunks.append('\n'.join(current_chunk))
+                
+                # Start new chunk with last bullet from previous chunk (overlap)
+                if last_bullet_segment:
+                    current_chunk = [last_bullet_segment, segment]
+                    current_size = len(last_bullet_segment) + segment_size
+                else:
+                    current_chunk = [segment]
+                    current_size = segment_size
+            else:
+                # Add to current chunk
+                current_chunk.append(segment)
+                current_size += segment_size
+            
+            # Update last bullet segment for overlap
+            if is_bullet_seg:
+                last_bullet_segment = segment
+        
+        # Add final chunk
+        if current_chunk:
+            chunks.append('\n'.join(current_chunk))
+        
+        return chunks if chunks else [text]
+    
+    def _extract_duration_from_text(self, text: str) -> str:
+        """Extract duration from text"""
+        for line in text.split('\n'):
+            if '**Duration:**' in line or 'Duration:' in line:
+                duration_match = re.search(r'\[([^\]]+)\]', line)
+                if duration_match:
+                    return duration_match.group(1)
+        return ''
+    
+    def _extract_participants_from_text(self, text: str) -> str:
+        """Extract participants from text"""
+        for line in text.split('\n'):
+            if '**Participants:**' in line or 'Participants:' in line:
+                if ':' in line:
+                    return line.split(':', 1)[1].strip()
+        return ''
+
+    def chunk_meeting_level(self, meeting: Meeting) -> List[ChunkMetadata]:
+        """
+        Meeting level: split by Key Topics and Action Items, then split individual topics
         
         Strategy:
-        - H2 sections that are NOT "Key Topics" → single section
-        - "Key Topics" section → split by H3, each topic becomes a separate section
-        
-        Returns: List of (section_title, section_content) tuples
-        """
-        sections = []
-        lines = text.split('\n')
-        current_h2_section = None
-        current_h3_section = None
-        current_content = []
-        in_key_topics = False
-        
-        for line in lines:
-            # Match H2 headers (## Title)
-            if line.startswith('## '):
-                # Save previous section before starting new H2
-                if current_h2_section:
-                    if in_key_topics and current_h3_section:
-                        # Save the last H3 in Key Topics
-                        sections.append((current_h3_section, '\n'.join(current_content).strip()))
-                    elif not in_key_topics:
-                        # Save the H2 section (not Key Topics)
-                        sections.append((current_h2_section, '\n'.join(current_content).strip()))
-                
-                # Start new H2 section
-                current_h2_section = line[3:].strip().replace('*', '')  # Remove markdown bold
-                in_key_topics = ('Key Topics' in current_h2_section or 
-                                'Key Topics' in line)
-                current_h3_section = None
-                current_content = []
-                
-            # Match H3 headers (### N. Topic Name)
-            elif line.startswith('### '):
-                if in_key_topics:
-                    # Save previous H3 topic if exists
-                    if current_h3_section and current_content:
-                        sections.append((current_h3_section, '\n'.join(current_content).strip()))
-                    
-                    # Start new H3 topic
-                    topic_name = line[4:].strip().replace('*', '')  # Remove markdown bold
-                    current_h3_section = f"Key Topics — {topic_name}"
-                    current_content = []
-                else:
-                    # H3 outside Key Topics, treat as content
-                    current_content.append(line)
-            
-            else:
-                current_content.append(line)
-        
-        # Save the last section
-        if current_h2_section:
-            if in_key_topics and current_h3_section:
-                sections.append((current_h3_section, '\n'.join(current_content).strip()))
-            elif not in_key_topics:
-                sections.append((current_h2_section, '\n'.join(current_content).strip()))
-        
-        return sections
-
-
-    def chunk_topic_level(self, meeting: Meeting) -> List[ChunkMetadata]:
-        """
-        Topic level: structured summaries of each topic discussed in the meeting
-        
-        This level provides intermediate granularity between summary and meeting levels.
-        Each topic is presented as an LLM-generated structured summary with key points.
-        
-        Topic chunks belong to a specific meeting and enable focused retrieval on 
-        specific topics within a meeting.
+        1. Use MarkdownHeaderTextSplitter to split Key Topics and Action Items
+        2. Parse Key Topics section into individual topics (support both "- **Topic:**" and "- **Topic**" formats)
+        3. For each topic: keep intact if short, or apply bullet-level overlap if long
+        4. Extract and preserve timestamps from each topic
         """
         chunks = []
         
-        # Parse the topic markdown file
-        # Expected format: "## Topic Name" followed by bullet points
-        topic_sections = self._parse_topic_markdown(meeting.topic_text)
+        # Use MarkdownHeaderTextSplitter to split Key Topics and Action Items
+        markdown_splitter = MarkdownHeaderTextSplitter(
+            headers_to_split_on=[("##", "Key Topics"), ("##", "Action Items")]
+        )
+        md_splits = markdown_splitter.split_text(meeting.meeting_level_text)
         
-        for topic_idx, (topic_name, topic_content) in enumerate(topic_sections):
-            chunk_id = f"{meeting.meeting_id}_topic_{topic_idx}"
+        chunk_counter = 0
+        
+        for md_doc in md_splits:
+            section_content = md_doc.page_content
+            section_headers = md_doc.metadata
             
-            # Construct full topic text with context
-            full_text = f"# {topic_name}\n\n{topic_content}\n\n" \
-                       f"Meeting: {meeting.title}\n" \
-                       f"Date: {meeting.datetime}"
+            # Check if this is Key Topics section
+            # MarkdownHeaderTextSplitter stores headers in metadata with header text as key
+            # e.g., {'Key Topics': 'Key Topics'} or {'Key Topics': 'Action Items'}
+            section_title = section_headers.get('Key Topics', '')
+            if section_title == 'Key Topics':
+                # Parse Key Topics into individual topics
+                topics = self._parse_key_topics(section_content)
+                
+                for topic_idx, topic_data in enumerate(topics):
+                    topic_title = topic_data['title']
+                    topic_content = topic_data['content']
+                    duration = topic_data.get('duration', '')
+                    participants = topic_data.get('participants', '')
+                    
+                    # Split topic at bullet point boundaries with bullet-level overlap if needed
+                    sub_chunks = self._split_with_bullet_overlap(topic_content, chunk_size=1200)
+                    
+                    for part_idx, sub_chunk in enumerate(sub_chunks):
+                        chunk_id = f"{meeting.meeting_id}_meeting_{chunk_counter}"
+                        
+                        # Extract timestamps from sub_chunk text
+                        sub_timestamps = self._extract_timestamps_from_sub_chunk(sub_chunk)
+                        
+                        # Build header
+                        if len(sub_chunks) > 1:
+                            header = f"# {topic_title} (Part {part_idx + 1}/{len(sub_chunks)})"
+                        else:
+                            header = f"# {topic_title}"
+                        
+                        full_text = f"{header}\n\n{sub_chunk}\n\n" \
+                                  f"Meeting: {meeting.title}\n" \
+                                  f"Date: {meeting.datetime}"
+                        
+                        chunks.append(ChunkMetadata(
+                            meeting_id=meeting.meeting_id,
+                            level='meeting',
+                            chunk_id=chunk_id,
+                            text=full_text,
+                            metadata={
+                                'title': meeting.title,
+                                'datetime': str(meeting.datetime),
+                                'topics': meeting.topics,
+                                'keywords': meeting.keywords,
+                                'topic_title': topic_title,
+                                'topic_index': topic_idx,
+                                'duration': duration,
+                                'participants': participants,
+                                'timestamps': sub_timestamps,
+                                'is_split': len(sub_chunks) > 1,
+                                'split_part': f"{part_idx + 1}/{len(sub_chunks)}" if len(sub_chunks) > 1 else None,
+                                'total_parts': len(sub_chunks) if len(sub_chunks) > 1 else None
+                            }
+                        ))
+                        chunk_counter += 1
             
-            chunks.append(ChunkMetadata(
-                meeting_id=meeting.meeting_id,
-                level='topic',
-                chunk_id=chunk_id,
-                text=full_text,
-                metadata={
-                    'topic_name': topic_name,
-                    'parent_meeting': meeting.meeting_id,
-                    'title': meeting.title,
-                    'datetime': str(meeting.datetime),
-                    'topic_index': topic_idx,
-                    'all_topics': meeting.topics
-                }
-            ))
+            # Action Items section can be processed similarly if needed
+            # For now, we skip Action Items as per the original implementation
         
         return chunks
-    
-    
-    def _parse_topic_markdown(self, topic_text: str) -> List[tuple]:
+
+
+    def _parse_key_topics(self, text: str) -> List[Dict[str, Any]]:
         """
-        Parse topic markdown into sections
+        Parse Key Topics section into individual topics
         
-        Returns:
-            List of (topic_name, topic_content) tuples
+        Supports both formats:
+        - "- **Topic Title:** ..." (with colon)
+        - "- **Topic Title** ..." (without colon)
+        
+        Returns: List of dicts with 'title', 'content', 'duration', 'participants', 'timestamps'
         """
-        sections = []
-        lines = topic_text.split('\n')
+        topics = []
+        lines = text.split('\n')
         
         current_topic = None
         current_content = []
         
-        for line in lines:
-            # Check if it's a topic header (## Topic Name)
-            if line.strip().startswith('## '):
+        for i, line in enumerate(lines):
+            # Match topic title: "- **Topic Title:**" or "- **Topic Title**"
+            # Support both formats: with and without colon
+            stripped = line.strip()
+            if stripped.startswith('- **') and '**' in stripped:
                 # Save previous topic
-                if current_topic is not None:
-                    sections.append((current_topic, '\n'.join(current_content)))
+                if current_topic:
+                    topic_dict = self._build_topic_dict(current_topic, '\n'.join(current_content))
+                    if topic_dict:
+                        topics.append(topic_dict)
                 
-                # Start new topic
-                current_topic = line.strip()[3:].strip()  # Remove "## "
+                # Extract topic title - handle both formats
+                topic_line = stripped
+                if topic_line.startswith('- **'):
+                    topic_line = topic_line[4:]  # Remove "- **"
+                
+                # Remove closing "**" and optional colon
+                if ':**' in topic_line:
+                    # Format: "- **Topic Title:** Description" or "- **Topic Title:**"
+                    # Extract the part after ":**" as the actual topic title
+                    parts = topic_line.split(':**', 1)
+                    if len(parts) > 1 and parts[1].strip():
+                        # If there's content after ":**", use it as topic title
+                        current_topic = parts[1].strip()
+                    else:
+                        # Otherwise, use the part before ":**"
+                        current_topic = parts[0].strip()
+                elif topic_line.endswith('**'):
+                    # Format: "- **Topic Title**"
+                    current_topic = topic_line[:-2].strip()
+                elif '**' in topic_line:
+                    # Format: "- **Topic Title** rest of line"
+                    parts = topic_line.split('**', 1)
+                    current_topic = parts[0].strip()
+                else:
+                    current_topic = topic_line.strip()
+                
+                current_content = [line]
+            elif stripped == '------':
+                # Topic separator, save current topic
+                if current_topic:
+                    topic_dict = self._build_topic_dict(current_topic, '\n'.join(current_content))
+                    if topic_dict:
+                        topics.append(topic_dict)
+                current_topic = None
                 current_content = []
             else:
                 # Accumulate content for current topic
-                if current_topic is not None and line.strip():
+                if current_topic is not None:
                     current_content.append(line)
         
         # Save last topic
-        if current_topic is not None:
-            sections.append((current_topic, '\n'.join(current_content)))
+        if current_topic:
+            topic_dict = self._build_topic_dict(current_topic, '\n'.join(current_content))
+            if topic_dict:
+                topics.append(topic_dict)
         
-        return sections
+        return topics
+    
+    def _build_topic_dict(self, topic_title: str, content: str) -> Dict[str, Any]:
+        """Build topic dictionary with extracted metadata"""
+        if not content.strip():
+            return None
+        
+        # Extract duration
+        duration = ''
+        for line in content.split('\n'):
+            if 'Duration:' in line or 'duration:' in line.lower():
+                # Extract duration range like [00:12:15–00:18:40]
+                duration_match = re.search(r'\[([^\]]+)\]', line)
+                if duration_match:
+                    duration = duration_match.group(1)
+                break
+        
+        # Extract participants
+        participants = ''
+        for line in content.split('\n'):
+            if 'Participants:' in line or 'participants:' in line.lower():
+                participants = line.split(':', 1)[1].strip() if ':' in line else ''
+                break
+        
+        # Extract all timestamps
+        timestamps = self._extract_timestamps_from_text(content)
+        
+        return {
+            'title': topic_title,
+            'content': content.strip(),
+            'duration': duration,
+            'participants': participants,
+            'timestamps': timestamps
+        }
+    
+    def _extract_timestamps_from_sub_chunk(self, sub_chunk: str) -> List[str]:
+        """
+        Extract all timestamps from sub_chunk text.
+        
+        Uses the same logic as debug_timestamps.py:
+        - Pattern: [HH:MM:SS] or [MM:SS]
+        - Returns all timestamps found in the text
+        """
+        # Pattern for timestamps like [HH:MM:SS] or [MM:SS]
+        # Same as debug_timestamps.py: r'\[(\d{2}:\d{2}(?::\d{2})?)\]'
+        timestamp_pattern = r'\[(\d{2}:\d{2}(?::\d{2})?)\]'
+        timestamps = re.findall(timestamp_pattern, sub_chunk)
+        
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_timestamps = []
+        for ts in timestamps:
+            if ts not in seen:
+                seen.add(ts)
+                unique_timestamps.append(ts)
+        
+        return unique_timestamps
 
-
-
+    def _extract_timestamps_from_text(self, text: str) -> List[str]:
+        """
+        Extract all timestamps from text
+        
+        Expected formats:
+        - [HH:MM:SS] ...
+        - [00:12:15–00:18:40]
+        - [HH:MM:SS–HH:MM:SS]
+        """
+        timestamps = []
+        
+        # Pattern for timestamps like [HH:MM:SS] or [00:12:15–00:18:40]
+        timestamp_pattern = r'\[(\d{2}:\d{2}:\d{2}(?:–\d{2}:\d{2}:\d{2})?)\]'
+        matches = re.findall(timestamp_pattern, text)
+        
+        for match in matches:
+            if '–' in match:
+                # Duration range, split into start and end
+                start, end = match.split('–')
+                timestamps.append(start.strip())
+                timestamps.append(end.strip())
+            else:
+                timestamps.append(match.strip())
+        
+        # Also check for shorter format like [00:44] or [00:12:15–00:18:40]
+        short_pattern = r'\[(\d{1,2}:\d{2}(?:–\d{1,2}:\d{2})?)\]'
+        short_matches = re.findall(short_pattern, text)
+        for match in short_matches:
+            if match not in [t.split(':')[-1] if ':' in t else t for t in timestamps]:
+                if '–' in match:
+                    start, end = match.split('–')
+                    timestamps.append(start.strip())
+                    timestamps.append(end.strip())
+                else:
+                    timestamps.append(match.strip())
+        
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_timestamps = []
+        for ts in timestamps:
+            if ts not in seen:
+                seen.add(ts)
+                unique_timestamps.append(ts)
+        
+        return unique_timestamps
 
 
     def chunk_fine_grained_level(self, meeting: Meeting) -> List[ChunkMetadata]:
