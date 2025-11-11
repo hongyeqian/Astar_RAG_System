@@ -1,6 +1,6 @@
 ====================================================================================================
 HIERARCHICAL CHUNKING RESULTS - MEETING LEVEL
-Generated: 2025-11-09 19:12:46
+Generated: 2025-11-11 12:32:16
 Total Chunks: 32
 ====================================================================================================
 
@@ -11,13 +11,13 @@ Total Chunks: 32
 Chunk ID: data001_meeting_0
 Meeting ID: data001
 Level: meeting
-Text Length: 683 characters
+Text Length: 707 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
 # Early Computing and Programming Background
 
-- **Early Computing and Programming Background**
+- **Early Computing and Programming Background** [#M001-T01 R=P001–P002]
 - Summary:
 - [00:00] Satya Nadella: Opened the conversation by acknowledging Elon Musk’s early career as a Windows developer and PC gamer, inviting him to share experiences from his early days at Microsoft.
 - [00:27] Elon Musk: Explained that his programming journey started with DOS before Windows, developing video games on an early IBM PC with 128k memory, later 256k. Mentioned familiarity with Windows 3.1.
@@ -33,13 +33,13 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data001_meeting_1
 Meeting ID: data001
 Level: meeting
-Text Length: 1133 characters
+Text Length: 1157 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
 # Grok Model Vision and Philosophy
 
-- **Grok Model Vision and Philosophy**
+- **Grok Model Vision and Philosophy** [#M001-T02 R=P003–P004]
 - Summary:
 - [00:43] Satya Nadella: Introduced Grok on Azure, describing it as a family of response and reasoning models. Invited Musk to discuss its vision, efficiency, and roadmap.
 - [01:17] Elon Musk: Detailed Grok 3.5’s reasoning design, based on first principles and physics-inspired logic. Emphasized aiming for truth through axiomatic reasoning and minimizing acknowledged errors.
@@ -58,13 +58,13 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data001_meeting_2
 Meeting ID: data001
 Level: meeting
-Text Length: 1174 characters
+Text Length: 1198 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
 # Grounding AI in Physical Reality
 
-- **Grounding AI in Physical Reality**
+- **Grounding AI in Physical Reality** [#M001-T03 R=P005–P006]
 - Summary:
 - [03:10] Satya Nadella: Agreed with Musk’s first-principles approach, noting that “cracking the physics of intelligence” is essential for scalable AI. Asked how Musk applies these principles across his companies.
 - [04:18] Elon Musk: Emphasized the necessity of grounding AI models in reality, stating “physics is the law, everything else is a recommendation.” Highlighted that adherence to physical laws ensures truthfulness and functional accuracy.
@@ -83,13 +83,13 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data001_meeting_3
 Meeting ID: data001
 Level: meeting
-Text Length: 620 characters
+Text Length: 644 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
 # Developer Collaboration and Future Outlook
 
-- **Developer Collaboration and Future Outlook**
+- **Developer Collaboration and Future Outlook** [#M001-T04 R=P007–P008]
 - Summary:
 - [06:00] Satya Nadella: Concluded by stressing the importance of combining language, vision, and action models that remain grounded in real-world systems. Expressed enthusiasm for Grok’s developer integration.
 - [06:28] Elon Musk: Closed with a call for active developer feedback, promising to “make it happen” based on community needs.
@@ -112,13 +112,13 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data004_meeting_0
 Meeting ID: data004
 Level: meeting
-Text Length: 949 characters
+Text Length: 997 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Early Career and First Setback (MTV Experience)
+# Early Career and First Setback (MTV Experience) [#M004-T01 R=P003–P010]
 
-- **Topic Title:** Early Career and First Setback (MTV Experience)
+- **Topic Title:** Early Career and First Setback (MTV Experience) [#M004-T01 R=P003–P010]
 - Summary:
 - [00:44] **Host:** Asks Nimi about her journey from journalism to her dream job and what followed after.
 - [01:17] **Nimi Mehta:** Shares that she became an MTV presenter at 21 through an online competition, but realized later that achieving one goal wasn’t the end—it was a stepping stone.
@@ -137,13 +137,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data004_meeting_1
 Meeting ID: data004
 Level: meeting
-Text Length: 975 characters
+Text Length: 1023 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Persistence and Career Rebuilding
+# Persistence and Career Rebuilding [#M004-T02 R=P011–P013]
 
-- **Topic Title:** Persistence and Career Rebuilding
+- **Topic Title:** Persistence and Career Rebuilding [#M004-T02 R=P011–P013]
 - Summary:
 - [05:39] **Host:** Asks how Nimi recovered after the MTV disappointment.
 - [05:49] **Nimi Mehta:** Explains her belief in the **power of proximity**, applying for any Viacom role to stay in the industry.
@@ -163,13 +163,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data004_meeting_2
 Meeting ID: data004
 Level: meeting
-Text Length: 1026 characters
+Text Length: 1074 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Transition to Entrepreneurship and Choosing Fear
+# Transition to Entrepreneurship and Choosing Fear [#M004-T03 R=P014–P016]
 
-- **Topic Title:** Transition to Entrepreneurship and Choosing Fear
+- **Topic Title:** Transition to Entrepreneurship and Choosing Fear [#M004-T03 R=P014–P016]
 - Summary:
 - [10:45] **Host:** Moves to discuss Nimi’s leap from radio to entrepreneurship.
 - [11:06] **Nimi Mehta:** Recounts moving from **Radio 1 Abu Dhabi** to **Channel 4 Dubai**, where her show became #1 in the country.
@@ -189,13 +189,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data004_meeting_3
 Meeting ID: data004
 Level: meeting
-Text Length: 722 characters
+Text Length: 770 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Intuition, Body Awareness, and Decision-Making
+# Intuition, Body Awareness, and Decision-Making [#M004-T04 R=P017–P020]
 
-- **Topic Title:** Intuition, Body Awareness, and Decision-Making
+- **Topic Title:** Intuition, Body Awareness, and Decision-Making [#M004-T04 R=P017–P020]
 - Summary:
 - [16:18] **Nimi Mehta:** Introduces her **5-second rule**—act before the mind overrides gut feelings.
 - [17:41] **Host:** Agrees, sharing that the body communicates through pain, citing stress-related neck tension.
@@ -213,13 +213,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data004_meeting_4
 Meeting ID: data004
 Level: meeting
-Text Length: 976 characters
+Text Length: 1024 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Finding and Protecting One’s Voice
+# Finding and Protecting One’s Voice [#M004-T05 R=P021–P025]
 
-- **Topic Title:** Finding and Protecting One’s Voice
+- **Topic Title:** Finding and Protecting One’s Voice [#M004-T05 R=P021–P025]
 - Summary:
 - [21:30] **Nimi Mehta:** Explains how she moved into **legacy mode**, developing **The Voice Layer Theory**.
 - [21:30] **Nimi Mehta:** Describes how parental, societal, and media “layers” dilute one’s authentic voice.
@@ -239,13 +239,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data004_meeting_5
 Meeting ID: data004
 Level: meeting
-Text Length: 987 characters
+Text Length: 1035 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Balancing Kindness and Assertiveness
+# Balancing Kindness and Assertiveness [#M004-T06 R=P026–P029]
 
-- **Topic Title:** Balancing Kindness and Assertiveness
+- **Topic Title:** Balancing Kindness and Assertiveness [#M004-T06 R=P026–P029]
 - Summary:
 - [33:57] **Host:** Brings up the struggle between being nice and being assertive.
 - [35:04] **Nimi Mehta:** Rejects the “nice vs. mean” binary, arguing that confidence means **responding, not reacting**.
@@ -265,13 +265,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data004_meeting_6
 Meeting ID: data004
 Level: meeting
-Text Length: 871 characters
+Text Length: 919 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Confidence, Reflection, and Emotional Awareness
+# Confidence, Reflection, and Emotional Awareness [#M004-T07 R=P030–P034]
 
-- **Topic Title:** Confidence, Reflection, and Emotional Awareness
+- **Topic Title:** Confidence, Reflection, and Emotional Awareness [#M004-T07 R=P030–P034]
 - Summary:
 - [44:18] **Host:** Notes that finding one’s voice enables authentic responses and emotional regulation.
 - [45:22] **Nimi Mehta:** Shares her “**My Wins**” photo album for self-affirmation and introduces the idea of **soft vs. loud confidence**.
@@ -297,13 +297,13 @@ Date: 2024-04-14T00:00:00Z
 Chunk ID: data006_meeting_0
 Meeting ID: data006
 Level: meeting
-Text Length: 1021 characters
+Text Length: 1069 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Reinventing Computing and the Origins of Nvidia
+# Reinventing Computing and the Origins of Nvidia [#M006-T01 R=P001–P016]
 
-- **Topic Title:** Reinventing Computing and the Origins of Nvidia
+- **Topic Title:** Reinventing Computing and the Origins of Nvidia [#M006-T01 R=P001–P016]
 - Summary:
 - [00:00] **Jensen Huang:** States belief that everything that moves will soon become robotic, reflecting Nvidia’s vision to reinvent computing.
 - [00:27] **Cleo Abram:** Introduces Jensen Huang as the CEO of Nvidia, explaining its pivotal role in reshaping modern technology.
@@ -322,13 +322,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_1
 Meeting ID: data006
 Level: meeting
-Text Length: 845 characters
+Text Length: 893 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# The GPU as a “Time Machine” and the Birth of CUDA
+# The GPU as a “Time Machine” and the Birth of CUDA [#M006-T02 R=P017–P026]
 
-- **Topic Title:** The GPU as a “Time Machine” and the Birth of CUDA
+- **Topic Title:** The GPU as a “Time Machine” and the Birth of CUDA [#M006-T02 R=P017–P026]
 - Summary:
 - [06:24] **Cleo Abram:** References his quote that GPUs are “time machines.”
 - [06:29] **Jensen Huang:** Explains that GPUs accelerate discovery—scientists can now “do a lifetime of work within their lifetime.”
@@ -346,13 +346,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_2
 Meeting ID: data006
 Level: meeting
-Text Length: 852 characters
+Text Length: 900 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# AlexNet 2012 — Deep Learning’s Breakthrough Moment
+# AlexNet 2012 — Deep Learning’s Breakthrough Moment [#M006-T03 R=P027–P030]
 
-- **Topic Title:** AlexNet 2012 — Deep Learning’s Breakthrough Moment
+- **Topic Title:** AlexNet 2012 — Deep Learning’s Breakthrough Moment [#M006-T03 R=P027–P030]
 - Summary:
 - [11:03] **Cleo Abram:** Describes the 2012 ImageNet victory (AlexNet) that used Nvidia GPUs, triggering the AI revolution.
 - [12:06] **Jensen Huang:** Recalls University of Toronto researchers using GeForce GTX 580 via CUDA, proving deep neural networks could scale.
@@ -370,13 +370,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_3
 Meeting ID: data006
 Level: meeting
-Text Length: 831 characters
+Text Length: 879 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Ten Years of Belief — Patience, Principles, and Core Convictions
+# Ten Years of Belief — Patience, Principles, and Core Convictions [#M006-T04 R=P031–P035]
 
-- **Topic Title:** Ten Years of Belief — Patience, Principles, and Core Convictions
+- **Topic Title:** Ten Years of Belief — Patience, Principles, and Core Convictions [#M006-T04 R=P031–P035]
 - Summary:
 - [16:49] **Jensen Huang:** Reflects that progress “felt like today”: constant challenge, faith, and iteration.
 - [16:49] **Jensen Huang:** Says Nvidia invested “tens of billions of dollars before it really happened.”
@@ -394,13 +394,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_4
 Meeting ID: data006
 Level: meeting
-Text Length: 669 characters
+Text Length: 717 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# From Science of AI to Application Science — AI’s Next Decade
+# From Science of AI to Application Science — AI’s Next Decade [#M006-T05 R=P036–P038]
 
-- **Topic Title:** From Science of AI to Application Science — AI’s Next Decade
+- **Topic Title:** From Science of AI to Application Science — AI’s Next Decade [#M006-T05 R=P036–P038]
 - Summary:
 - [23:06] **Jensen Huang:** Distinguishes prior decade (science of AI) from coming decade (application science of AI).
 - [23:06] **Jensen Huang:** Lists domains for applied AI: digital biology, climate, agriculture, robotics, education, podcasting.
@@ -417,13 +417,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_5
 Meeting ID: data006
 Level: meeting
-Text Length: 933 characters
+Text Length: 981 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Omniverse + Cosmos — Building the World Model for Robotics
+# Omniverse + Cosmos — Building the World Model for Robotics [#M006-T06 R=P039–P045]
 
-- **Topic Title:** Omniverse + Cosmos — Building the World Model for Robotics
+- **Topic Title:** Omniverse + Cosmos — Building the World Model for Robotics [#M006-T06 R=P039–P045]
 - Summary:
 - [25:26] **Jensen Huang:** Confirms Omniverse is a 3D simulation environment for robot training.
 - [26:11] **Jensen Huang:** Analogizes Cosmos to a “world language model,” embedding physics common sense (gravity, friction, object permanence).
@@ -442,13 +442,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_6
 Meeting ID: data006
 Level: meeting
-Text Length: 687 characters
+Text Length: 735 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# AI Risks and Safety Engineering
+# AI Risks and Safety Engineering [#M006-T07 R=P046–P051]
 
-- **Topic Title:** AI Risks and Safety Engineering
+- **Topic Title:** AI Risks and Safety Engineering [#M006-T07 R=P046–P051]
 - Summary:
 - [32:04] **Cleo Abram:** Raises ethical concerns about robotic and AI futures.
 - [32:26] **Jensen Huang:** Outlines risk buckets — bias, toxicity, hallucination, impersonation, and malfunction.
@@ -466,13 +466,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_7
 Meeting ID: data006
 Level: meeting
-Text Length: 715 characters
+Text Length: 763 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Energy Efficiency and Hardware Evolution
+# Energy Efficiency and Hardware Evolution [#M006-T08 R=P052–P057]
 
-- **Topic Title:** Energy Efficiency and Hardware Evolution
+- **Topic Title:** Energy Efficiency and Hardware Evolution [#M006-T08 R=P052–P057]
 - Summary:
 - [35:10] **Cleo Abram:** Notes that AI has removed many CPU limitations and asks about current technical boundaries.
 - [35:47] **Jensen Huang:** Says fundamental limit is energy — computing is bounded by physics of moving bits.
@@ -490,13 +490,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_8
 Meeting ID: data006
 Level: meeting
-Text Length: 716 characters
+Text Length: 764 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Betting on Flexibility — Beyond Transformers
+# Betting on Flexibility — Beyond Transformers [#M006-T09 R=P058–P059]
 
-- **Topic Title:** Betting on Flexibility — Beyond Transformers
+- **Topic Title:** Betting on Flexibility — Beyond Transformers [#M006-T09 R=P058–P059]
 - Summary:
 - [38:03] **Cleo Abram:** Describes the AI hardware trade-off between specialization and generalization.
 - [39:31] **Jensen Huang:** Rejects the idea that Transformers are final; innovation will continue.
@@ -514,13 +514,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_9
 Meeting ID: data006
 Level: meeting
-Text Length: 663 characters
+Text Length: 711 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Pushing Physical Limits and Cross-Disciplinary Engineering
+# Pushing Physical Limits and Cross-Disciplinary Engineering [#M006-T10 R=P060–P061]
 
-- **Topic Title:** Pushing Physical Limits and Cross-Disciplinary Engineering
+- **Topic Title:** Pushing Physical Limits and Cross-Disciplinary Engineering [#M006-T10 R=P060–P061]
 - Summary:
 - [42:29] **Cleo Abram:** Asks how design pushes manufacturing and physics boundaries.
 - [42:58] **Jensen Huang:** Says Nvidia maintains deep in-house semiconductor and aerodynamics expertise even though TSMC fabricates its chips.
@@ -537,13 +537,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_10
 Meeting ID: data006
 Level: meeting
-Text Length: 679 characters
+Text Length: 727 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science
+# Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science [#M006-T11 R=P062–P063]
 
-- **Topic Title:** Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science
+- **Topic Title:** Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science [#M006-T11 R=P062–P063]
 - Summary:
 - [44:36] **Jensen Huang:** Announces new fusion of Omniverse + Cosmos for generative world simulation.
 - [44:36] **Jensen Huang:** Highlights human robotics, digital biology, and climate forecasting as next frontiers.
@@ -560,13 +560,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_11
 Meeting ID: data006
 Level: meeting
-Text Length: 691 characters
+Text Length: 739 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Preparing for a Superhuman AI Future
+# Preparing for a Superhuman AI Future [#M006-T12 R=P064–P073]
 
-- **Topic Title:** Preparing for a Superhuman AI Future
+- **Topic Title:** Preparing for a Superhuman AI Future [#M006-T12 R=P064–P073]
 - Summary:
 - [47:47] **Jensen Huang:** Predicts AI will make people “superhuman,” removing drudgery like the highway did for industry.
 - [47:47] **Jensen Huang:** Urges everyone to adopt AI tutors to learn, reason, and work better.
@@ -584,13 +584,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data006_meeting_12
 Meeting ID: data006
 Level: meeting
-Text Length: 718 characters
+Text Length: 766 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Legacy and Impact — Looking Back at Nvidia’s Mission
+# Legacy and Impact — Looking Back at Nvidia’s Mission [#M006-T13 R=P074–P079]
 
-- **Topic Title:** Legacy and Impact — Looking Back at Nvidia’s Mission
+- **Topic Title:** Legacy and Impact — Looking Back at Nvidia’s Mission [#M006-T13 R=P074–P079]
 - Summary:
 - [59:09] **Cleo Abram:** Asks about legacy and how Jensen hopes to be remembered.
 - [01:00:15] **Jensen Huang:** Says he hopes people say “they made an extraordinary impact.”
@@ -615,13 +615,13 @@ Date: 2025-01-07T00:00:00Z
 Chunk ID: data007_meeting_0
 Meeting ID: data007
 Level: meeting
-Text Length: 978 characters
+Text Length: 1026 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Discovery-First Design vs. Social Graph
+# Discovery-First Design vs. Social Graph [#M007-T01 R=P004–P013]
 
-- **Topic Title:** Discovery-First Design vs. Social Graph
+- **Topic Title:** Discovery-First Design vs. Social Graph [#M007-T01 R=P004–P013]
 - Summary:
 - [00:36] **Shou Chew:** Introduces TikTok’s origin: recommend content based on what users **like**, not who they **know**.
 - [02:49] **Shou Chew:** States mission (“inspire creativity, bring joy”) and vision (discover, create, connect); discovery engine is the core differentiator.
@@ -640,13 +640,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_1
 Meeting ID: data007
 Level: meeting
-Text Length: 981 characters
+Text Length: 1029 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Recommendation Mechanics & Early Growth Fairness
+# Recommendation Mechanics & Early Growth Fairness [#M007-T02 R=P007–P018]
 
-- **Topic Title:** Recommendation Mechanics & Early Growth Fairness
+- **Topic Title:** Recommendation Mechanics & Early Growth Fairness [#M007-T02 R=P007–P018]
 - Summary:
 - [05:54] **Shou Chew:** Describes the recommender as scalable **math**, aligning interest signals at real-time, billion-user scale.
 - [06:41] **Chris Anderson:** Frames it as **collaborative filtering**—overlapping interests predict new content users will like.
@@ -665,13 +665,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_2
 Meeting ID: data007
 Level: meeting
-Text Length: 693 characters
+Text Length: 741 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Platform DNA vs. Competitors & Filter Bubbles
+# Platform DNA vs. Competitors & Filter Bubbles [#M007-T03 R=P019–P021]
 
-- **Topic Title:** Platform DNA vs. Competitors & Filter Bubbles
+- **Topic Title:** Platform DNA vs. Competitors & Filter Bubbles [#M007-T03 R=P019–P021]
 - Summary:
 - [13:28] **Shou Chew:** Argues differences stem from **mission/origins** (interest-based design) more than algorithmic complexity alone.
 - [14:25] **Chris Anderson:** Asks whether interest-first design avoids social-graph **tribal filter bubbles**.
@@ -688,13 +688,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_3
 Meeting ID: data007
 Level: meeting
-Text Length: 663 characters
+Text Length: 711 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Community Guidelines & Youth Protections
+# Community Guidelines & Youth Protections [#M007-T04 R=P024–P026]
 
-- **Topic Title:** Community Guidelines & Youth Protections
+- **Topic Title:** Community Guidelines & Youth Protections [#M007-T04 R=P024–P026]
 - Summary:
 - [15:40] **Shou Chew:** Lists rules: no pornography/CSAM/violence; under-18 experience is **more restricted**.
 - [16:09] **Shou Chew:** Under-16s by default **cannot go viral** or use in-app messaging; under-18s cannot live-stream.
@@ -711,13 +711,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_4
 Meeting ID: data007
 Level: meeting
-Text Length: 898 characters
+Text Length: 946 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Screen Time, Addiction Risk & Digital Wellness
+# Screen Time, Addiction Risk & Digital Wellness [#M007-T05 R=P029–P036]
 
-- **Topic Title:** Screen Time, Addiction Risk & Digital Wellness
+- **Topic Title:** Screen Time, Addiction Risk & Digital Wellness [#M007-T05 R=P029–P036]
 - Summary:
 - [19:12] **Chris Anderson:** Raises addiction concerns; asks what counts as “too much.”
 - [20:37] **Shou Chew:** Says company **does not** optimize for max time; pushes in-app prompts telling users to **take a break**, earlier at night.
@@ -736,13 +736,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_5
 Meeting ID: data007
 Level: meeting
-Text Length: 543 characters
+Text Length: 591 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# U.S. vs. China Youth Experience — Clarification
+# U.S. vs. China Youth Experience — Clarification [#M007-T06 R=P037–P038]
 
-- **Topic Title:** U.S. vs. China Youth Experience — Clarification
+- **Topic Title:** U.S. vs. China Youth Experience — Clarification [#M007-T06 R=P037–P038]
 - Summary:
 - [23:53] **Chris Anderson:** Cites claim of stricter China screen-time standards.
 - [24:07] **Shou Chew:** Calls it a **misconception**; compares U.S. **under-13** mode (no posting; third-party vetting) with China’s **under-14** Douyin mode.
@@ -758,13 +758,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_6
 Meeting ID: data007
 Level: meeting
-Text Length: 942 characters
+Text Length: 990 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Harmful Trends, Sexualized Content & Moderation at Scale
+# Harmful Trends, Sexualized Content & Moderation at Scale [#M007-T07 R=P039–P044]
 
-- **Topic Title:** Harmful Trends, Sexualized Content & Moderation at Scale
+- **Topic Title:** Harmful Trends, Sexualized Content & Moderation at Scale [#M007-T07 R=P039–P044]
 - Summary:
 - [25:22] **Shou Chew:** Says sexualized/mature themes are **removed** for teens per guidelines; safety was a core **Congressional commitment**.
 - [26:34] **Shou Chew:** Labels **dangerous challenges** violative; search redirects to **safety resources**; runs “Stop, Think, Decide Before You Act” campaign.
@@ -782,13 +782,13 @@ Date: 2023-04-19T12:00:00+00:00
 Chunk ID: data007_meeting_7
 Meeting ID: data007
 Level: meeting
-Text Length: 930 characters
+Text Length: 978 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Data Security, ByteDance Links & Project Texas
+# Data Security, ByteDance Links & Project Texas [#M007-T08 R=P029–P032]
 
-- **Topic Title:** Data Security, ByteDance Links & Project Texas
+- **Topic Title:** Data Security, ByteDance Links & Project Texas [#M007-T08 R=P029–P032]
 - Summary:
 - [29:25] **Chris Anderson:** Raises U.S. concerns: ByteDance ownership, prior **journalist data** incident, and government access risk.
 - [30:12] **Shou Chew:** Differentiates **employee access** from **government access**; says TikTok built **Project Texas** to localize U.S. data.

@@ -73,6 +73,9 @@ class DataLoader:
         meeting_level_file = self._find_file(con_dir, metadata['related_files']['meeting_summary'])
         summary_file = self._find_file(con_dir, metadata['related_files']['summary_embedding'])
         
+        # Add paragraph index to conversation file
+        self._add_paragraph_index(conversation_file)
+        
         conversation_text = self._read_text_file(conversation_file)
         meeting_level_text = self._read_text_file(meeting_level_file)
         summary_text = self._read_text_file(summary_file)
@@ -120,6 +123,57 @@ class DataLoader:
         """read text file"""
         with open(filepath, 'r', encoding='utf-8') as f:
             return f.read().strip()
+    
+    def _add_paragraph_index(self, filepath: Path) -> None:
+        """
+        Add paragraph index to conversation text file.
+        Add index at the start of each paragraph (non-empty line after empty line or file start).
+        Skip title lines (starting with #) and lines that already have index.
+        Index format: [#P001], [#P002], etc.
+        """
+        with open(filepath, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        indexed_lines = []
+        paragraph_counter = 1
+        prev_line_empty = True  # Treat file start as "previous line empty"
+        
+        for line in lines:
+            stripped = line.strip()
+            
+            # Skip empty lines
+            if not stripped:
+                indexed_lines.append(line)
+                prev_line_empty = True
+                continue
+            
+            # Skip title lines (starting with #)
+            if stripped.startswith('#'):
+                indexed_lines.append(line)
+                prev_line_empty = False
+                continue
+            
+            # Skip lines that already have index
+            if '[#P' in stripped:
+                indexed_lines.append(line)
+                prev_line_empty = False
+                continue
+            
+            # If previous line was empty (or file start), this is a new paragraph
+            if prev_line_empty:
+                # Add paragraph index at the beginning of the line
+                index_tag = f"[#P{paragraph_counter:03d}] "
+                leading_spaces = len(line) - len(line.lstrip())
+                indexed_lines.append(' ' * leading_spaces + index_tag + line.lstrip())
+                paragraph_counter += 1
+            else:
+                indexed_lines.append(line)
+            
+            prev_line_empty = False
+        
+        # Write back to file
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.writelines(indexed_lines)
 
 
 # testing code
