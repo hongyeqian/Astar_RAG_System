@@ -2,14 +2,14 @@
 
 ## Key Topics
 
-- **Early Computing and Programming Background**
+- **Early Computing and Programming Background** [#M001-T01 R=P001–P002]
   - Summary:
     - [00:00] Satya Nadella: Opened the conversation by acknowledging Elon Musk’s early career as a Windows developer and PC gamer, inviting him to share experiences from his early days at Microsoft.
     - [00:27] Elon Musk: Explained that his programming journey started with DOS before Windows, developing video games on an early IBM PC with 128k memory, later 256k. Mentioned familiarity with Windows 3.1.
   - Participants: Satya Nadella, Elon Musk
   - Duration: [00:00–00:43]
 
-- **Grok Model Vision and Philosophy**
+- **Grok Model Vision and Philosophy** [#M001-T02 R=P003–P004]
   - Summary:
     - [00:43] Satya Nadella: Introduced Grok on Azure, describing it as a family of response and reasoning models. Invited Musk to discuss its vision, efficiency, and roadmap.
     - [01:17] Elon Musk: Detailed Grok 3.5’s reasoning design, based on first principles and physics-inspired logic. Emphasized aiming for truth through axiomatic reasoning and minimizing acknowledged errors.
@@ -19,7 +19,7 @@
   - Participants: Satya Nadella, Elon Musk
   - Duration: [00:43–03:10]
 
-- **Grounding AI in Physical Reality**
+- **Grounding AI in Physical Reality** [#M001-T03 R=P005–P006]
   - Summary:
     - [03:10] Satya Nadella: Agreed with Musk’s first-principles approach, noting that “cracking the physics of intelligence” is essential for scalable AI. Asked how Musk applies these principles across his companies.
     - [04:18] Elon Musk: Emphasized the necessity of grounding AI models in reality, stating “physics is the law, everything else is a recommendation.” Highlighted that adherence to physical laws ensures truthfulness and functional accuracy.
@@ -29,7 +29,7 @@
   - Participants: Satya Nadella, Elon Musk
   - Duration: [03:10–06:00]
 
-- **Developer Collaboration and Future Outlook**
+- **Developer Collaboration and Future Outlook** [#M001-T04 R=P007–P008]
   - Summary:
     - [06:00] Satya Nadella: Concluded by stressing the importance of combining language, vision, and action models that remain grounded in real-world systems. Expressed enthusiasm for Grok’s developer integration.
     - [06:28] Elon Musk: Closed with a call for active developer feedback, promising to “make it happen” based on community needs.
@@ -38,13 +38,13 @@
 
 ## Action Items
 
-- **Elon Musk**
+- **Elon Musk** [#M001-A01 R=P004,P008]
   - Task: Solicit developer feedback on Grok 3.5 to improve reasoning accuracy, safety, and applicability across industries.
   - Context: Stressed community-driven iteration as essential to AI safety and rapid error correction.
   - Duration: [01:17–01:17], [06:28–06:28]
   - Deadline: TBD
 
-- **Satya Nadella**
+- **Satya Nadella** [#M001-A02 R=P003,P007]
   - Task: Facilitate Grok’s integration into Azure ecosystem and coordinate developer engagement for feedback collection.
   - Context: Aims to ground AI systems in real-world applications combining language, vision, and action.
   - Duration: [00:43–03:10], [06:00–06:00]

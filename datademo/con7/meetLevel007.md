@@ -2,7 +2,7 @@
 
 ## Key Topics
 
-- **Topic Title:** Discovery-First Design vs. Social Graph
+- **Topic Title:** Discovery-First Design vs. Social Graph [#M007-T01 R=P004–P013]
   - Summary:
     - [00:36] **Shou Chew:** Introduces TikTok’s origin: recommend content based on what users **like**, not who they **know**.
     - [02:49] **Shou Chew:** States mission (“inspire creativity, bring joy”) and vision (discover, create, connect); discovery engine is the core differentiator.
@@ -14,7 +14,7 @@
 
 ------
 
-- **Topic Title:** Recommendation Mechanics & Early Growth Fairness
+- **Topic Title:** Recommendation Mechanics & Early Growth Fairness [#M007-T02 R=P007–P018]
   - Summary:
     - [05:54] **Shou Chew:** Describes the recommender as scalable **math**, aligning interest signals at real-time, billion-user scale.
     - [06:41] **Chris Anderson:** Frames it as **collaborative filtering**—overlapping interests predict new content users will like.
@@ -26,7 +26,7 @@
 
 ------
 
-- **Topic Title:** Platform DNA vs. Competitors & Filter Bubbles
+- **Topic Title:** Platform DNA vs. Competitors & Filter Bubbles [#M007-T03 R=P019–P021]
   - Summary:
     - [13:28] **Shou Chew:** Argues differences stem from **mission/origins** (interest-based design) more than algorithmic complexity alone.
     - [14:25] **Chris Anderson:** Asks whether interest-first design avoids social-graph **tribal filter bubbles**.
@@ -36,7 +36,7 @@
 
 ------
 
-- **Topic Title:** Community Guidelines & Youth Protections
+- **Topic Title:** Community Guidelines & Youth Protections [#M007-T04 R=P024–P026]
   - Summary:
     - [15:40] **Shou Chew:** Lists rules: no pornography/CSAM/violence; under-18 experience is **more restricted**.
     - [16:09] **Shou Chew:** Under-16s by default **cannot go viral** or use in-app messaging; under-18s cannot live-stream.
@@ -46,7 +46,7 @@
 
 ------
 
-- **Topic Title:** Screen Time, Addiction Risk & Digital Wellness
+- **Topic Title:** Screen Time, Addiction Risk & Digital Wellness [#M007-T05 R=P029–P036]
   - Summary:
     - [19:12] **Chris Anderson:** Raises addiction concerns; asks what counts as “too much.”
     - [20:37] **Shou Chew:** Says company **does not** optimize for max time; pushes in-app prompts telling users to **take a break**, earlier at night.
@@ -58,7 +58,7 @@
 
 ------
 
-- **Topic Title:** U.S. vs. China Youth Experience — Clarification
+- **Topic Title:** U.S. vs. China Youth Experience — Clarification [#M007-T06 R=P037–P038]
   - Summary:
     - [23:53] **Chris Anderson:** Cites claim of stricter China screen-time standards.
     - [24:07] **Shou Chew:** Calls it a **misconception**; compares U.S. **under-13** mode (no posting; third-party vetting) with China’s **under-14** Douyin mode.
@@ -67,7 +67,7 @@
 
 ------
 
-- **Topic Title:** Harmful Trends, Sexualized Content & Moderation at Scale
+- **Topic Title:** Harmful Trends, Sexualized Content & Moderation at Scale [#M007-T07 R=P039–P044]
   - Summary:
     - [25:22] **Shou Chew:** Says sexualized/mature themes are **removed** for teens per guidelines; safety was a core **Congressional commitment**.
     - [26:34] **Shou Chew:** Labels **dangerous challenges** violative; search redirects to **safety resources**; runs “Stop, Think, Decide Before You Act” campaign.
@@ -78,7 +78,7 @@
 
 ------
 
-- **Topic Title:** Data Security, ByteDance Links & Project Texas
+- **Topic Title:** Data Security, ByteDance Links & Project Texas [#M007-T08 R=P029–P032]
   - Summary:
     - [29:25] **Chris Anderson:** Raises U.S. concerns: ByteDance ownership, prior **journalist data** incident, and government access risk.
     - [30:12] **Shou Chew:** Differentiates **employee access** from **government access**; says TikTok built **Project Texas** to localize U.S. data.
@@ -92,17 +92,17 @@
 
 ## Action Items
 
-- **Responsible Person:** Shou Chew
+- **Responsible Person:** Shou Chew [#M007-A01 R=P029–P032]
   - Task: Continue rollout and third-party oversight of **Project Texas** for U.S. data localization and access controls.
   - Context: Addressed Congressional and public concerns about data access and sovereignty.
   - Duration: [30:12–32:11]
   - Deadline (if any): TBD
-- **Responsible Person:** Trust & Safety / Policy Team
+- **Responsible Person:** Trust & Safety / Policy Team [#M007-A02 R=P024–P026, P039–P044]
   - Task: Maintain and expand **teen safety** measures (default limits, restricted features, content filters) and **safety prompts**; continue “Stop, Think, Decide Before You Act” and search-redirect safety flows.
   - Context: Mitigate addiction risk, sexualized content exposure, and dangerous challenges for youth.
   - Duration: [21:11–22:27], [25:22–27:06], [28:38–29:22]
   - Deadline (if any): TBD
-- **Responsible Person:** Parenting & Education Partnerships
+- **Responsible Person:** Parenting & Education Partnerships [#M007-A03 R=P029–P036]
   - Task: Promote **Family Pairing** guidance and screen-time education resources in-app and via partners (e.g., Digital Wellness Lab).
   - Context: Encourage healthy, long-term user relationships and informed parental controls.
   - Duration: [21:18–22:21]

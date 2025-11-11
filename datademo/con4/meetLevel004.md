@@ -2,7 +2,7 @@
 
 ## Key Topics
 
-- **Topic Title:** Early Career and First Setback (MTV Experience)
+- **Topic Title:** Early Career and First Setback (MTV Experience) [#M004-T01 R=P003–P010]
   - Summary:
     - [00:44] **Host:** Asks Nimi about her journey from journalism to her dream job and what followed after.
     - [01:17] **Nimi Mehta:** Shares that she became an MTV presenter at 21 through an online competition, but realized later that achieving one goal wasn’t the end—it was a stepping stone.
@@ -14,7 +14,7 @@
 
 ------
 
-- **Topic Title:** Persistence and Career Rebuilding
+- **Topic Title:** Persistence and Career Rebuilding [#M004-T02 R=P011–P013]
   - Summary:
     - [05:39] **Host:** Asks how Nimi recovered after the MTV disappointment.
     - [05:49] **Nimi Mehta:** Explains her belief in the **power of proximity**, applying for any Viacom role to stay in the industry.
@@ -27,7 +27,7 @@
 
 ------
 
-- **Topic Title:** Transition to Entrepreneurship and Choosing Fear
+- **Topic Title:** Transition to Entrepreneurship and Choosing Fear [#M004-T03 R=P014–P016]
   - Summary:
     - [10:45] **Host:** Moves to discuss Nimi’s leap from radio to entrepreneurship.
     - [11:06] **Nimi Mehta:** Recounts moving from **Radio 1 Abu Dhabi** to **Channel 4 Dubai**, where her show became #1 in the country.
@@ -40,7 +40,7 @@
 
 ------
 
-- **Topic Title:** Intuition, Body Awareness, and Decision-Making
+- **Topic Title:** Intuition, Body Awareness, and Decision-Making [#M004-T04 R=P017–P020]
   - Summary:
     - [16:18] **Nimi Mehta:** Introduces her **5-second rule**—act before the mind overrides gut feelings.
     - [17:41] **Host:** Agrees, sharing that the body communicates through pain, citing stress-related neck tension.
@@ -51,7 +51,7 @@
 
 ------
 
-- **Topic Title:** Finding and Protecting One’s Voice
+- **Topic Title:** Finding and Protecting One’s Voice [#M004-T05 R=P021–P025]
   - Summary:
     - [21:30] **Nimi Mehta:** Explains how she moved into **legacy mode**, developing **The Voice Layer Theory**.
     - [21:30] **Nimi Mehta:** Describes how parental, societal, and media “layers” dilute one’s authentic voice.
@@ -64,7 +64,7 @@
 
 ------
 
-- **Topic Title:** Balancing Kindness and Assertiveness
+- **Topic Title:** Balancing Kindness and Assertiveness [#M004-T06 R=P026–P029]
   - Summary:
     - [33:57] **Host:** Brings up the struggle between being nice and being assertive.
     - [35:04] **Nimi Mehta:** Rejects the “nice vs. mean” binary, arguing that confidence means **responding, not reacting**.
@@ -77,7 +77,7 @@
 
 ------
 
-- **Topic Title:** Confidence, Reflection, and Emotional Awareness
+- **Topic Title:** Confidence, Reflection, and Emotional Awareness [#M004-T07 R=P030–P034]
   - Summary:
     - [44:18] **Host:** Notes that finding one’s voice enables authentic responses and emotional regulation.
     - [45:22] **Nimi Mehta:** Shares her “**My Wins**” photo album for self-affirmation and introduces the idea of **soft vs. loud confidence**.
@@ -91,12 +91,12 @@
 
 ## Action Items
 
-- **Responsible Person:** Nimi Mehta
+- **Responsible Person:** Nimi Mehta [#M004-A01 R=P021–P025]
   - Task: Continue promoting **The Voice Layer Theory** as a structured coaching framework.
   - Context: Derived from her teaching on voice isolation, influence assessment, and protecting authenticity.
   - Duration: [21:30–28:53]
   - Deadline (if any): TBD
-- **Responsible Person:** Host
+- **Responsible Person:** Host [#M004-A02 R=P015–P016]
   - Task: Apply “choose your discomfort” mindset in future episodes; develop reflection prompts for listeners.
   - Context: Emerged from discussion on fear and decision-making.
   - Duration: [15:00–16:18]

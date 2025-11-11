@@ -2,7 +2,7 @@
 
 ## Key Topics
 
-- **Topic Title:** Reinventing Computing and the Origins of Nvidia
+- **Topic Title:** Reinventing Computing and the Origins of Nvidia [#M006-T01 R=P001–P016]
   - Summary:
     - [00:00] **Jensen Huang:** States belief that everything that moves will soon become robotic, reflecting Nvidia’s vision to reinvent computing.
     - [00:27] **Cleo Abram:** Introduces Jensen Huang as the CEO of Nvidia, explaining its pivotal role in reshaping modern technology.
@@ -14,7 +14,7 @@
 
 ------
 
-- **Topic Title:** The GPU as a “Time Machine” and the Birth of CUDA
+- **Topic Title:** The GPU as a “Time Machine” and the Birth of CUDA [#M006-T02 R=P017–P026]
   - Summary:
     - [06:24] **Cleo Abram:** References his quote that GPUs are “time machines.”
     - [06:29] **Jensen Huang:** Explains that GPUs accelerate discovery—scientists can now “do a lifetime of work within their lifetime.”
@@ -25,7 +25,7 @@
 
 ------
 
-- **Topic Title:** AlexNet 2012 — Deep Learning’s Breakthrough Moment
+- **Topic Title:** AlexNet 2012 — Deep Learning’s Breakthrough Moment [#M006-T03 R=P027–P030]
   - Summary:
     - [11:03] **Cleo Abram:** Describes the 2012 ImageNet victory (AlexNet) that used Nvidia GPUs, triggering the AI revolution.
     - [12:06] **Jensen Huang:** Recalls University of Toronto researchers using GeForce GTX 580 via CUDA, proving deep neural networks could scale.
@@ -36,7 +36,7 @@
 
 ------
 
-- **Topic Title:** Ten Years of Belief — Patience, Principles, and Core Convictions
+- **Topic Title:** Ten Years of Belief — Patience, Principles, and Core Convictions [#M006-T04 R=P031–P035]
   - Summary:
     - [16:49] **Jensen Huang:** Reflects that progress “felt like today”: constant challenge, faith, and iteration.
     - [16:49] **Jensen Huang:** Says Nvidia invested “tens of billions of dollars before it really happened.”
@@ -47,7 +47,7 @@
 
 ------
 
-- **Topic Title:** From Science of AI to Application Science — AI’s Next Decade
+- **Topic Title:** From Science of AI to Application Science — AI’s Next Decade [#M006-T05 R=P036–P038]
   - Summary:
     - [23:06] **Jensen Huang:** Distinguishes prior decade (science of AI) from coming decade (application science of AI).
     - [23:06] **Jensen Huang:** Lists domains for applied AI: digital biology, climate, agriculture, robotics, education, podcasting.
@@ -57,7 +57,7 @@
 
 ------
 
-- **Topic Title:** Omniverse + Cosmos — Building the World Model for Robotics
+- **Topic Title:** Omniverse + Cosmos — Building the World Model for Robotics [#M006-T06 R=P039–P045]
   - Summary:
     - [25:26] **Jensen Huang:** Confirms Omniverse is a 3D simulation environment for robot training.
     - [26:11] **Jensen Huang:** Analogizes Cosmos to a “world language model,” embedding physics common sense (gravity, friction, object permanence).
@@ -69,7 +69,7 @@
 
 ------
 
-- **Topic Title:** AI Risks and Safety Engineering
+- **Topic Title:** AI Risks and Safety Engineering [#M006-T07 R=P046–P051]
   - Summary:
     - [32:04] **Cleo Abram:** Raises ethical concerns about robotic and AI futures.
     - [32:26] **Jensen Huang:** Outlines risk buckets — bias, toxicity, hallucination, impersonation, and malfunction.
@@ -80,7 +80,7 @@
 
 ------
 
-- **Topic Title:** Energy Efficiency and Hardware Evolution
+- **Topic Title:** Energy Efficiency and Hardware Evolution [#M006-T08 R=P052–P057]
   - Summary:
     - [35:10] **Cleo Abram:** Notes that AI has removed many CPU limitations and asks about current technical boundaries.
     - [35:47] **Jensen Huang:** Says fundamental limit is energy — computing is bounded by physics of moving bits.
@@ -91,7 +91,7 @@
 
 ------
 
-- **Topic Title:** Betting on Flexibility — Beyond Transformers
+- **Topic Title:** Betting on Flexibility — Beyond Transformers [#M006-T09 R=P058–P059]
   - Summary:
     - [38:03] **Cleo Abram:** Describes the AI hardware trade-off between specialization and generalization.
     - [39:31] **Jensen Huang:** Rejects the idea that Transformers are final; innovation will continue.
@@ -102,7 +102,7 @@
 
 ------
 
-- **Topic Title:** Pushing Physical Limits and Cross-Disciplinary Engineering
+- **Topic Title:** Pushing Physical Limits and Cross-Disciplinary Engineering [#M006-T10 R=P060–P061]
   - Summary:
     - [42:29] **Cleo Abram:** Asks how design pushes manufacturing and physics boundaries.
     - [42:58] **Jensen Huang:** Says Nvidia maintains deep in-house semiconductor and aerodynamics expertise even though TSMC fabricates its chips.
@@ -112,7 +112,7 @@
 
 ------
 
-- **Topic Title:** Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science
+- **Topic Title:** Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science [#M006-T11 R=P062–P063]
   - Summary:
     - [44:36] **Jensen Huang:** Announces new fusion of Omniverse + Cosmos for generative world simulation.
     - [44:36] **Jensen Huang:** Highlights human robotics, digital biology, and climate forecasting as next frontiers.
@@ -122,7 +122,7 @@
 
 ------
 
-- **Topic Title:** Preparing for a Superhuman AI Future
+- **Topic Title:** Preparing for a Superhuman AI Future [#M006-T12 R=P064–P073]
   - Summary:
     - [47:47] **Jensen Huang:** Predicts AI will make people “superhuman,” removing drudgery like the highway did for industry.
     - [47:47] **Jensen Huang:** Urges everyone to adopt AI tutors to learn, reason, and work better.
@@ -133,7 +133,7 @@
 
 ------
 
-- **Topic Title:** Legacy and Impact — Looking Back at Nvidia’s Mission
+- **Topic Title:** Legacy and Impact — Looking Back at Nvidia’s Mission [#M006-T13 R=P074–P079]
   - Summary:
     - [59:09] **Cleo Abram:** Asks about legacy and how Jensen hopes to be remembered.
     - [01:00:15] **Jensen Huang:** Says he hopes people say “they made an extraordinary impact.”
@@ -146,12 +146,12 @@
 
 ## Action Items
 
-- **Responsible Person:** Jensen Huang
+- **Responsible Person:** Jensen Huang [#M006-A01 R=P062–P063]
   - Task: Advance fusion of Omniverse and Cosmos as a foundation for robot training and digital twin simulation.
   - Context: Introduced as Nvidia’s new bet on world model generation for physical AI and scientific simulation.
   - Duration: [44:36–47:04]
   - Deadline: TBD
-- **Responsible Person:** Jensen Huang
+- **Responsible Person:** Jensen Huang [#M006-A02 R=P064–P073]
   - Task: Promote AI literacy and tutoring for the next generation.
   - Context: Advises students and professionals to learn how to collaborate with AI tools effectively.
   - Duration: [55:46–57:55]
