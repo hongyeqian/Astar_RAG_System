@@ -1,0 +1,267 @@
+{
+  "meeting_id": "M007",
+  "title": "Meeting Level Summary",
+  "topics": [
+    {
+      "topic_id": "M007-T01",
+      "title": "Discovery-First Design vs. Social Graph",
+      "reference": "P004–P013",
+      "summary": [
+        {
+          "timestamp": "00:36",
+          "speaker": "Shou Chew",
+          "content": "Introduces TikTok’s origin: recommend content based on what users like, not who they know."
+        },
+        {
+          "timestamp": "02:49",
+          "speaker": "Shou Chew",
+          "content": "States mission (“inspire creativity, bring joy”) and vision (discover, create, connect); discovery engine is the core differentiator."
+        },
+        {
+          "timestamp": "04:13",
+          "speaker": "Shou Chew",
+          "content": "Says the algorithm gives everyday people a chance to be discovered; cites Khaby Lame rising to 160M followers from factory work."
+        },
+        {
+          "timestamp": "08:20",
+          "speaker": "Shou Chew",
+          "content": "Explains full-screen, short-video, portrait format as the “window to discover,” helping users find communities."
+        },
+        {
+          "timestamp": "09:12",
+          "speaker": "Shou Chew",
+          "content": "Shares small-business case: Phoenix taco restaurant drove ~$1M revenue via TikTok content."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": { "start": "00:36", "end": "09:23" }
+    },
+    {
+      "topic_id": "M007-T02",
+      "title": "Recommendation Mechanics & Early Growth Fairness",
+      "reference": "P007–P018",
+      "summary": [
+        {
+          "timestamp": "05:54",
+          "speaker": "Shou Chew",
+          "content": "Describes the recommender as scalable math, aligning interest signals at real-time, billion-user scale."
+        },
+        {
+          "timestamp": "06:41",
+          "speaker": "Chris Anderson",
+          "content": "Frames it as collaborative filtering—overlapping interests predict new content users will like."
+        },
+        {
+          "timestamp": "07:27",
+          "speaker": "Shou Chew",
+          "content": "Emphasizes implicit signals (watch, swipe, like, share) as votes; pattern recognition matches users to content."
+        },
+        {
+          "timestamp": "11:57",
+          "speaker": "Shou Chew",
+          "content": "Says every new video gets an equal chance to find an initial audience; rejects idea of “pushing” content via artificial likes."
+        },
+        {
+          "timestamp": "12:24",
+          "speaker": "Shou Chew",
+          "content": "Notes virality must resonate organically; exposure alone can’t manufacture it."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": [{ "start": "05:54", "end": "07:39" }, { "start": "11:57", "end": "13:05" }]
+    },
+    {
+      "topic_id": "M007-T03",
+      "title": "Platform DNA vs. Competitors & Filter Bubbles",
+      "reference": "P019–P021",
+      "summary": [
+        {
+          "timestamp": "13:28",
+          "speaker": "Shou Chew",
+          "content": "Argues differences stem from mission/origins (interest-based design) more than algorithmic complexity alone."
+        },
+        {
+          "timestamp": "14:25",
+          "speaker": "Chris Anderson",
+          "content": "Asks whether interest-first design avoids social-graph tribal filter bubbles."
+        },
+        {
+          "timestamp": "14:46",
+          "speaker": "Shou Chew",
+          "content": "Says diversity of content is essential for discovery; policies remove bad content without ad-hoc executive overrides."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": { "start": "13:28", "end": "15:35" }
+    },
+    {
+      "topic_id": "M007-T04",
+      "title": "Community Guidelines & Youth Protections",
+      "reference": "P024–P026",
+      "summary": [
+        {
+          "timestamp": "15:40",
+          "speaker": "Shou Chew",
+          "content": "Lists rules: no pornography/CSAM/violence; under-18 experience is more restricted."
+        },
+        {
+          "timestamp": "16:09",
+          "speaker": "Shou Chew",
+          "content": "Under-16s by default cannot go viral or use in-app messaging; under-18s cannot live-stream."
+        },
+        {
+          "timestamp": "16:34",
+          "speaker": "Shou Chew",
+          "content": "Explains age-gating at signup plus public-profile/video checks; avoids invasive face scans to balance privacy."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": { "start": "15:40", "end": "17:24" }
+    },
+    {
+      "topic_id": "M007-T05",
+      "title": "Screen Time, Addiction Risk & Digital Wellness",
+      "reference": "P029–P036",
+      "summary": [
+        {
+          "timestamp": "19:12",
+          "speaker": "Chris Anderson",
+          "content": "Raises addiction concerns; asks what counts as “too much.”"
+        },
+        {
+          "timestamp": "20:37",
+          "speaker": "Shou Chew",
+          "content": "Says company does not optimize for max time; pushes in-app prompts telling users to take a break, earlier at night."
+        },
+        {
+          "timestamp": "21:11",
+          "speaker": "Shou Chew",
+          "content": "Under-18s have a 60-minute default limit; parents and users can set custom limits via Family Pairing."
+        },
+        {
+          "timestamp": "22:01",
+          "speaker": "Shou Chew",
+          "content": "Notes 60 minutes came from Digital Wellness Lab (Boston Children’s Hospital) guidance."
+        },
+        {
+          "timestamp": "23:23",
+          "speaker": "Shou Chew",
+          "content": "Argues long-term health of user relationship outweighs short-term retention pressure."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": { "start": "19:12", "end": "23:53" }
+    },
+    {
+      "topic_id": "M007-T06",
+      "title": "U.S. vs. China Youth Experience — Clarification",
+      "reference": "P037–P038",
+      "summary": [
+        {
+          "timestamp": "23:53",
+          "speaker": "Chris Anderson",
+          "content": "Cites claim of stricter China screen-time standards."
+        },
+        {
+          "timestamp": "24:07",
+          "speaker": "Shou Chew",
+          "content": "Calls it a misconception; compares U.S. under-13 mode (no posting; third-party vetting) with China’s under-14 Douyin mode."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": { "start": "23:53", "end": "24:56" }
+    },
+    {
+      "topic_id": "M007-T07",
+      "title": "Harmful Trends, Sexualized Content & Moderation at Scale",
+      "reference": "P039–P044",
+      "summary": [
+        {
+          "timestamp": "25:22",
+          "speaker": "Shou Chew",
+          "content": "Says sexualized/mature themes are removed for teens per guidelines; safety was a core Congressional commitment."
+        },
+        {
+          "timestamp": "26:34",
+          "speaker": "Shou Chew",
+          "content": "Labels dangerous challenges violative; search redirects to safety resources; runs “Stop, Think, Decide Before You Act” campaign."
+        },
+        {
+          "timestamp": "27:26",
+          "speaker": "Shou Chew",
+          "content": "Moderation uses tens of thousands of people (based in Ireland) plus machines; AI improving precision/scale."
+        },
+        {
+          "timestamp": "28:38",
+          "speaker": "Shou Chew",
+          "content": "On insecurity/depression concerns: restricts mature themes for teens, redirects certain searches to help pages, and works with experts."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": [{ "start": "25:22", "end": "28:09" }, { "start": "28:10", "end": "29:22" }]
+    },
+    {
+      "topic_id": "M007-T08",
+      "title": "Data Security, ByteDance Links & Project Texas",
+      "reference": "P029–P032",
+      "summary": [
+        {
+          "timestamp": "29:25",
+          "speaker": "Chris Anderson",
+          "content": "Raises U.S. concerns: ByteDance ownership, prior journalist data incident, and government access risk."
+        },
+        {
+          "timestamp": "30:12",
+          "speaker": "Shou Chew",
+          "content": "Differentiates employee access from government access; says TikTok built Project Texas to localize U.S. data."
+        },
+        {
+          "timestamp": "31:01",
+          "speaker": "Shou Chew",
+          "content": "States U.S. user data will be stored on American soil by an American company, overseen by American personnel."
+        },
+        {
+          "timestamp": "31:29",
+          "speaker": "Shou Chew",
+          "content": "Warns against balkanizing the internet; seeks balance between digital sovereignty and global interoperability."
+        },
+        {
+          "timestamp": "32:04",
+          "speaker": "Shou Chew",
+          "content": "Says the project is very far along."
+        }
+      ],
+      "participants": ["Shou Chew", "Chris Anderson"],
+      "duration": { "start": "29:25", "end": "32:11" }
+    }
+  ],
+  "action_items": [
+    {
+      "action_id": "M007-A01",
+      "assignee": "Shou Chew",
+      "reference": ["P029", "P032"],
+      "task": "Continue rollout and third-party oversight of Project Texas for U.S. data localization and access controls.",
+      "context": "Addressed Congressional and public concerns about data access and sovereignty.",
+      "duration": [{ "start": "30:12", "end": "32:11" }],
+      "deadline": "TBD"
+    },
+    {
+      "action_id": "M007-A02",
+      "assignee": "Trust & Safety / Policy Team",
+      "reference": ["P024", "P026", "P039", "P044"],
+      "task": "Maintain and expand teen safety measures (default limits, restricted features, content filters) and safety prompts; continue “Stop, Think, Decide Before You Act” and search-redirect safety flows.",
+      "context": "Mitigate addiction risk, sexualized content exposure, and dangerous challenges for youth.",
+      "duration": [{ "start": "21:11", "end": "22:27" }, { "start": "25:22", "end": "27:06" }, { "start": "28:38", "end": "29:22" }],
+      "deadline": "TBD"
+    },
+    {
+      "action_id": "M007-A03",
+      "assignee": "Parenting & Education Partnerships",
+      "reference": ["P029", "P036"],
+      "task": "Promote Family Pairing guidance and screen-time education resources in-app and via partners (e.g., Digital Wellness Lab).",
+      "context": "Encourage healthy, long-term user relationships and informed parental controls.",
+      "duration": [{ "start": "21:18", "end": "22:21" }],
+      "deadline": "TBD"
+    }
+  ]
+}
