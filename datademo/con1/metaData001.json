@@ -33,7 +33,7 @@
   ],
   "related_files": {
     "transcript": "data001.md",
-    "meeting_summary": "meetLevel001.md",
+    "meeting_summary": "meetLevel001.json",
     "summary_embedding": "summary001.md"
   },
   "embedding_text_pointer": "summary001.md", 
