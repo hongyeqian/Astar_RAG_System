@@ -2,8 +2,7 @@
 
 ## Key Topics
 
-- **Early Computing and Programming Background**
-  
+- **Topic Title:** Early Computing and Programming Background
   - Topic id: M001-T01
   - Reference: P001-P002
   
@@ -13,8 +12,7 @@
   - Participants: Satya Nadella, Elon Musk
   - Duration: [00:00–00:43]
   
-- **Grok Model Vision and Philosophy**
-  
+- **Topic Title:** Grok Model Vision and Philosophy
   - Topic id: M001-T02
   - Reference: P003-P004
   
@@ -27,8 +25,7 @@
   - Participants: Satya Nadella, Elon Musk
   - Duration: [00:43–03:10]
   
-- **Grounding AI in Physical Reality**
-  
+- **Topic Title:** Grounding AI in Physical Reality
   - Topic id: M001-T03
   - Reference: P005–P006
   
@@ -41,8 +38,7 @@
   - Participants: Satya Nadella, Elon Musk
   - Duration: [03:10–06:00]
   
-- **Developer Collaboration and Future Outlook**
-  
+- **Topic Title:** Developer Collaboration and Future Outlook
   - Topic id: M001-T04
   - Reference: P007-P008
   
@@ -54,8 +50,7 @@
 
 ## Action Items
 
-- **Elon Musk**
-  
+- **Responsible Person:** Elon Musk
   - Action id: M001-A01
   - Reference: P004,P008
   
@@ -64,8 +59,7 @@
   - Duration: [01:17–01:17], [06:28–06:28]
   - Deadline: TBD
   
-- **Satya Nadella**
-  
+- **Responsible Person:** Satya Nadella
   - Action id: M001-A02
   - Reference: P003,P007
   

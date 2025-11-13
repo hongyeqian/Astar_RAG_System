@@ -1,7 +1,7 @@
 ====================================================================================================
 HIERARCHICAL CHUNKING RESULTS - MEETING LEVEL
-Generated: 2025-11-11 12:32:16
-Total Chunks: 32
+Generated: 2025-11-13 12:42:40
+Total Chunks: 45
 ====================================================================================================
 
 >>> MEETING: data001 <<<
@@ -11,18 +11,11 @@ Total Chunks: 32
 Chunk ID: data001_meeting_0
 Meeting ID: data001
 Level: meeting
-Text Length: 707 characters
+Text Length: 133 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Early Computing and Programming Background
-
-- **Early Computing and Programming Background** [#M001-T01 R=P001–P002]
-- Summary:
-- [00:00] Satya Nadella: Opened the conversation by acknowledging Elon Musk’s early career as a Windows developer and PC gamer, inviting him to share experiences from his early days at Microsoft.
-- [00:27] Elon Musk: Explained that his programming journey started with DOS before Windows, developing video games on an early IBM PC with 128k memory, later 256k. Mentioned familiarity with Windows 3.1.
-- Participants: Satya Nadella, Elon Musk
-- Duration: [00:00–00:43]
+# Meeting Level Summary
 
 Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
 Date: 2025-11-04T20:21:00+08:00
@@ -33,21 +26,20 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data001_meeting_1
 Meeting ID: data001
 Level: meeting
-Text Length: 1157 characters
+Reference: P001-P002
+Paragraph Indices: #P001, #P002
+Text Length: 698 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Grok Model Vision and Philosophy
-
-- **Grok Model Vision and Philosophy** [#M001-T02 R=P003–P004]
+- **Topic Title:** Early Computing and Programming Background
+- Topic id: M001-T01
+- Reference: P001-P002  
 - Summary:
-- [00:43] Satya Nadella: Introduced Grok on Azure, describing it as a family of response and reasoning models. Invited Musk to discuss its vision, efficiency, and roadmap.
-- [01:17] Elon Musk: Detailed Grok 3.5’s reasoning design, based on first principles and physics-inspired logic. Emphasized aiming for truth through axiomatic reasoning and minimizing acknowledged errors.
-- [01:50] Elon Musk: Explained how testing conclusions against fundamental physical laws ensures logical consistency, comparing violations of physical laws to false reasoning.
-- [02:15] Elon Musk: Linked Grok’s reasoning framework to AI safety, asserting that “honesty is the best policy.” Noted the importance of fast correction cycles and developer feedback loops.
-- [02:45] Elon Musk: Invited developer participation, highlighting Grok’s adaptability and community-driven improvement cycle.
+- [00:00] Satya Nadella: Opened the conversation by acknowledging Elon Musk’s early career as a Windows developer and PC gamer, inviting him to share experiences from his early days at Microsoft.
+- [00:27] Elon Musk: Explained that his programming journey started with DOS before Windows, developing video games on an early IBM PC with 128k memory, later 256k. Mentioned familiarity with Windows 3.1.
 - Participants: Satya Nadella, Elon Musk
-- Duration: [00:43–03:10]
+- Duration: [00:00–00:43]  
 
 Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
 Date: 2025-11-04T20:21:00+08:00
@@ -58,21 +50,23 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data001_meeting_2
 Meeting ID: data001
 Level: meeting
-Text Length: 1198 characters
+Reference: P003-P004
+Paragraph Indices: #P003, #P004
+Text Length: 1158 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Grounding AI in Physical Reality
-
-- **Grounding AI in Physical Reality** [#M001-T03 R=P005–P006]
+- **Topic Title:** Grok Model Vision and Philosophy
+- Topic id: M001-T02
+- Reference: P003-P004  
 - Summary:
-- [03:10] Satya Nadella: Agreed with Musk’s first-principles approach, noting that “cracking the physics of intelligence” is essential for scalable AI. Asked how Musk applies these principles across his companies.
-- [04:18] Elon Musk: Emphasized the necessity of grounding AI models in reality, stating “physics is the law, everything else is a recommendation.” Highlighted that adherence to physical laws ensures truthfulness and functional accuracy.
-- [04:45] Elon Musk: Described applications in Tesla’s autonomous driving and the humanoid robot Optimus, where AI performance depends on physical correctness.
-- [05:10] Elon Musk: Pointed out Grok’s operational success in customer service at SpaceX and Tesla, citing its patience, friendliness, and effective issue resolution.
-- [05:40] Elon Musk: Mentioned plans to extend Grok’s deployment to other companies, emphasizing its grounding in real-world tasks.
+- [00:43] Satya Nadella: Introduced Grok on Azure, describing it as a family of response and reasoning models. Invited Musk to discuss its vision, efficiency, and roadmap.
+- [01:17] Elon Musk: Detailed Grok 3.5’s reasoning design, based on first principles and physics-inspired logic. Emphasized aiming for truth through axiomatic reasoning and minimizing acknowledged errors.
+- [01:50] Elon Musk: Explained how testing conclusions against fundamental physical laws ensures logical consistency, comparing violations of physical laws to false reasoning.
+- [02:15] Elon Musk: Linked Grok’s reasoning framework to AI safety, asserting that “honesty is the best policy.” Noted the importance of fast correction cycles and developer feedback loops.
+- [02:45] Elon Musk: Invited developer participation, highlighting Grok’s adaptability and community-driven improvement cycle.
 - Participants: Satya Nadella, Elon Musk
-- Duration: [03:10–06:00]
+- Duration: [00:43–03:10]  
 
 Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
 Date: 2025-11-04T20:21:00+08:00
@@ -83,18 +77,93 @@ Date: 2025-11-04T20:21:00+08:00
 Chunk ID: data001_meeting_3
 Meeting ID: data001
 Level: meeting
-Text Length: 644 characters
+Reference: P005–P006
+Paragraph Indices: #P005, #P006
+Text Length: 1199 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Developer Collaboration and Future Outlook
+- **Topic Title:** Grounding AI in Physical Reality
+- Topic id: M001-T03
+- Reference: P005–P006  
+- Summary:
+- [03:10] Satya Nadella: Agreed with Musk’s first-principles approach, noting that “cracking the physics of intelligence” is essential for scalable AI. Asked how Musk applies these principles across his companies.
+- [04:18] Elon Musk: Emphasized the necessity of grounding AI models in reality, stating “physics is the law, everything else is a recommendation.” Highlighted that adherence to physical laws ensures truthfulness and functional accuracy.
+- [04:45] Elon Musk: Described applications in Tesla’s autonomous driving and the humanoid robot Optimus, where AI performance depends on physical correctness.
+- [05:10] Elon Musk: Pointed out Grok’s operational success in customer service at SpaceX and Tesla, citing its patience, friendliness, and effective issue resolution.
+- [05:40] Elon Musk: Mentioned plans to extend Grok’s deployment to other companies, emphasizing its grounding in real-world tasks.
+- Participants: Satya Nadella, Elon Musk
+- Duration: [03:10–06:00]  
 
-- **Developer Collaboration and Future Outlook** [#M001-T04 R=P007–P008]
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #5]
+Chunk ID: data001_meeting_4
+Meeting ID: data001
+Level: meeting
+Reference: P007-P008
+Paragraph Indices: #P007, #P008
+Text Length: 633 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Developer Collaboration and Future Outlook
+- Topic id: M001-T04
+- Reference: P007-P008  
 - Summary:
 - [06:00] Satya Nadella: Concluded by stressing the importance of combining language, vision, and action models that remain grounded in real-world systems. Expressed enthusiasm for Grok’s developer integration.
 - [06:28] Elon Musk: Closed with a call for active developer feedback, promising to “make it happen” based on community needs.
 - Participants: Satya Nadella, Elon Musk
 - Duration: [06:00–06:28]
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #6]
+Chunk ID: data001_meeting_5
+Meeting ID: data001
+Level: meeting
+Reference: P004,P008
+Paragraph Indices: #P004, #P008
+Text Length: 475 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Elon Musk
+- Action id: M001-A01
+- Reference: P004,P008  
+- Task: Solicit developer feedback on Grok 3.5 to improve reasoning accuracy, safety, and applicability across industries.
+- Context: Stressed community-driven iteration as essential to AI safety and rapid error correction.
+- Duration: [01:17–01:17], [06:28–06:28]
+- Deadline: TBD  
+
+Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
+Date: 2025-11-04T20:21:00+08:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #7]
+Chunk ID: data001_meeting_6
+Meeting ID: data001
+Level: meeting
+Reference: P003,P007
+Paragraph Indices: #P003, #P007
+Text Length: 477 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Satya Nadella
+- Action id: M001-A02
+- Reference: P003,P007  
+- Task: Facilitate Grok’s integration into Azure ecosystem and coordinate developer engagement for feedback collection.
+- Context: Aims to ground AI systems in real-world applications combining language, vision, and action.
+- Duration: [00:43–03:10], [06:00–06:00]
+- Deadline: TBD
 
 Meeting: Build 2025 — Satya Nadella x Elon Musk: Launching Grok 3.5 on Azure
 Date: 2025-11-04T20:21:00+08:00
@@ -108,17 +177,34 @@ Date: 2025-11-04T20:21:00+08:00
 >>> MEETING: data004 <<<
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[CHUNK #5]
+[CHUNK #8]
 Chunk ID: data004_meeting_0
 Meeting ID: data004
 Level: meeting
-Text Length: 997 characters
+Text Length: 126 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Early Career and First Setback (MTV Experience) [#M004-T01 R=P003–P010]
+# Meeting Level Summary
 
-- **Topic Title:** Early Career and First Setback (MTV Experience) [#M004-T01 R=P003–P010]
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #9]
+Chunk ID: data004_meeting_1
+Meeting ID: data004
+Level: meeting
+Reference: P003–P010
+Paragraph Indices: #P003, #P004, #P005, #P006, #P007, #P008, #P009, #P010
+Text Length: 957 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Early Career and First Setback (MTV Experience)  
+- Topic id: M004-T01
+- Reference: P003–P010  
 - Summary:
 - [00:44] **Host:** Asks Nimi about her journey from journalism to her dream job and what followed after.
 - [01:17] **Nimi Mehta:** Shares that she became an MTV presenter at 21 through an online competition, but realized later that achieving one goal wasn’t the end—it was a stepping stone.
@@ -126,24 +212,27 @@ Text Content:
 - [03:43] **Host:** Reflects on learning that goals are markers along the journey rather than final destinations.
 - [04:53] **Nimi Mehta:** Adds that no one teaches this mindset early; experiences shape it and prove that we’re never finished products.
 - Participants: Host, Nimi Mehta
-- Duration: [00:44–04:53]
+- Duration: [00:44–04:53]  
+------  
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #6]
-Chunk ID: data004_meeting_1
+[CHUNK #10]
+Chunk ID: data004_meeting_2
 Meeting ID: data004
 Level: meeting
-Text Length: 1023 characters
+Reference: P011–P013
+Paragraph Indices: #P011, #P012, #P013
+Text Length: 997 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Persistence and Career Rebuilding [#M004-T02 R=P011–P013]
-
-- **Topic Title:** Persistence and Career Rebuilding [#M004-T02 R=P011–P013]
+- **Topic Title:** Persistence and Career Rebuilding  
+- Topic id: M004-T02
+- Reference: P011–P013  
 - Summary:
 - [05:39] **Host:** Asks how Nimi recovered after the MTV disappointment.
 - [05:49] **Nimi Mehta:** Explains her belief in the **power of proximity**, applying for any Viacom role to stay in the industry.
@@ -152,24 +241,27 @@ Text Content:
 - [05:49] **Nimi Mehta:** After many internships, she transitioned to radio, eventually hosting a **national breakfast show in Abu Dhabi**.
 - [09:25] **Host:** Adds a mindset reframe: expect 50 “Nos” before one “Yes” to stay motivated.
 - Participants: Host, Nimi Mehta
-- Duration: [05:39–09:25]
+- Duration: [05:39–09:25]  
+------  
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #7]
-Chunk ID: data004_meeting_2
+[CHUNK #11]
+Chunk ID: data004_meeting_3
 Meeting ID: data004
 Level: meeting
-Text Length: 1074 characters
+Reference: P014–P016
+Paragraph Indices: #P014, #P015, #P016
+Text Length: 1033 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Transition to Entrepreneurship and Choosing Fear [#M004-T03 R=P014–P016]
-
-- **Topic Title:** Transition to Entrepreneurship and Choosing Fear [#M004-T03 R=P014–P016]
+- **Topic Title:** Transition to Entrepreneurship and Choosing Fear  
+- Topic id: M004-T03
+- Reference: P014–P016  
 - Summary:
 - [10:45] **Host:** Moves to discuss Nimi’s leap from radio to entrepreneurship.
 - [11:06] **Nimi Mehta:** Recounts moving from **Radio 1 Abu Dhabi** to **Channel 4 Dubai**, where her show became #1 in the country.
@@ -178,48 +270,54 @@ Text Content:
 - [11:06] **Nimi Mehta:** Concludes that growth requires choosing the fear of leaving comfort over the fear of stagnation.
 - [15:00] **Host:** Echoes this with the idea of **choosing discomfort**—every path is hard, so pick the one aligned with your purpose.
 - Participants: Host, Nimi Mehta
-- Duration: [10:45–15:00]
+- Duration: [10:45–15:00]  
+------  
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #8]
-Chunk ID: data004_meeting_3
+[CHUNK #12]
+Chunk ID: data004_meeting_4
 Meeting ID: data004
 Level: meeting
-Text Length: 770 characters
+Reference: P017–P020
+Paragraph Indices: #P017, #P018, #P019, #P020
+Text Length: 755 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Intuition, Body Awareness, and Decision-Making [#M004-T04 R=P017–P020]
-
-- **Topic Title:** Intuition, Body Awareness, and Decision-Making [#M004-T04 R=P017–P020]
+- **Topic Title:** Intuition, Body Awareness, and Decision-Making [#M004-T04 R=P017–P020]  
+- Topic id: M004-T04
+- Reference: P017–P020  
 - Summary:
 - [16:18] **Nimi Mehta:** Introduces her **5-second rule**—act before the mind overrides gut feelings.
 - [17:41] **Host:** Agrees, sharing that the body communicates through pain, citing stress-related neck tension.
 - [19:35] **Nimi Mehta:** Extends the principle to relationships—trust bodily signals about others instead of self-doubt.
 - [20:21] **Host:** Adds that misalignment isn’t “good or bad,” just about energy not matching.
 - Participants: Host, Nimi Mehta
-- Duration: [16:18–20:21]
+- Duration: [16:18–20:21]  
+------  
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #9]
-Chunk ID: data004_meeting_4
+[CHUNK #13]
+Chunk ID: data004_meeting_5
 Meeting ID: data004
 Level: meeting
-Text Length: 1024 characters
+Reference: P021–P025
+Paragraph Indices: #P021, #P022, #P023, #P024, #P025
+Text Length: 1021 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Finding and Protecting One’s Voice [#M004-T05 R=P021–P025]
-
-- **Topic Title:** Finding and Protecting One’s Voice [#M004-T05 R=P021–P025]
+- **Topic Title:** Finding and Protecting One’s Voice [#M004-T05 R=P021–P025]  
+- Topic id: M004-T05
+- Reference: P021–P025  
 - Summary:
 - [21:30] **Nimi Mehta:** Explains how she moved into **legacy mode**, developing **The Voice Layer Theory**.
 - [21:30] **Nimi Mehta:** Describes how parental, societal, and media “layers” dilute one’s authentic voice.
@@ -228,24 +326,27 @@ Text Content:
 - [28:53] **Host:** Expands this to analyzing content consumption and online voices for alignment.
 - [32:00] **Nimi Mehta:** Mentions how returning home causes her to **regress** into old patterns, showing the importance of conscious environments.
 - Participants: Host, Nimi Mehta
-- Duration: [21:30–32:00]
+- Duration: [21:30–32:00]  
+------  
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #10]
-Chunk ID: data004_meeting_5
+[CHUNK #14]
+Chunk ID: data004_meeting_6
 Meeting ID: data004
 Level: meeting
-Text Length: 1035 characters
+Reference: P026–P029
+Paragraph Indices: #P026, #P027, #P028, #P029
+Text Length: 1006 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Balancing Kindness and Assertiveness [#M004-T06 R=P026–P029]
-
-- **Topic Title:** Balancing Kindness and Assertiveness [#M004-T06 R=P026–P029]
+- **Topic Title:** Balancing Kindness and Assertiveness  
+- Topic id: M004-T06
+- Reference: P026–P029  
 - Summary:
 - [33:57] **Host:** Brings up the struggle between being nice and being assertive.
 - [35:04] **Nimi Mehta:** Rejects the “nice vs. mean” binary, arguing that confidence means **responding, not reacting**.
@@ -254,24 +355,27 @@ Text Content:
 - [39:42] **Host:** Adds that **people pleasing = saying yes to others but no to yourself**, emphasizing mindful communication.
 - [42:22] **Nimi Mehta:** Advises taking pauses before responding to protect one’s energy and maintain relationships respectfully.
 - Participants: Host, Nimi Mehta
-- Duration: [33:57–42:22]
+- Duration: [33:57–42:22]  
+------  
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #11]
-Chunk ID: data004_meeting_6
+[CHUNK #15]
+Chunk ID: data004_meeting_7
 Meeting ID: data004
 Level: meeting
-Text Length: 919 characters
+Reference: P030–P034
+Paragraph Indices: #P030, #P031, #P032, #P033, #P034
+Text Length: 877 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Confidence, Reflection, and Emotional Awareness [#M004-T07 R=P030–P034]
-
-- **Topic Title:** Confidence, Reflection, and Emotional Awareness [#M004-T07 R=P030–P034]
+- **Topic Title:** Confidence, Reflection, and Emotional Awareness  
+- Topic id: M004-T07
+- Reference: P030–P034  
 - Summary:
 - [44:18] **Host:** Notes that finding one’s voice enables authentic responses and emotional regulation.
 - [45:22] **Nimi Mehta:** Shares her “**My Wins**” photo album for self-affirmation and introduces the idea of **soft vs. loud confidence**.
@@ -279,7 +383,54 @@ Text Content:
 - [49:27] **Nimi Mehta:** Emphasizes that **emotions are temporary** and lows give reference points for highs, suggesting a **cookie jar of wins** for gratitude.
 - [50:35] **Host:** Closes by thanking Nimi for her time.
 - Participants: Host, Nimi Mehta
-- Duration: [44:18–50:35]
+- Duration: [44:18–50:35]  
+------
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #16]
+Chunk ID: data004_meeting_8
+Meeting ID: data004
+Level: meeting
+Reference: P021–P025
+Paragraph Indices: #P021, #P022, #P023, #P024, #P025
+Text Length: 438 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Nimi Mehta  
+- Topic id: M004-A01
+- Reference: P021–P025  
+- Task: Continue promoting **The Voice Layer Theory** as a structured coaching framework.
+- Context: Derived from her teaching on voice isolation, influence assessment, and protecting authenticity.
+- Duration: [21:30–28:53]
+- Deadline (if any): TBD  
+
+Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
+Date: 2024-04-14T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #17]
+Chunk ID: data004_meeting_9
+Meeting ID: data004
+Level: meeting
+Reference: P015–P016
+Paragraph Indices: #P015, #P016
+Text Length: 405 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Host  
+- Topic id: M004-A02
+- Reference: P015–P016  
+- Task: Apply “choose your discomfort” mindset in future episodes; develop reflection prompts for listeners.
+- Context: Emerged from discussion on fear and decision-making.
+- Duration: [15:00–16:18]
+- Deadline (if any): TBD
 
 Meeting: Confidence isn't loud, here's how to find your voice | Nimi Mehta
 Date: 2024-04-14T00:00:00Z
@@ -293,169 +444,15 @@ Date: 2024-04-14T00:00:00Z
 >>> MEETING: data006 <<<
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[CHUNK #12]
+[CHUNK #18]
 Chunk ID: data006_meeting_0
 Meeting ID: data006
 Level: meeting
-Text Length: 1069 characters
+Text Length: 108 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Reinventing Computing and the Origins of Nvidia [#M006-T01 R=P001–P016]
-
-- **Topic Title:** Reinventing Computing and the Origins of Nvidia [#M006-T01 R=P001–P016]
-- Summary:
-- [00:00] **Jensen Huang:** States belief that everything that moves will soon become robotic, reflecting Nvidia’s vision to reinvent computing.
-- [00:27] **Cleo Abram:** Introduces Jensen Huang as the CEO of Nvidia, explaining its pivotal role in reshaping modern technology.
-- [03:45] **Cleo Abram:** Frames the interview around three questions: how computing evolved, what’s happening now, and what comes next.
-- [04:16] **Jensen Huang:** Explains the insight behind parallel vs. sequential processing—only ~10 % of code does 99 % of the work—leading to the GPU.
-- [05:38] **Jensen Huang:** Says video games were chosen as Nvidia’s entry market because 3D graphics required parallel processing and offered a huge commercial base for R&D.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [00:00–05:38]
-
-Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
-Date: 2025-01-07T00:00:00Z
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #13]
-Chunk ID: data006_meeting_1
-Meeting ID: data006
-Level: meeting
-Text Length: 893 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-# The GPU as a “Time Machine” and the Birth of CUDA [#M006-T02 R=P017–P026]
-
-- **Topic Title:** The GPU as a “Time Machine” and the Birth of CUDA [#M006-T02 R=P017–P026]
-- Summary:
-- [06:24] **Cleo Abram:** References his quote that GPUs are “time machines.”
-- [06:29] **Jensen Huang:** Explains that GPUs accelerate discovery—scientists can now “do a lifetime of work within their lifetime.”
-- [08:24] **Jensen Huang:** Describes creating **CUDA**, inspired by both external researchers using GPUs for CT reconstruction and Nvidia’s internal need to simulate fluid dynamics.
-- [08:46] **Jensen Huang:** Notes that CUDA succeeded because gaming ensured GPUs would reach massive scale, enabling the world’s highest-volume parallel processors.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [06:24–09:25]
-
-Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
-Date: 2025-01-07T00:00:00Z
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #14]
-Chunk ID: data006_meeting_2
-Meeting ID: data006
-Level: meeting
-Text Length: 900 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-# AlexNet 2012 — Deep Learning’s Breakthrough Moment [#M006-T03 R=P027–P030]
-
-- **Topic Title:** AlexNet 2012 — Deep Learning’s Breakthrough Moment [#M006-T03 R=P027–P030]
-- Summary:
-- [11:03] **Cleo Abram:** Describes the 2012 ImageNet victory (AlexNet) that used Nvidia GPUs, triggering the AI revolution.
-- [12:06] **Jensen Huang:** Recalls University of Toronto researchers using GeForce GTX 580 via CUDA, proving deep neural networks could scale.
-- [12:06] **Jensen Huang:** Explains how seeing AlexNet’s success convinced Nvidia to **re-engineer the full computing stack**, birthing DGX systems.
-- [15:43] **Jensen Huang:** Lists capabilities unlocked—computer vision, speech recognition, and language understanding—each once deemed unsolved.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [11:03–15:43]
-
-Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
-Date: 2025-01-07T00:00:00Z
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #15]
-Chunk ID: data006_meeting_3
-Meeting ID: data006
-Level: meeting
-Text Length: 879 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-# Ten Years of Belief — Patience, Principles, and Core Convictions [#M006-T04 R=P031–P035]
-
-- **Topic Title:** Ten Years of Belief — Patience, Principles, and Core Convictions [#M006-T04 R=P031–P035]
-- Summary:
-- [16:49] **Jensen Huang:** Reflects that progress “felt like today”: constant challenge, faith, and iteration.
-- [16:49] **Jensen Huang:** Says Nvidia invested “tens of billions of dollars before it really happened.”
-- [19:49] **Jensen Huang:** Enumerates core beliefs — accelerated computing and deep learning scalability are empirically true; larger models → more knowledge.
-- [19:49] **Jensen Huang:** Predicts AI will translate across modalities: text↔image, text↔protein structures, even words→robotic actions.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [16:49–22:47]
-
-Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
-Date: 2025-01-07T00:00:00Z
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #16]
-Chunk ID: data006_meeting_4
-Meeting ID: data006
-Level: meeting
-Text Length: 717 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-# From Science of AI to Application Science — AI’s Next Decade [#M006-T05 R=P036–P038]
-
-- **Topic Title:** From Science of AI to Application Science — AI’s Next Decade [#M006-T05 R=P036–P038]
-- Summary:
-- [23:06] **Jensen Huang:** Distinguishes prior decade (science of AI) from coming decade (application science of AI).
-- [23:06] **Jensen Huang:** Lists domains for applied AI: digital biology, climate, agriculture, robotics, education, podcasting.
-- [24:04] **Cleo Abram:** Transitions to “physical AI” — robots and autonomous systems trained in digital worlds.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [23:06–24:04]
-
-Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
-Date: 2025-01-07T00:00:00Z
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #17]
-Chunk ID: data006_meeting_5
-Meeting ID: data006
-Level: meeting
-Text Length: 981 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-# Omniverse + Cosmos — Building the World Model for Robotics [#M006-T06 R=P039–P045]
-
-- **Topic Title:** Omniverse + Cosmos — Building the World Model for Robotics [#M006-T06 R=P039–P045]
-- Summary:
-- [25:26] **Jensen Huang:** Confirms Omniverse is a 3D simulation environment for robot training.
-- [26:11] **Jensen Huang:** Analogizes Cosmos to a “world language model,” embedding physics common sense (gravity, friction, object permanence).
-- [26:11] **Jensen Huang:** Says Omniverse physics grounds Cosmos, creating “physically plausible futures.”
-- [29:41] **Cleo Abram:** Summarizes the benefit — robots can learn digitally and transfer skills faster and safely to the real world.
-- [30:20] **Jensen Huang:** Predicts “everything that moves will be robotic soon” and each person will have a personal AI assistant like R2-D2.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [25:26–30:20]
-
-Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
-Date: 2025-01-07T00:00:00Z
-----------------------------------------------------------------------------------------------------
-
-
-[CHUNK #18]
-Chunk ID: data006_meeting_6
-Meeting ID: data006
-Level: meeting
-Text Length: 735 characters
-
-Text Content:
-----------------------------------------------------------------------------------------------------
-# AI Risks and Safety Engineering [#M006-T07 R=P046–P051]
-
-- **Topic Title:** AI Risks and Safety Engineering [#M006-T07 R=P046–P051]
-- Summary:
-- [32:04] **Cleo Abram:** Raises ethical concerns about robotic and AI futures.
-- [32:26] **Jensen Huang:** Outlines risk buckets — bias, toxicity, hallucination, impersonation, and malfunction.
-- [32:26] **Jensen Huang:** Emphasizes engineering redundancy similar to flight control systems to ensure AI safety.
-- [32:26] **Jensen Huang:** Argues safety requires a “community architecture” of multiple AIs and systems checking each other.
-- Participants: Jensen Huang, Cleo Abram
-- Duration: [32:04–35:10]
+# Meeting Level Summary
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -463,23 +460,27 @@ Date: 2025-01-07T00:00:00Z
 
 
 [CHUNK #19]
-Chunk ID: data006_meeting_7
+Chunk ID: data006_meeting_1
 Meeting ID: data006
 Level: meeting
-Text Length: 763 characters
+Reference: P001–P016
+Paragraph Indices: #P001, #P002, #P003, #P004, #P005, #P006, #P007, #P008, #P009, #P010, #P011, #P012, #P013, #P014, #P015, #P016
+Text Length: 1029 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Energy Efficiency and Hardware Evolution [#M006-T08 R=P052–P057]
-
-- **Topic Title:** Energy Efficiency and Hardware Evolution [#M006-T08 R=P052–P057]
+- **Topic Title:** Reinventing Computing and the Origins of Nvidia  
+- Topic id: M006-T01
+- Reference: P001–P016  
 - Summary:
-- [35:10] **Cleo Abram:** Notes that AI has removed many CPU limitations and asks about current technical boundaries.
-- [35:47] **Jensen Huang:** Says fundamental limit is energy — computing is bounded by physics of moving bits.
-- [36:40] **Jensen Huang:** Compares 2016 DGX-1 ($250 k) with modern mini DGX — 6× performance at 1/10,000 energy cost.
-- [37:07] **Jensen Huang:** Stresses energy efficiency as Nvidia’s top priority for AI advancement.
+- [00:00] **Jensen Huang:** States belief that everything that moves will soon become robotic, reflecting Nvidia’s vision to reinvent computing.
+- [00:27] **Cleo Abram:** Introduces Jensen Huang as the CEO of Nvidia, explaining its pivotal role in reshaping modern technology.
+- [03:45] **Cleo Abram:** Frames the interview around three questions: how computing evolved, what’s happening now, and what comes next.
+- [04:16] **Jensen Huang:** Explains the insight behind parallel vs. sequential processing—only ~10 % of code does 99 % of the work—leading to the GPU.
+- [05:38] **Jensen Huang:** Says video games were chosen as Nvidia’s entry market because 3D graphics required parallel processing and offered a huge commercial base for R&D.
 - Participants: Jensen Huang, Cleo Abram
-- Duration: [35:10–38:03]
+- Duration: [00:00–05:38]  
+------  
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -487,23 +488,26 @@ Date: 2025-01-07T00:00:00Z
 
 
 [CHUNK #20]
-Chunk ID: data006_meeting_8
+Chunk ID: data006_meeting_2
 Meeting ID: data006
 Level: meeting
-Text Length: 764 characters
+Reference: P017–P026
+Paragraph Indices: #P017, #P018, #P019, #P020, #P021, #P022, #P023, #P024, #P025, #P026
+Text Length: 851 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Betting on Flexibility — Beyond Transformers [#M006-T09 R=P058–P059]
-
-- **Topic Title:** Betting on Flexibility — Beyond Transformers [#M006-T09 R=P058–P059]
+- **Topic Title:** The GPU as a “Time Machine” and the Birth of CUDA  
+- Topic id: M006-T02
+- Reference: P017–P026  
 - Summary:
-- [38:03] **Cleo Abram:** Describes the AI hardware trade-off between specialization and generalization.
-- [39:31] **Jensen Huang:** Rejects the idea that Transformers are final; innovation will continue.
-- [39:31] **Jensen Huang:** Argues for architectures that enable future research rather than lock into one algorithm.
-- [39:31] **Jensen Huang:** Highlights ongoing research in “attention mechanisms” as proof of AI’s creative evolution.
+- [06:24] **Cleo Abram:** References his quote that GPUs are “time machines.”
+- [06:29] **Jensen Huang:** Explains that GPUs accelerate discovery—scientists can now “do a lifetime of work within their lifetime.”
+- [08:24] **Jensen Huang:** Describes creating **CUDA**, inspired by both external researchers using GPUs for CT reconstruction and Nvidia’s internal need to simulate fluid dynamics.
+- [08:46] **Jensen Huang:** Notes that CUDA succeeded because gaming ensured GPUs would reach massive scale, enabling the world’s highest-volume parallel processors.
 - Participants: Jensen Huang, Cleo Abram
-- Duration: [38:03–42:29]
+- Duration: [06:24–09:25]  
+------  
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -511,22 +515,26 @@ Date: 2025-01-07T00:00:00Z
 
 
 [CHUNK #21]
-Chunk ID: data006_meeting_9
+Chunk ID: data006_meeting_3
 Meeting ID: data006
 Level: meeting
-Text Length: 711 characters
+Reference: P027–P030
+Paragraph Indices: #P027, #P028, #P029, #P030
+Text Length: 858 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Pushing Physical Limits and Cross-Disciplinary Engineering [#M006-T10 R=P060–P061]
-
-- **Topic Title:** Pushing Physical Limits and Cross-Disciplinary Engineering [#M006-T10 R=P060–P061]
+- **Topic Title:** AlexNet 2012 — Deep Learning’s Breakthrough Moment  
+- Topic id: M006-T03
+- Reference:  P027–P030  
 - Summary:
-- [42:29] **Cleo Abram:** Asks how design pushes manufacturing and physics boundaries.
-- [42:58] **Jensen Huang:** Says Nvidia maintains deep in-house semiconductor and aerodynamics expertise even though TSMC fabricates its chips.
-- [42:58] **Jensen Huang:** Describes collaborating with TSMC and other partners to discover and extend physical limits together.
+- [11:03] **Cleo Abram:** Describes the 2012 ImageNet victory (AlexNet) that used Nvidia GPUs, triggering the AI revolution.
+- [12:06] **Jensen Huang:** Recalls University of Toronto researchers using GeForce GTX 580 via CUDA, proving deep neural networks could scale.
+- [12:06] **Jensen Huang:** Explains how seeing AlexNet’s success convinced Nvidia to **re-engineer the full computing stack**, birthing DGX systems.
+- [15:43] **Jensen Huang:** Lists capabilities unlocked—computer vision, speech recognition, and language understanding—each once deemed unsolved.
 - Participants: Jensen Huang, Cleo Abram
-- Duration: [42:29–44:13]
+- Duration: [11:03–15:43]  
+------  
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -534,22 +542,26 @@ Date: 2025-01-07T00:00:00Z
 
 
 [CHUNK #22]
-Chunk ID: data006_meeting_10
+Chunk ID: data006_meeting_4
 Meeting ID: data006
 Level: meeting
-Text Length: 727 characters
+Reference: P031–P035
+Paragraph Indices: #P031, #P032, #P033, #P034, #P035
+Text Length: 822 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science [#M006-T11 R=P062–P063]
-
-- **Topic Title:** Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science [#M006-T11 R=P062–P063]
+- **Topic Title:** Ten Years of Belief — Patience, Principles, and Core Convictions  
+- Topic id: M006-T04
+- Reference: P031–P035  
 - Summary:
-- [44:36] **Jensen Huang:** Announces new fusion of Omniverse + Cosmos for generative world simulation.
-- [44:36] **Jensen Huang:** Highlights human robotics, digital biology, and climate forecasting as next frontiers.
-- [44:36] **Jensen Huang:** Calls DGX a “time machine” that lets scientists see the future and optimize for it.
+- [16:49] **Jensen Huang:** Reflects that progress “felt like today”: constant challenge, faith, and iteration.
+- [16:49] **Jensen Huang:** Says Nvidia invested “tens of billions of dollars before it really happened.”
+- [19:49] **Jensen Huang:** Enumerates core beliefs — accelerated computing and deep learning scalability are empirically true; larger models → more knowledge.
+- [19:49] **Jensen Huang:** Predicts AI will translate across modalities: text↔image, text↔protein structures, even words→robotic actions.
 - Participants: Jensen Huang, Cleo Abram
-- Duration: [44:36–47:04]
+- Duration: [16:49–22:47]  
+------  
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -557,23 +569,25 @@ Date: 2025-01-07T00:00:00Z
 
 
 [CHUNK #23]
-Chunk ID: data006_meeting_11
+Chunk ID: data006_meeting_5
 Meeting ID: data006
 Level: meeting
-Text Length: 739 characters
+Reference: P036–P038
+Paragraph Indices: #P036, #P037, #P038
+Text Length: 664 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Preparing for a Superhuman AI Future [#M006-T12 R=P064–P073]
-
-- **Topic Title:** Preparing for a Superhuman AI Future [#M006-T12 R=P064–P073]
+- **Topic Title:** From Science of AI to Application Science — AI’s Next Decade  
+- Topic id: M006-T05
+- Reference: P036–P038  
 - Summary:
-- [47:47] **Jensen Huang:** Predicts AI will make people “superhuman,” removing drudgery like the highway did for industry.
-- [47:47] **Jensen Huang:** Urges everyone to adopt AI tutors to learn, reason, and work better.
-- [55:46] **Jensen Huang:** Advises students to master prompting and integrate AI into every profession.
-- [57:55] **Cleo Abram:** Concludes that AI will lower barriers to knowledge and empower human creativity.
+- [23:06] **Jensen Huang:** Distinguishes prior decade (science of AI) from coming decade (application science of AI).
+- [23:06] **Jensen Huang:** Lists domains for applied AI: digital biology, climate, agriculture, robotics, education, podcasting.
+- [24:04] **Cleo Abram:** Transitions to “physical AI” — robots and autonomous systems trained in digital worlds.
 - Participants: Jensen Huang, Cleo Abram
-- Duration: [47:47–58:00]
+- Duration: [23:06–24:04]  
+------  
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -581,23 +595,260 @@ Date: 2025-01-07T00:00:00Z
 
 
 [CHUNK #24]
-Chunk ID: data006_meeting_12
+Chunk ID: data006_meeting_6
 Meeting ID: data006
 Level: meeting
-Text Length: 766 characters
+Reference: P039–P045
+Paragraph Indices: #P039, #P040, #P041, #P042, #P043, #P044, #P045
+Text Length: 930 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Legacy and Impact — Looking Back at Nvidia’s Mission [#M006-T13 R=P074–P079]
+- **Topic Title:** Omniverse + Cosmos — Building the World Model for Robotics  
+- Topic id: M006-T06
+- Reference: P039–P045  
+- Summary:
+- [25:26] **Jensen Huang:** Confirms Omniverse is a 3D simulation environment for robot training.
+- [26:11] **Jensen Huang:** Analogizes Cosmos to a “world language model,” embedding physics common sense (gravity, friction, object permanence).
+- [26:11] **Jensen Huang:** Says Omniverse physics grounds Cosmos, creating “physically plausible futures.”
+- [29:41] **Cleo Abram:** Summarizes the benefit — robots can learn digitally and transfer skills faster and safely to the real world.
+- [30:20] **Jensen Huang:** Predicts “everything that moves will be robotic soon” and each person will have a personal AI assistant like R2-D2.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [25:26–30:20]  
+------  
 
-- **Topic Title:** Legacy and Impact — Looking Back at Nvidia’s Mission [#M006-T13 R=P074–P079]
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #25]
+Chunk ID: data006_meeting_7
+Meeting ID: data006
+Level: meeting
+Reference: P046–P051
+Paragraph Indices: #P046, #P047, #P048, #P049, #P050, #P051
+Text Length: 711 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** AI Risks and Safety Engineering  
+- Topic id: M006-T07
+- Reference: P046–P051  
+- Summary:
+- [32:04] **Cleo Abram:** Raises ethical concerns about robotic and AI futures.
+- [32:26] **Jensen Huang:** Outlines risk buckets — bias, toxicity, hallucination, impersonation, and malfunction.
+- [32:26] **Jensen Huang:** Emphasizes engineering redundancy similar to flight control systems to ensure AI safety.
+- [32:26] **Jensen Huang:** Argues safety requires a “community architecture” of multiple AIs and systems checking each other.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [32:04–35:10]  
+------  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #26]
+Chunk ID: data006_meeting_8
+Meeting ID: data006
+Level: meeting
+Reference: P052–P057
+Paragraph Indices: #P052, #P053, #P054, #P055, #P056, #P057
+Text Length: 730 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Energy Efficiency and Hardware Evolution  
+- Topic id: M006-T08
+- Reference: P052–P057  
+- Summary:
+- [35:10] **Cleo Abram:** Notes that AI has removed many CPU limitations and asks about current technical boundaries.
+- [35:47] **Jensen Huang:** Says fundamental limit is energy — computing is bounded by physics of moving bits.
+- [36:40] **Jensen Huang:** Compares 2016 DGX-1 ($250 k) with modern mini DGX — 6× performance at 1/10,000 energy cost.
+- [37:07] **Jensen Huang:** Stresses energy efficiency as Nvidia’s top priority for AI advancement.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [35:10–38:03]  
+------  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #27]
+Chunk ID: data006_meeting_9
+Meeting ID: data006
+Level: meeting
+Reference: P058–P059
+Paragraph Indices: #P058, #P059
+Text Length: 727 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Betting on Flexibility — Beyond Transformers  
+- Topic id: M006-T09
+- Reference: P058–P059  
+- Summary:
+- [38:03] **Cleo Abram:** Describes the AI hardware trade-off between specialization and generalization.
+- [39:31] **Jensen Huang:** Rejects the idea that Transformers are final; innovation will continue.
+- [39:31] **Jensen Huang:** Argues for architectures that enable future research rather than lock into one algorithm.
+- [39:31] **Jensen Huang:** Highlights ongoing research in “attention mechanisms” as proof of AI’s creative evolution.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [38:03–42:29]  
+------  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #28]
+Chunk ID: data006_meeting_10
+Meeting ID: data006
+Level: meeting
+Reference: P060–P061
+Paragraph Indices: #P060, #P061
+Text Length: 660 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Pushing Physical Limits and Cross-Disciplinary Engineering  
+- Topic id: M006-T10
+- Reference: P060–P061  
+- Summary:
+- [42:29] **Cleo Abram:** Asks how design pushes manufacturing and physics boundaries.
+- [42:58] **Jensen Huang:** Says Nvidia maintains deep in-house semiconductor and aerodynamics expertise even though TSMC fabricates its chips.
+- [42:58] **Jensen Huang:** Describes collaborating with TSMC and other partners to discover and extend physical limits together.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [42:29–44:13]  
+------  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #29]
+Chunk ID: data006_meeting_11
+Meeting ID: data006
+Level: meeting
+Reference: P062–P063
+Paragraph Indices: #P062, #P063
+Text Length: 653 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Future Bets — Fusion of Omniverse and Cosmos, Digital Biology and Climate Science  
+- Topic id: M006-T11
+- Reference: P062–P063  
+- Summary:
+- [44:36] **Jensen Huang:** Announces new fusion of Omniverse + Cosmos for generative world simulation.
+- [44:36] **Jensen Huang:** Highlights human robotics, digital biology, and climate forecasting as next frontiers.
+- [44:36] **Jensen Huang:** Calls DGX a “time machine” that lets scientists see the future and optimize for it.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [44:36–47:04]  
+------  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #30]
+Chunk ID: data006_meeting_12
+Meeting ID: data006
+Level: meeting
+Reference: P064–P073
+Paragraph Indices: #P064, #P065, #P066, #P067, #P068, #P069, #P070, #P071, #P072, #P073
+Text Length: 710 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Preparing for a Superhuman AI Future  
+- Topic id: M006-T12
+- Reference: P064–P073  
+- Summary:
+- [47:47] **Jensen Huang:** Predicts AI will make people “superhuman,” removing drudgery like the highway did for industry.
+- [47:47] **Jensen Huang:** Urges everyone to adopt AI tutors to learn, reason, and work better.
+- [55:46] **Jensen Huang:** Advises students to master prompting and integrate AI into every profession.
+- [57:55] **Cleo Abram:** Concludes that AI will lower barriers to knowledge and empower human creativity.
+- Participants: Jensen Huang, Cleo Abram
+- Duration: [47:47–58:00]  
+------  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #31]
+Chunk ID: data006_meeting_13
+Meeting ID: data006
+Level: meeting
+Reference: P074–P079
+Paragraph Indices: #P074, #P075, #P076, #P077, #P078, #P079
+Text Length: 719 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Legacy and Impact — Looking Back at Nvidia’s Mission  
+- Topic id: M006-T13
+- Reference: P074–P079  
 - Summary:
 - [59:09] **Cleo Abram:** Asks about legacy and how Jensen hopes to be remembered.
 - [01:00:15] **Jensen Huang:** Says he hopes people say “they made an extraordinary impact.”
 - [01:00:15] **Jensen Huang:** Emphasizes democratizing capabilities for researchers and developers in every field.
 - [01:00:15] **Jensen Huang:** Predicts Nvidia will be remembered for transforming digital biology, materials science, and robotics.
 - Participants: Jensen Huang, Cleo Abram
-- Duration: [59:09–01:02:51]
+- Duration: [59:09–01:02:51]  
+------
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #32]
+Chunk ID: data006_meeting_14
+Meeting ID: data006
+Level: meeting
+Reference: P062–P063
+Paragraph Indices: #P062, #P063
+Text Length: 438 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Jensen Huang  
+- Action id: M006-A01
+- Reference: P062–P063  
+- Task: Advance fusion of Omniverse and Cosmos as a foundation for robot training and digital twin simulation.
+- Context: Introduced as Nvidia’s new bet on world model generation for physical AI and scientific simulation.
+- Duration: [44:36–47:04]
+- Deadline: TBD  
+
+Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
+Date: 2025-01-07T00:00:00Z
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #33]
+Chunk ID: data006_meeting_15
+Meeting ID: data006
+Level: meeting
+Reference: P064–P073
+Paragraph Indices: #P064, #P065, #P066, #P067, #P068, #P069, #P070, #P071, #P072, #P073
+Text Length: 381 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Jensen Huang  
+- Action id: M006-A02
+- Reference: P064–P073  
+- Task: Promote AI literacy and tutoring for the next generation.
+- Context: Advises students and professionals to learn how to collaborate with AI tools effectively.
+- Duration: [55:46–57:55]
+- Deadline: TBD
 
 Meeting: NVIDIA CEO Jensen Huang's Vision for the Future
 Date: 2025-01-07T00:00:00Z
@@ -611,17 +862,34 @@ Date: 2025-01-07T00:00:00Z
 >>> MEETING: data007 <<<
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-[CHUNK #25]
+[CHUNK #34]
 Chunk ID: data007_meeting_0
 Meeting ID: data007
 Level: meeting
-Text Length: 1026 characters
+Text Length: 127 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Discovery-First Design vs. Social Graph [#M007-T01 R=P004–P013]
+# Meeting Level Summary
 
-- **Topic Title:** Discovery-First Design vs. Social Graph [#M007-T01 R=P004–P013]
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #35]
+Chunk ID: data007_meeting_1
+Meeting ID: data007
+Level: meeting
+Reference: P004-P013
+Paragraph Indices: #P004, #P005, #P006, #P007, #P008, #P009, #P010, #P011, #P012, #P013
+Text Length: 994 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Topic Title:** Discovery-First Design vs. Social Graph  
+- Topic id: M007-T01
+- Reference: P004-P013  
 - Summary:
 - [00:36] **Shou Chew:** Introduces TikTok’s origin: recommend content based on what users **like**, not who they **know**.
 - [02:49] **Shou Chew:** States mission (“inspire creativity, bring joy”) and vision (discover, create, connect); discovery engine is the core differentiator.
@@ -629,24 +897,27 @@ Text Content:
 - [08:20] **Shou Chew:** Explains full-screen, short-video, portrait format as the “window to discover,” helping users find communities.
 - [09:12] **Shou Chew:** Shares small-business case: Phoenix taco restaurant drove ~$1M revenue via TikTok content.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [00:36–09:23]
+- Duration: [00:36–09:23]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #26]
-Chunk ID: data007_meeting_1
+[CHUNK #36]
+Chunk ID: data007_meeting_2
 Meeting ID: data007
 Level: meeting
-Text Length: 1029 characters
+Reference: P007–P018
+Paragraph Indices: #P007, #P008, #P009, #P010, #P011, #P012, #P013, #P014, #P015, #P016, #P017, #P018
+Text Length: 988 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Recommendation Mechanics & Early Growth Fairness [#M007-T02 R=P007–P018]
-
-- **Topic Title:** Recommendation Mechanics & Early Growth Fairness [#M007-T02 R=P007–P018]
+- **Topic Title:** Recommendation Mechanics & Early Growth Fairness  
+- Topic id: M007-T02
+- Reference: P007–P018  
 - Summary:
 - [05:54] **Shou Chew:** Describes the recommender as scalable **math**, aligning interest signals at real-time, billion-user scale.
 - [06:41] **Chris Anderson:** Frames it as **collaborative filtering**—overlapping interests predict new content users will like.
@@ -654,70 +925,79 @@ Text Content:
 - [11:57] **Shou Chew:** Says every new video gets an **equal chance** to find an initial audience; rejects idea of “pushing” content via artificial likes.
 - [12:24] **Shou Chew:** Notes virality must **resonate** organically; exposure alone can’t manufacture it.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [05:54–07:39], [11:57–13:05]
+- Duration: [05:54–07:39], [11:57–13:05]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #27]
-Chunk ID: data007_meeting_2
+[CHUNK #37]
+Chunk ID: data007_meeting_3
 Meeting ID: data007
 Level: meeting
-Text Length: 741 characters
+Reference: P019–P021
+Paragraph Indices: #P019, #P020, #P021
+Text Length: 703 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Platform DNA vs. Competitors & Filter Bubbles [#M007-T03 R=P019–P021]
-
-- **Topic Title:** Platform DNA vs. Competitors & Filter Bubbles [#M007-T03 R=P019–P021]
+- **Topic Title:** Platform DNA vs. Competitors & Filter Bubbles  
+- Topic id: M007-T03
+- Reference: P019–P021  
 - Summary:
 - [13:28] **Shou Chew:** Argues differences stem from **mission/origins** (interest-based design) more than algorithmic complexity alone.
 - [14:25] **Chris Anderson:** Asks whether interest-first design avoids social-graph **tribal filter bubbles**.
 - [14:46] **Shou Chew:** Says **diversity of content** is essential for discovery; policies remove bad content without ad-hoc executive overrides.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [13:28–15:35]
+- Duration: [13:28–15:35]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #28]
-Chunk ID: data007_meeting_3
+[CHUNK #38]
+Chunk ID: data007_meeting_4
 Meeting ID: data007
 Level: meeting
-Text Length: 711 characters
+Reference: P024–P026
+Paragraph Indices: #P024, #P025, #P026
+Text Length: 678 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Community Guidelines & Youth Protections [#M007-T04 R=P024–P026]
-
-- **Topic Title:** Community Guidelines & Youth Protections [#M007-T04 R=P024–P026]
+- **Topic Title:** Community Guidelines & Youth Protections  
+- Topic id: M007-T04
+- Reference: P024–P026  
 - Summary:
 - [15:40] **Shou Chew:** Lists rules: no pornography/CSAM/violence; under-18 experience is **more restricted**.
 - [16:09] **Shou Chew:** Under-16s by default **cannot go viral** or use in-app messaging; under-18s cannot live-stream.
 - [16:34] **Shou Chew:** Explains **age-gating** at signup plus public-profile/video checks; avoids invasive face scans to balance **privacy**.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [15:40–17:24]
+- Duration: [15:40–17:24]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #29]
-Chunk ID: data007_meeting_4
+[CHUNK #39]
+Chunk ID: data007_meeting_5
 Meeting ID: data007
 Level: meeting
-Text Length: 946 characters
+Reference: P029–P036
+Paragraph Indices: #P029, #P030, #P031, #P032, #P033, #P034, #P035, #P036
+Text Length: 907 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Screen Time, Addiction Risk & Digital Wellness [#M007-T05 R=P029–P036]
-
-- **Topic Title:** Screen Time, Addiction Risk & Digital Wellness [#M007-T05 R=P029–P036]
+- **Topic Title:** Screen Time, Addiction Risk & Digital Wellness  
+- Topic id: M007-T05
+- Reference: P029–P036  
 - Summary:
 - [19:12] **Chris Anderson:** Raises addiction concerns; asks what counts as “too much.”
 - [20:37] **Shou Chew:** Says company **does not** optimize for max time; pushes in-app prompts telling users to **take a break**, earlier at night.
@@ -725,70 +1005,79 @@ Text Content:
 - [22:01] **Shou Chew:** Notes **60 minutes** came from Digital Wellness Lab (Boston Children’s Hospital) guidance.
 - [23:23] **Shou Chew:** Argues long-term health of user relationship outweighs short-term retention pressure.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [19:12–23:53]
+- Duration: [19:12–23:53]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #30]
-Chunk ID: data007_meeting_5
+[CHUNK #40]
+Chunk ID: data007_meeting_6
 Meeting ID: data007
 Level: meeting
-Text Length: 591 characters
+Reference: P037–P038
+Paragraph Indices: #P037, #P038
+Text Length: 551 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# U.S. vs. China Youth Experience — Clarification [#M007-T06 R=P037–P038]
-
-- **Topic Title:** U.S. vs. China Youth Experience — Clarification [#M007-T06 R=P037–P038]
+- **Topic Title:** U.S. vs. China Youth Experience — Clarification  
+- Topic id: M007-T06
+- Reference: P037–P038  
 - Summary:
 - [23:53] **Chris Anderson:** Cites claim of stricter China screen-time standards.
 - [24:07] **Shou Chew:** Calls it a **misconception**; compares U.S. **under-13** mode (no posting; third-party vetting) with China’s **under-14** Douyin mode.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [23:53–24:56]
+- Duration: [23:53–24:56]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #31]
-Chunk ID: data007_meeting_6
+[CHUNK #41]
+Chunk ID: data007_meeting_7
 Meeting ID: data007
 Level: meeting
-Text Length: 990 characters
+Reference: P039–P044
+Paragraph Indices: #P039, #P040, #P041, #P042, #P043, #P044
+Text Length: 941 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Harmful Trends, Sexualized Content & Moderation at Scale [#M007-T07 R=P039–P044]
-
-- **Topic Title:** Harmful Trends, Sexualized Content & Moderation at Scale [#M007-T07 R=P039–P044]
+- **Topic Title:** Harmful Trends, Sexualized Content & Moderation at Scale  
+- Topic id: M007-T07
+- Reference: P039–P044  
 - Summary:
 - [25:22] **Shou Chew:** Says sexualized/mature themes are **removed** for teens per guidelines; safety was a core **Congressional commitment**.
 - [26:34] **Shou Chew:** Labels **dangerous challenges** violative; search redirects to **safety resources**; runs “Stop, Think, Decide Before You Act” campaign.
 - [27:26] **Shou Chew:** Moderation uses **tens of thousands** of people (based in Ireland) plus machines; AI improving precision/scale.
 - [28:38] **Shou Chew:** On insecurity/depression concerns: restricts mature themes for teens, redirects certain searches to **help pages**, and works with experts.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [25:22–28:09], [28:10–29:22]
+- Duration: [25:22–28:09], [28:10–29:22]  
+------  
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00
 ----------------------------------------------------------------------------------------------------
 
 
-[CHUNK #32]
-Chunk ID: data007_meeting_7
+[CHUNK #42]
+Chunk ID: data007_meeting_8
 Meeting ID: data007
 Level: meeting
-Text Length: 978 characters
+Reference: P029–P032
+Paragraph Indices: #P029, #P030, #P031, #P032
+Text Length: 937 characters
 
 Text Content:
 ----------------------------------------------------------------------------------------------------
-# Data Security, ByteDance Links & Project Texas [#M007-T08 R=P029–P032]
-
-- **Topic Title:** Data Security, ByteDance Links & Project Texas [#M007-T08 R=P029–P032]
+- **Topic Title:** Data Security, ByteDance Links & Project Texas  
+- Topic id: M007-T08
+- Reference: P029–P032  
 - Summary:
 - [29:25] **Chris Anderson:** Raises U.S. concerns: ByteDance ownership, prior **journalist data** incident, and government access risk.
 - [30:12] **Shou Chew:** Differentiates **employee access** from **government access**; says TikTok built **Project Texas** to localize U.S. data.
@@ -796,7 +1085,77 @@ Text Content:
 - [31:29] **Shou Chew:** Warns against **balkanizing** the internet; seeks balance between **digital sovereignty** and global interoperability.
 - [32:04] **Shou Chew:** Says the project is **very far along**.
 - Participants: Shou Chew, Chris Anderson
-- Duration: [29:25–32:11]
+- Duration: [29:25–32:11]  
+------
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #43]
+Chunk ID: data007_meeting_9
+Meeting ID: data007
+Level: meeting
+Reference: P029–P032
+Paragraph Indices: #P029, #P030, #P031, #P032
+Text Length: 451 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Shou Chew  
+- Action id: M007-A01
+- Reference: P029–P032  
+- Task: Continue rollout and third-party oversight of **Project Texas** for U.S. data localization and access controls.
+- Context: Addressed Congressional and public concerns about data access and sovereignty.
+- Duration: [30:12–32:11]
+- Deadline (if any): TBD  
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #44]
+Chunk ID: data007_meeting_10
+Meeting ID: data007
+Level: meeting
+Reference: P024–P026, P039–P044
+Paragraph Indices: #P024, #P025, #P026, #P039, #P040, #P041, #P042, #P043, #P044
+Text Length: 614 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Trust & Safety / Policy Team  
+- Action id: M007-A02
+- Reference: P024–P026, P039–P044  
+- Task: Maintain and expand **teen safety** measures (default limits, restricted features, content filters) and **safety prompts**; continue “Stop, Think, Decide Before You Act” and search-redirect safety flows.
+- Context: Mitigate addiction risk, sexualized content exposure, and dangerous challenges for youth.
+- Duration: [21:11–22:27], [25:22–27:06], [28:38–29:22]
+- Deadline (if any): TBD  
+
+Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
+Date: 2023-04-19T12:00:00+00:00
+----------------------------------------------------------------------------------------------------
+
+
+[CHUNK #45]
+Chunk ID: data007_meeting_11
+Meeting ID: data007
+Level: meeting
+Reference: P029–P036
+Paragraph Indices: #P029, #P030, #P031, #P032, #P033, #P034, #P035, #P036
+Text Length: 489 characters
+
+Text Content:
+----------------------------------------------------------------------------------------------------
+- **Responsible Person:** Parenting & Education Partnerships  
+- Action id: M007-A03
+- Reference: P029–P036  
+- Task: Promote **Family Pairing** guidance and screen-time education resources in-app and via partners (e.g., Digital Wellness Lab).
+- Context: Encourage healthy, long-term user relationships and informed parental controls.
+- Duration: [21:18–22:21]
+- Deadline (if any): TBD
 
 Meeting: Shou Chew: TikTok's CEO on AI, data, and the future | TED2023
 Date: 2023-04-19T12:00:00+00:00

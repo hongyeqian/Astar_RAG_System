@@ -61,6 +61,25 @@ def export_chunks_to_files(all_chunks, output_dir: Path):
                 f.write(f"Chunk ID: {chunk.chunk_id}\n")
                 f.write(f"Meeting ID: {chunk.meeting_id}\n")
                 f.write(f"Level: {chunk.level}\n")
+                
+                # Write meeting-level specific metadata when available
+                metadata = getattr(chunk, 'metadata', {}) or {}
+                if chunk.level == 'meeting':
+                    topic_id = metadata.get('topic_id')
+                    reference = metadata.get('reference')
+                    if topic_id:
+                        f.write(f"Topic ID: {topic_id}\n")
+                    if reference:
+                        f.write(f"Reference: {reference}\n")
+                    paragraph_refs = metadata.get('paragraph_indices')
+                    if paragraph_refs:
+                        f.write(f"Paragraph Indices: {', '.join(paragraph_refs)}\n")
+                    duration = metadata.get('duration')
+                    if duration:
+                        f.write(f"Duration: {duration}\n")
+                    participants = metadata.get('participants')
+                    if participants:
+                        f.write(f"Participants: {participants}\n")
                 f.write(f"Text Length: {len(chunk.text)} characters\n")
                 # f.write(f"\nMetadata:\n")
                 # for key, value in chunk.metadata.items():

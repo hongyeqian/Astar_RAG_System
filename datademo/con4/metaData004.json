@@ -39,7 +39,7 @@
     ],
     "related_files": {
       "transcript": "data004.md",
-      "meeting_summary": "meetLevel004.json",
+      "meeting_summary": "meetLevel004.md",
       "summary_embedding": "summary004.md"
     },
     "embedding_text_pointer": "summary004.md",

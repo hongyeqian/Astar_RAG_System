@@ -120,7 +120,7 @@ def test_meeting_level_paragraph_indices(all_chunks: dict, output_file: Path):
                 'chunk_id': chunk.chunk_id,
                 'meeting_id': chunk.meeting_id,
                 'topic_title': chunk.metadata.get('topic_title', 'N/A'),
-                'topic_index': chunk.metadata.get('topic_index', 'N/A'),
+                'topic_id': chunk.metadata.get('topic_id', 'N/A'),  # Use topic_id instead of topic_index
                 'is_split': chunk.metadata.get('is_split', False),
                 'split_part': chunk.metadata.get('split_part', None),
                 'text_indices': text_indices,
@@ -133,7 +133,7 @@ def test_meeting_level_paragraph_indices(all_chunks: dict, output_file: Path):
             f.write(f"[CHUNK #{idx + 1}]\n")
             f.write(f"Chunk ID: {chunk.chunk_id}\n")
             f.write(f"Topic Title: {result['topic_title']}\n")
-            f.write(f"Topic Index: {result['topic_index']}\n")
+            f.write(f"Topic ID: {result['topic_id']}\n")  # Use topic_id instead of topic_index
             f.write(f"Is Split: {result['is_split']}\n")
             if result['is_split']:
                 f.write(f"Split Part: {result['split_part']}\n")

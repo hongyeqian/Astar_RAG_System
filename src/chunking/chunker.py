@@ -3,7 +3,7 @@ This module is chunker for the project
 Supports both standard hierarchical chunking and topic-aware graph chunking
 """
 
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
 from langchain_text_splitters import RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter
 import re
@@ -195,68 +195,72 @@ class HierarchicalChunker:
 
     def chunk_summary_level(self, meeting: Meeting) -> List[ChunkMetadata]:
         """
-        Summary level: split by individual summary sections using MarkdownHeaderTextSplitter,
-        then split long summaries at bullet point boundaries with bullet-level overlap
+        Summary level: treat the entire summary as a single text document.
+        Split using bullet-level overlap when text exceeds 1200 characters.
+        Extract summary_id(s) and reference(s) from each chunk to establish
+        retrieval hierarchy mapping to meeting-level topics/actions.
         """
         chunks = []
-        
-        # Use MarkdownHeaderTextSplitter to split by "## Summary" headers
-        markdown_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=[("##", "Summary")])
-        md_splits = markdown_splitter.split_text(meeting.summary_text)
-        
         chunk_counter = 0
-        
-        for summary_idx, md_doc in enumerate(md_splits):
-            summary_content = md_doc.page_content
-            
-            # Extract metadata from summary content
-            duration = self._extract_duration_from_text(summary_content)
-            participants = self._extract_participants_from_text(summary_content)
-            
-            # Split summary at bullet point boundaries with bullet-level overlap
-            sub_chunks = self._split_with_bullet_overlap(summary_content, chunk_size=1200)
-            
-            for part_idx, sub_chunk in enumerate(sub_chunks):
-                chunk_id = f"{meeting.meeting_id}_summary_{chunk_counter}"
-                
-                # Extract timestamps from sub_chunk text
-                sub_timestamps = self._extract_timestamps_from_sub_chunk(sub_chunk)
-                
-                # Build header
-                summary_num = summary_idx + 1
-                if len(sub_chunks) > 1:
-                    header = f"## Summary {summary_num} (Part {part_idx + 1}/{len(sub_chunks)})"
-                else:
-                    header = f"## Summary {summary_num}"
-                
-                full_text = f"{header}\n\n{sub_chunk}\n\n" \
-                          f"Meeting: {meeting.title}\n" \
-                          f"Date: {meeting.datetime}"
-                
-                chunks.append(ChunkMetadata(
-                    meeting_id=meeting.meeting_id,
-                    level='summary',
-                    chunk_id=chunk_id,
-                    text=full_text,
-                    metadata={
-                        'title': meeting.title,
-                        'datetime': str(meeting.datetime),
-                        'topics': meeting.topics,
-                        'keywords': meeting.keywords,
-                        'organizations': meeting.organizations,
-                        'summary_index': summary_idx + 1,
-                        'duration': duration,
-                        'participants': participants,
-                        'timestamps': sub_timestamps,
-                        'is_split': len(sub_chunks) > 1,
-                        'split_part': f"{part_idx + 1}/{len(sub_chunks)}" if len(sub_chunks) > 1 else None,
-                        'total_parts': len(sub_chunks) if len(sub_chunks) > 1 else None
-                    }
-                ))
-                chunk_counter += 1
-        
+
+        # Split entire summary text with bullet-level overlap
+        sub_chunks = self._split_with_bullet_overlap(meeting.summary_text, chunk_size=1200)
+
+        for sub_chunk in sub_chunks:
+            if not sub_chunk.strip():
+                continue
+
+            # Extract all summary_ids and references from this chunk
+            summary_ids = self._extract_all_summary_ids(sub_chunk)
+            references = self._extract_all_references(sub_chunk)
+
+            chunk_id = f"{meeting.meeting_id}_summary_{chunk_counter}"
+
+            full_text = f"{sub_chunk}\n\n" \
+                      f"Meeting: {meeting.title}\n" \
+                      f"Date: {meeting.datetime}"
+
+            chunks.append(ChunkMetadata(
+                meeting_id=meeting.meeting_id,
+                level='summary',
+                chunk_id=chunk_id,
+                text=full_text,
+                metadata={
+                    'title': meeting.title,
+                    'datetime': str(meeting.datetime),
+                    'summary_ids': summary_ids,     # List of S001-T01, S001-A01, etc.
+                    'references': references,       # List of M001-T01, M001-A01, etc.
+                }
+            ))
+            chunk_counter += 1
+
         return chunks
     
+    def _extract_all_summary_ids(self, text: str) -> List[str]:
+        """Extract all summary IDs (e.g., S001-T01, S001-A01) from chunk text"""
+        id_matches = re.findall(r'\[S\d+-[TA]\d+\]', text)
+        return [m.strip('[]') for m in id_matches]
+
+    def _extract_all_references(self, text: str) -> List[str]:
+        """
+        Extract all meeting-level references from chunk text.
+        Returns list of references like ['M001-T01', 'M001-T02', 'M001-A01'].
+        """
+        references = []
+
+        # Find all lines with "Reference:" pattern
+        for line in text.split('\n'):
+            if 'Reference:' in line:
+                # Extract the reference part after "Reference:"
+                ref_match = re.search(r'Reference:\s*(.+)', line)
+                if ref_match:
+                    ref_text = ref_match.group(1).strip()
+                    # Extract all M###-T## or M###-A## patterns from the reference text
+                    ref_ids = re.findall(r'M\d+-[TA]\d+', ref_text)
+                    references.extend(ref_ids)
+
+        return references
+
     def _split_with_bullet_overlap(self, text: str, chunk_size: int) -> List[str]:
         """
         Split text at bullet point boundaries with bullet-level overlap.
@@ -333,383 +337,163 @@ class HierarchicalChunker:
         
         return chunks if chunks else [text]
     
-    def _extract_duration_from_text(self, text: str) -> str:
-        """Extract duration from text"""
-        for line in text.split('\n'):
-            if '**Duration:**' in line or 'Duration:' in line:
-                duration_match = re.search(r'\[([^\]]+)\]', line)
-                if duration_match:
-                    return duration_match.group(1)
-        return ''
-    
-    def _extract_participants_from_text(self, text: str) -> str:
-        """Extract participants from text"""
-        for line in text.split('\n'):
-            if '**Participants:**' in line or 'Participants:' in line:
-                if ':' in line:
-                    return line.split(':', 1)[1].strip()
-        return ''
-
     def chunk_meeting_level(self, meeting: Meeting) -> List[ChunkMetadata]:
         """
-        Meeting level: split by Key Topics and Action Items, then split individual topics
-        
-        Strategy:
-        1. Use MarkdownHeaderTextSplitter to split Key Topics and Action Items
-        2. Parse Key Topics section into individual topics (support both "- **Topic:**" and "- **Topic**" formats)
-        3. For each topic: keep intact if short, or apply bullet-level overlap if long
-        4. Extract and preserve paragraph indices from each topic
+        Meeting level: split by markdown headers (## Key Topics, ## Action Items),
+        then split by topic/item entries (- **Topic Title:** or - **Responsible Person:**).
+        Only use bullet-level overlap when a single entry exceeds 1200 characters.
         """
         chunks = []
-        
-        # Use MarkdownHeaderTextSplitter to split Key Topics and Action Items
-        markdown_splitter = MarkdownHeaderTextSplitter(
-            headers_to_split_on=[("##", "Key Topics"), ("##", "Action Items")]
-        )
-        md_splits = markdown_splitter.split_text(meeting.meeting_level_text)
-        
+
+        # Split by ## headers (Key Topics, Action Items, etc.)
+        section_splitter = MarkdownHeaderTextSplitter(headers_to_split_on=[("##", "Section")])
+        sections = section_splitter.split_text(meeting.meeting_level_text)
+
         chunk_counter = 0
-        
-        for md_doc in md_splits:
-            section_content = md_doc.page_content
-            section_headers = md_doc.metadata
-            
-            # Check if this is Key Topics section
-            # MarkdownHeaderTextSplitter stores headers in metadata with header text as key
-            # e.g., {'Key Topics': 'Key Topics'} or {'Key Topics': 'Action Items'}
-            section_title = section_headers.get('Key Topics', '')
-            if section_title == 'Key Topics':
-                # Parse Key Topics into individual topics
-                topics = self._parse_key_topics(section_content)
-                
-                for topic_idx, topic_data in enumerate(topics):
-                    topic_title = topic_data['title']
-                    topic_content = topic_data['content']
-                    participants = topic_data.get('participants', '')
-                    # Get paragraph indices from topic_data (extracted from R=P001–P002 reference)
-                    topic_paragraph_indices = topic_data.get('paragraph_indices', [])
-                    
-                    # Split topic at bullet point boundaries with bullet-level overlap if needed
-                    sub_chunks = self._split_with_bullet_overlap(topic_content, chunk_size=1200)
-                    
-                    for part_idx, sub_chunk in enumerate(sub_chunks):
-                        chunk_id = f"{meeting.meeting_id}_meeting_{chunk_counter}"
-                        
-                        # Use paragraph indices from topic_data (from R=P001–P002 reference)
-                        # Note: sub_chunk text doesn't contain [#P001] markers, so we use topic-level indices
-                        # All sub_chunks from the same topic share the same paragraph_indices
-                        sub_paragraph_indices = topic_paragraph_indices
-                        
-                        # Build header
-                        if len(sub_chunks) > 1:
-                            header = f"# {topic_title} (Part {part_idx + 1}/{len(sub_chunks)})"
-                        else:
-                            header = f"# {topic_title}"
-                        
-                        # Add paragraph indices to the chunk text for reference
-                        # Format: [Paragraph References: #P001, #P002, ...]
-                        paragraph_ref_text = ""
-                        if sub_paragraph_indices:
-                            para_refs = ", ".join(sub_paragraph_indices)
-                            paragraph_ref_text = f"\n[Paragraph References: {para_refs}]\n"
-                        
-                        full_text = f"{header}{paragraph_ref_text}\n{sub_chunk}\n\n" \
-                                  f"Meeting: {meeting.title}\n" \
-                                  f"Date: {meeting.datetime}"
-                        
-                        chunks.append(ChunkMetadata(
-                            meeting_id=meeting.meeting_id,
-                            level='meeting',
-                            chunk_id=chunk_id,
-                            text=full_text,
-                            metadata={
-                                'title': meeting.title,
-                                'datetime': str(meeting.datetime),
-                                'topics': meeting.topics,
-                                'keywords': meeting.keywords,
-                                'topic_title': topic_title,
-                                'topic_index': topic_idx,
-                                'participants': participants,
-                                'paragraph_indices': sub_paragraph_indices,
-                                'is_split': len(sub_chunks) > 1,
-                                'split_part': f"{part_idx + 1}/{len(sub_chunks)}" if len(sub_chunks) > 1 else None,
-                                'total_parts': len(sub_chunks) if len(sub_chunks) > 1 else None
-                            }
-                        ))
-                        chunk_counter += 1
-            
-            # Action Items section can be processed similarly if needed
-            # For now, we skip Action Items as per the original implementation
-        
+
+        for section in sections:
+            section_name = section.metadata.get("Section", "Unknown")
+            section_content = section.page_content.strip()
+            if not section_content:
+                continue
+
+            # Split by entry headers: - **Topic Title:** or - **Responsible Person:**
+            entries = self._split_into_entries(section_content)
+
+            for entry in entries:
+                if not entry.strip():
+                    continue
+
+                # Extract topic_id/action_id and reference
+                entry_id = self._extract_id(entry)
+                reference = self._extract_reference(entry)
+                paragraph_indices = self._parse_reference_to_paragraph_indices(reference) if reference else []
+
+                # Only split with bullet-level overlap if entry exceeds 1200 characters
+                if len(entry) > 1200:
+                    sub_chunks = self._split_with_bullet_overlap(entry, chunk_size=1200)
+                else:
+                    sub_chunks = [entry]
+
+                for sub_chunk in sub_chunks:
+                    chunk_id = f"{meeting.meeting_id}_meeting_{chunk_counter}"
+
+                    full_text = f"{sub_chunk}\n\n" \
+                              f"Meeting: {meeting.title}\n" \
+                              f"Date: {meeting.datetime}"
+
+                    chunks.append(ChunkMetadata(
+                        meeting_id=meeting.meeting_id,
+                        level='meeting',
+                        chunk_id=chunk_id,
+                        text=full_text,
+                        metadata={
+                            'title': meeting.title,
+                            'datetime': str(meeting.datetime),
+                            'section': section_name,
+                            'entry_id': entry_id,
+                            'reference': reference,
+                            'paragraph_indices': paragraph_indices
+                        }
+                    ))
+                    chunk_counter += 1
+
         return chunks
 
 
-    def _parse_key_topics(self, text: str) -> List[Dict[str, Any]]:
+    def _split_into_entries(self, text: str) -> List[str]:
         """
-        Parse Key Topics section into individual topics
-        
-        Supports both formats:
-        - "- **Topic Title:** ..." (with colon)
-        - "- **Topic Title** ..." (without colon)
-        - "- **Topic Title** [#M001-T01 R=P001–P002]" (with reference markers)
-        
-        Returns: List of dicts with 'title', 'content', 'participants', 'paragraph_indices'
+        Split section content by entry headers.
+        Entry headers: - **Topic Title:** or - **Responsible Person:**
         """
-        topics = []
+        # Pattern to match entry headers
+        pattern = r'^-\s*\*\*(?:Topic Title|Responsible Person):\*\*'
+
         lines = text.split('\n')
-        
-        current_topic = None
-        current_content = []
-        current_reference = None  # Store R=P001–P002 reference from topic title line
-        
-        for i, line in enumerate(lines):
-            # Match topic title: "- **Topic Title:**" or "- **Topic Title**"
-            # Support both formats: with and without colon
-            stripped = line.strip()
-            if stripped.startswith('- **') and '**' in stripped:
-                # Save previous topic
-                if current_topic:
-                    topic_dict = self._build_topic_dict(
-                        current_topic, 
-                        '\n'.join(current_content),
-                        current_reference
-                    )
-                    if topic_dict:
-                        topics.append(topic_dict)
-                
-                # Extract topic title and reference marker - handle both formats
-                topic_line = stripped
-                if topic_line.startswith('- **'):
-                    topic_line = topic_line[4:]  # Remove "- **"
-                
-                # Extract reference marker (R=P001–P002 or R=P004,P008)
-                current_reference = None
-                if ' R=' in topic_line:
-                    # Extract reference part: R=P001–P002 or R=P004,P008
-                    ref_match = re.search(r' R=([^\]]+)', topic_line)
-                    if ref_match:
-                        current_reference = ref_match.group(1)
-                        # Remove reference part from topic_line
-                        topic_line = re.sub(r' \[#M\d+-T\d+ R=[^\]]+\]', '', topic_line)
-                        topic_line = re.sub(r' R=[^\]]+', '', topic_line)
-                
-                # Remove closing "**" and optional colon
-                if ':**' in topic_line:
-                    # Format: "- **Topic Title:** Description" or "- **Topic Title:**"
-                    # Extract the part after ":**" as the actual topic title
-                    parts = topic_line.split(':**', 1)
-                    if len(parts) > 1 and parts[1].strip():
-                        # If there's content after ":**", use it as topic title
-                        current_topic = parts[1].strip()
-                    else:
-                        # Otherwise, use the part before ":**"
-                        current_topic = parts[0].strip()
-                elif topic_line.endswith('**'):
-                    # Format: "- **Topic Title**"
-                    current_topic = topic_line[:-2].strip()
-                elif '**' in topic_line:
-                    # Format: "- **Topic Title** rest of line"
-                    parts = topic_line.split('**', 1)
-                    current_topic = parts[0].strip()
-                else:
-                    current_topic = topic_line.strip()
-                
-                current_content = [line]
-            elif stripped == '------':
-                # Topic separator, save current topic
-                if current_topic:
-                    topic_dict = self._build_topic_dict(
-                        current_topic, 
-                        '\n'.join(current_content),
-                        current_reference
-                    )
-                    if topic_dict:
-                        topics.append(topic_dict)
-                current_topic = None
-                current_content = []
-                current_reference = None
+        entries = []
+        current_entry = []
+
+        for line in lines:
+            # Check if line starts a new entry
+            if re.match(pattern, line.strip()):
+                # Save previous entry if exists
+                if current_entry:
+                    entries.append('\n'.join(current_entry))
+                # Start new entry
+                current_entry = [line]
             else:
-                # Accumulate content for current topic
-                if current_topic is not None:
-                    current_content.append(line)
-        
-        # Save last topic
-        if current_topic:
-            topic_dict = self._build_topic_dict(
-                current_topic, 
-                '\n'.join(current_content),
-                current_reference
-            )
-            if topic_dict:
-                topics.append(topic_dict)
-        
-        return topics
+                # Add to current entry
+                current_entry.append(line)
+
+        # Save last entry
+        if current_entry:
+            entries.append('\n'.join(current_entry))
+
+        return entries
+
+    def _extract_id(self, text: str) -> Optional[str]:
+        """Extract Topic id or Action id from chunk text"""
+        id_match = re.search(r'-\s*(?:Topic id|Action id):\s*(.+)', text)
+        if id_match:
+            return id_match.group(1).strip()
+        return None
+
+    def _extract_reference(self, text: str) -> Optional[str]:
+        """
+        Extract Reference from chunk text.
+        Supports both formats:
+        - Meeting level: "- Reference: M001-T01"
+        - Summary level: "   Reference: M001-T01" (indented)
+        """
+        # Try meeting level format first (with leading -)
+        ref_match = re.search(r'-\s*Reference:\s*(.+)', text)
+        if ref_match:
+            return ref_match.group(1).strip()
+
+        # Try summary level format (indented, no leading -)
+        ref_match = re.search(r'\s+Reference:\s*(.+)', text)
+        if ref_match:
+            return ref_match.group(1).strip()
+
+        return None
+    
     
     def _parse_reference_to_paragraph_indices(self, reference: str) -> List[str]:
         """
-        Parse reference string like "P001–P002" or "P004,P008" into paragraph indices list.
-        
-        Examples:
-        - "P001–P002" -> ["#P001", "#P002"]
-        - "P004,P008" -> ["#P004", "#P008"]
-        - "P001–P003" -> ["#P001", "#P002", "#P003"]
+        Convert a Reference string (e.g. "P001-P003,P005") into formatted paragraph indices.
         """
         if not reference:
             return []
         
-        paragraph_indices = []
+        normalized = reference.replace('–', '-')
+        paragraph_indices: List[str] = []
         
-        # Split by comma first to handle multiple ranges
-        parts = reference.split(',')
-        
-        for part in parts:
-            part = part.strip()
-            if '–' in part or '-' in part:
-                # Range format: P001–P002 or P001-P002
-                # Use both – (en dash) and - (hyphen) for compatibility
-                if '–' in part:
-                    range_parts = part.split('–')
-                else:
-                    range_parts = part.split('-')
-                
-                if len(range_parts) == 2:
-                    start_str = range_parts[0].strip().lstrip('P')
-                    end_str = range_parts[1].strip().lstrip('P')
-                    
-                    try:
-                        start_num = int(start_str)
-                        end_num = int(end_str)
-                        
-                        # Generate all indices in range
-                        for num in range(start_num, end_num + 1):
-                            formatted_idx = f"#P{num:03d}"
-                            if formatted_idx not in paragraph_indices:
-                                paragraph_indices.append(formatted_idx)
-                    except ValueError:
-                        # If parsing fails, try to extract as single index
-                        if part.startswith('P'):
-                            idx_str = part[1:].strip()
-                            try:
-                                idx_num = int(idx_str)
-                                formatted_idx = f"#P{idx_num:03d}"
-                                if formatted_idx not in paragraph_indices:
-                                    paragraph_indices.append(formatted_idx)
-                            except ValueError:
-                                pass
+        for part in normalized.split(','):
+            segment = part.strip()
+            if not segment:
+                continue
+            
+            if '-' in segment:
+                start_raw, end_raw = segment.split('-', 1)
+                start_num = start_raw.strip().lstrip('P')
+                end_num = end_raw.strip().lstrip('P')
+                if start_num.isdigit() and end_num.isdigit():
+                    start = int(start_num)
+                    end = int(end_num)
+                    if start > end:
+                        start, end = end, start
+                    for value in range(start, end + 1):
+                        formatted = f"#P{value:03d}"
+                        if formatted not in paragraph_indices:
+                            paragraph_indices.append(formatted)
             else:
-                # Single index format: P001
-                if part.startswith('P'):
-                    idx_str = part[1:].strip()
-                    try:
-                        idx_num = int(idx_str)
-                        formatted_idx = f"#P{idx_num:03d}"
-                        if formatted_idx not in paragraph_indices:
-                            paragraph_indices.append(formatted_idx)
-                    except ValueError:
-                        pass
+                idx = segment.lstrip('P')
+                if idx.isdigit():
+                    formatted = f"#P{int(idx):03d}"
+                    if formatted not in paragraph_indices:
+                        paragraph_indices.append(formatted)
         
         return paragraph_indices
-    
-    def _build_topic_dict(self, topic_title: str, content: str, reference: str = None) -> Dict[str, Any]:
-        """
-        Build topic dictionary with extracted metadata
-        
-        Args:
-            topic_title: The topic title
-            content: The topic content text
-            reference: Reference string like "P001–P002" or "P004,P008" from topic title line
-        """
-        if not content.strip():
-            return None
-        
-        # Extract participants
-        participants = ''
-        for line in content.split('\n'):
-            if 'Participants:' in line or 'participants:' in line.lower():
-                participants = line.split(':', 1)[1].strip() if ':' in line else ''
-                break
-        
-        # Extract paragraph indices from reference marker (R=P001–P002)
-        # This is the primary source, as meeting_level_text doesn't contain [#P001] markers
-        if reference:
-            paragraph_indices = self._parse_reference_to_paragraph_indices(reference)
-        else:
-            # Fallback: try to extract from content (though it likely won't have them)
-            paragraph_indices = self._extract_paragraph_indices_from_text(content)
-        
-        return {
-            'title': topic_title,
-            'content': content.strip(),
-            'participants': participants,
-            'paragraph_indices': paragraph_indices
-        }
-    
-    def _extract_timestamps_from_sub_chunk(self, sub_chunk: str) -> List[str]:
-        """
-        Extract all timestamps from sub_chunk text.
-        
-        Uses the same logic as debug_timestamps.py:
-        - Pattern: [HH:MM:SS] or [MM:SS]
-        - Returns all timestamps found in the text
-        """
-        # Pattern for timestamps like [HH:MM:SS] or [MM:SS]
-        # Same as debug_timestamps.py: r'\[(\d{2}:\d{2}(?::\d{2})?)\]'
-        timestamp_pattern = r'\[(\d{2}:\d{2}(?::\d{2})?)\]'
-        timestamps = re.findall(timestamp_pattern, sub_chunk)
-        
-        # Remove duplicates while preserving order
-        seen = set()
-        unique_timestamps = []
-        for ts in timestamps:
-            if ts not in seen:
-                seen.add(ts)
-                unique_timestamps.append(ts)
-        
-        return unique_timestamps
-
-    def _extract_paragraph_indices_from_sub_chunk(self, sub_chunk: str) -> List[str]:
-        """
-        Extract all paragraph indices from sub_chunk text.
-        
-        Pattern: [#P001], [#P002], etc.
-        Returns all paragraph indices found in the text
-        """
-        # Pattern for paragraph indices like [#P001], [#P002]
-        paragraph_index_pattern = r'\[#P(\d+)\]'
-        indices = re.findall(paragraph_index_pattern, sub_chunk)
-        
-        # Format as #P001, #P002, etc. and remove duplicates while preserving order
-        seen = set()
-        unique_indices = []
-        for idx in indices:
-            formatted_idx = f"#P{idx.zfill(3)}"
-            if formatted_idx not in seen:
-                seen.add(formatted_idx)
-                unique_indices.append(formatted_idx)
-        
-        return unique_indices
-
-    def _extract_paragraph_indices_from_text(self, text: str) -> List[str]:
-        """
-        Extract all paragraph indices from text
-        
-        Pattern: [#P001], [#P002], etc.
-        Returns all paragraph indices found in the text
-        """
-        # Pattern for paragraph indices like [#P001], [#P002]
-        paragraph_index_pattern = r'\[#P(\d+)\]'
-        indices = re.findall(paragraph_index_pattern, text)
-        
-        # Format as #P001, #P002, etc. and remove duplicates while preserving order
-        seen = set()
-        unique_indices = []
-        for idx in indices:
-            formatted_idx = f"#P{idx.zfill(3)}"
-            if formatted_idx not in seen:
-                seen.add(formatted_idx)
-                unique_indices.append(formatted_idx)
-        
-        return unique_indices
 
 
     def chunk_fine_grained_level(self, meeting: Meeting) -> List[ChunkMetadata]:
