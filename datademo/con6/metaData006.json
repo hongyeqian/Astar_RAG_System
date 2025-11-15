@@ -6,30 +6,38 @@
   "language": "en",
   "source_url": "https://www.youtube.com/watch?v=7ARBJQn6QkM",
   "meeting_type": "Interview",
+
   "participants": [
     {
       "name": "Jensen Huang",
-      "role": "CEO, Nvidia"
+      "role": "CEO, Nvidia",
+      "aliases": ["Jensen", "J. Huang", "Huang Renxun"]
     },
     {
       "name": "Cleo Abram",
-      "role": "Host, Huge If True"
+      "role": "Host, Huge If True",
+      "aliases": ["Cleo", "C. Abram"]
     }
   ],
+
   "organizations": [
     "Nvidia",
     "Huge If True"
   ],
-  "topics": [
-    "Early Career and First Setback (MTV Experience)",
-    "Persistence and Career Rebuilding",
-    "Transition to Entrepreneurship and Choosing Fear",
-    "Intuition, Body Awareness, and Decision-Making",
-    "Finding and Protecting One’s Voice",
-    "Balancing Kindness and Assertiveness",
-    "Confidence, Reflection, and Emotional Awareness"
 
+  "topics": [
+    "Early GPU Innovation and Parallel Processing",
+    "CUDA and the Shift to General-Purpose GPU Computing",
+    "AlexNet and the Big Breakthrough in Deep Learning",
+    "Scaling AI Models and Reinventing the Computing Stack",
+    "Digital Twins, Omniverse, and Cosmos",
+    "Future of Robotics and Physical AI",
+    "AI Safety and Infrastructure Redundancy",
+    "Energy Efficiency and Hardware Constraints",
+    "Future Bets in Chips and Transformer Alternatives",
+    "Vision of AI-Enhanced Human Capability"
   ],
+
   "keywords": [
     "Jensen Huang",
     "Nvidia",
@@ -40,13 +48,42 @@
     "Robotics",
     "Omniverse",
     "Cosmos",
-    "AI Safety"
+    "AI Safety",
+    "Digital Twins"
   ],
+
   "related_files": {
     "transcript": "data006.md",
     "meeting_summary": "meetLevel006.md",
     "summary_embedding": "summary006.md"
   },
+
   "embedding_text_pointer": "summary006.md",
-  "summary_brief": "Nvidia CEO Jensen Huang discusses the evolution of computing from parallel processing (GPUs) to the AI revolution (CUDA, AlexNet), and outlines his future vision for physical AI (robotics) trained in digital twins (Omniverse, Cosmos), urging everyone to use AI as a personal tutor."
+
+  "summary_brief": "Jensen Huang reflects on Nvidia's foundational insights—from parallel processing to CUDA—and outlines how GPUs became the engine for modern AI. He describes the rise of deep learning after AlexNet, the creation of Omniverse and Cosmos for robotics, and predicts a future where physical AI, digital biology, and personal AI tutors profoundly transform daily life.",
+
+  "actions": [
+    {
+      "assignee": {
+        "name": "Jensen Huang",
+        "role": "CEO, Nvidia",
+        "aliases": ["Jensen", "J. Huang", "Huang Renxun"]
+      },
+      "description_plain": "Continue advancing Omniverse + Cosmos integration to accelerate training and deployment of physical AI and humanoid robotics.",
+      "due_date": "TBD",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "assignee": {
+        "name": "Cleo Abram",
+        "role": "Host, Huge If True",
+        "aliases": ["Cleo", "C. Abram"]
+      },
+      "description_plain": "Produce follow-up educational content explaining core computing shifts (parallel processing, CUDA, world models) for broad public understanding.",
+      "due_date": "TBD",
+      "status": "open",
+      "priority": "medium"
+    }
+  ]
 }

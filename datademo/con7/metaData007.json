@@ -6,17 +6,33 @@
   "language": "en",
   "source_url": "https://www.youtube.com/watch?v=7zC8-06198g",
   "meeting_type": "Interview",
+
   "participants": [
     {
       "name": "Shou Chew",
-      "role": "CEO, TikTok"
+      "role": "CEO, TikTok",
+      "aliases": [
+        "Shou",
+        "Mr. Chew",
+        "Shou Zi Chew"
+      ]
     },
     {
       "name": "Chris Anderson",
-      "role": "Head of TED"
+      "role": "Head of TED",
+      "aliases": [
+        "Chris",
+        "C. Anderson"
+      ]
     }
   ],
-  "organizations": ["TikTok", "TED", "ByteDance"],
+
+  "organizations": [
+    "TikTok",
+    "TED",
+    "ByteDance"
+  ],
+
   "topics": [
     "Discovery-First Design vs. Social Graph",
     "Recommendation Mechanics & Early Growth Fairness",
@@ -26,8 +42,8 @@
     "U.S. vs. China Youth Experience — Clarification",
     "Harmful Trends, Sexualized Content & Moderation at Scale",
     "Data Security, ByteDance Links & Project Texas"
-
   ],
+
   "keywords": [
     "TikTok",
     "Shou Chew",
@@ -38,11 +54,46 @@
     "Content Moderation",
     "ByteDance"
   ],
+
   "related_files": {
     "transcript": "data007.md",
     "meeting_summary": "meetLevel007.md",
     "summary_embedding": "summary007.md"
   },
+
   "embedding_text_pointer": "summary007.md",
-  "summary_brief": "At TED2023, TikTok CEO Shou Chew discussed the platform's interest-based algorithm, content moderation policies, and addressed U.S. national security concerns over data and China by detailing 'Project Texas'."
+
+  "summary_brief": "At TED2023, TikTok CEO Shou Chew discussed the platform's interest-based algorithm, content moderation policies, and addressed U.S. national security concerns over data and China by detailing 'Project Texas'.",
+
+  "actions": [
+    {
+      "assignee": {
+        "name": "Shou Chew",
+        "role": "CEO, TikTok",
+        "aliases": [
+          "Shou",
+          "Mr. Chew",
+          "Shou Zi Chew"
+        ]
+      },
+      "description_plain": "Further implement and transparently communicate TikTok's data security and localization initiative (Project Texas) to regulators and users.",
+      "due_date": "TBD",
+      "status": "open",
+      "priority": "high"
+    },
+    {
+      "assignee": {
+        "name": "Chris Anderson",
+        "role": "Head of TED",
+        "aliases": [
+          "Chris",
+          "C. Anderson"
+        ]
+      },
+      "description_plain": "Host follow-up public conversations on digital wellness, screen time, and youth protections across social media platforms.",
+      "due_date": "TBD",
+      "status": "open",
+      "priority": "medium"
+    }
+  ]
 }
